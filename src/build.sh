@@ -1,9 +1,9 @@
 #!/bin/bash
 
 TMP='/tmp/whiplash-gtk'
-VARIANTS=(blue red teal green yellow pink)
-VARIANT_COLORS=('#00f5ff' '#ff4422' '#00ff7f' '#a7e23e' '#ffa500' '#da70d6')
-VARIANT_SELECTED_FONT_COLORS=('black' 'white' 'black' 'black' 'black' 'black')
+VARIANTS=(blue red orange teal green yellow pink)
+VARIANT_COLORS=('#00f5ff' '#ee0000' '#ff4422' '#00ff7f' '#a7e23e' '#ffa500' '#da70d6')
+VARIANT_SELECTED_FONT_COLORS=('black' 'white' 'white' 'black' 'black' 'black' 'black')
 DEFAULT_COLOR='#367bf0'
 
 function generate_variant_template {
