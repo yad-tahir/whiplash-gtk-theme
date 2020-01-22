@@ -1,11 +1,10 @@
 #!/bin/bash
 
 TMP='/tmp/flat-remix-gtk'
-VARIANTS=(Blue Red Green Yellow)
-VARIANT_COLORS=('#2777ff' '#ec0101' '#06a284' '#ffd86e')
-VARIANT_SELECTED_FONT_COLORS=('white' 'white' 'white' 'black' )
+VARIANTS=(Blue Red Teal Green Yellow Pink)
+VARIANT_COLORS=('#00f5ff' '#ff4422' '#00ff7f' '#a7e23e' '#ffa500' '#da70d6')
+VARIANT_SELECTED_FONT_COLORS=('black' 'white' 'black' 'black' 'black' 'black')
 DEFAULT_COLOR='#367bf0'
-
 
 function generate_variant_template {
 	variant="$1"
@@ -19,31 +18,9 @@ function generate_variant_template {
 		cp -a "$theme" "$variant_dir"
 		find "$variant_dir" -type f -exec sed "s/${DEFAULT_COLOR}/${variant_color}/gi" -i {} \;
 		sed "s/selected_fg_color: #ffffff/selected_fg_color: $variant_selected_font_color/" -i "$variant_dir"/gtk-2.0/gtkrc
-		case "$theme_basename" in
-			*Darkest*)
-				cp thumbnails/gtk-3.0/thumbnail-darkest-"${variant_name##Flat-Remix-GTK-}".png "$variant_dir"/gtk-3.0/thumbnail.png
-				cp thumbnails/cinnamon/thumbnail-darkest-"${variant_name##Flat-Remix-GTK-}".png "$variant_dir"/cinnamon/thumbnail.png
-				icon_variant='-Dark'
-				;;
-			*Dark|*Dark-*)
-				cp thumbnails/gtk-3.0/thumbnail-dark-"${variant_name##Flat-Remix-GTK-}".png "$variant_dir"/gtk-3.0/thumbnail.png
-				cp thumbnails/cinnamon/thumbnail-dark-"${variant_name##Flat-Remix-GTK-}".png "$variant_dir"/cinnamon/thumbnail.png
-				icon_variant='-Dark'
-				;;
-			*Darker)
-				cp thumbnails/gtk-3.0/thumbnail-"${variant_name##Flat-Remix-GTK-}".png "$variant_dir"/gtk-3.0/thumbnail.png
-				cp thumbnails/cinnamon/thumbnail-darker-"${variant_name##Flat-Remix-GTK-}".png "$variant_dir"/cinnamon/thumbnail.png
-				icon_variant=''
-				;;
-			*)
-				cp thumbnails/gtk-3.0/thumbnail-"${variant_name##Flat-Remix-GTK-}".png "$variant_dir"/gtk-3.0/thumbnail.png
-				cp thumbnails/cinnamon/thumbnail-"${variant_name##Flat-Remix-GTK-}".png "$variant_dir"/cinnamon/thumbnail.png
-				icon_variant=''
-				;;
-		esac
 		sed -e "s/Flat-Remix-GTK/${variant_name}/g" \
-		    -e "s/IconTheme=Flat-Remix/IconTheme=Flat-Remix-${variant}${icon_variant}/" \
-		    -i "$variant_dir/index.theme"
+			-e "s/IconTheme=Flat-Remix/IconTheme=Flat-Remix-${variant}${icon_variant}/" \
+			-i "$variant_dir/index.theme"
 	done
 }
 
@@ -169,5 +146,7 @@ do
 	variant_selected_font_color="${VARIANT_SELECTED_FONT_COLORS[$i]}"
 	generate_variant "$1" "$variant" "$variant_name" "$variant_color" "$variant_selected_font_color" &
 done
+
 wait
 
+echo 'Done!'

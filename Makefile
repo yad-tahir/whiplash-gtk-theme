@@ -34,7 +34,7 @@ _get_tag:
 	@echo $(TAG)
 
 dist: _get_version
-	color_variants="-Blue -Green -Red -Yellow"; \
+	color_variants="-Blue -Red -Teal -Green -Yellow -Pink"; \
 	theme_variants="- -Darker -Dark -Darkest"; \
 	extra_variants="- -Solid -NoBorder -Solid-NoBorder"; \
 	for color_variant in $$color_variants; \
@@ -67,28 +67,10 @@ release: _get_version
 	git push origin --tags
 	$(MAKE) dist
 
-aur_release: _get_version _get_tag
-	cd aur; \
-	sed "s/$(TAG)/$(VERSION)/g" -i PKGBUILD .SRCINFO; \
-	git commit -a -m "$(VERSION)"; \
-	git push origin master;
-
-	git commit aur -m "Update aur version $(VERSION)"
-	git push origin master
-
 copr_release: _get_version _get_tag
 	sed "s/$(TAG)/$(VERSION)/g" -i $(PKGNAME).spec
 	git commit $(PKGNAME).spec -m "Update $(PKGNAME).spec version $(VERSION)"
 	git push origin master
-
-launchpad_release: _get_version
-	cp -a Flat-Remix* Makefile deb/$(PKGNAME)
-	sed "s/{}/$(VERSION)/g" -i deb/$(PKGNAME)/debian/changelog-template
-	cd deb/$(PKGNAME)/debian/ && echo " -- $(MAINTAINER)  $$(date -R)" | cat changelog-template - > changelog
-	cd deb/$(PKGNAME) && debuild -S -d
-	dput ppa deb/$(PKGNAME)_$(VERSION)_source.changes
-	git checkout deb
-	git clean -df deb
 
 undo_release: _get_tag
 	-git tag -d $(TAG)
