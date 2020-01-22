@@ -1,6 +1,6 @@
-![Flat Remix GTK theme](https://github.com/daniruiz/flat-remix-gtk/raw/master/assets/logo.png)
+Whiplash GTK Theme
 ===============================
 
-# More information at [drasite.com/flat-remix-gtk](https://drasite.com/flat-remix-gtk)
+A set of deep dark GTK themes that works beautifully with OLED panels.
 
-![theme preview](https://github.com/daniruiz/flat-remix-gtk/raw/master/assets/preview.png)
+This is a fork of [Flat Remix GTK](https://drasite.com/flat-remix-gtk), which offers high constrasts GTK themes with sharp borders.
