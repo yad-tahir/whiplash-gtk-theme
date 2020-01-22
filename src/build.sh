@@ -131,7 +131,7 @@ function generate_variant {
 	generate_css_files "$variant_name" "$variant_color" "$variant_selected_font_color"
 	copy_css_files "$variant_name"
 	[[ $1 != "--no-assets" ]] && generate_assets "$variant_name" "$variant_color"
-	cp -a "$TMP/$variant_name"* ..
+	cp -a "$TMP/$variant_name"* ../themes/
 }
 
 
