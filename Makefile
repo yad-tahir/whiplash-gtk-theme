@@ -25,6 +25,9 @@ install:
 uninstall:
 	-rm -rf $(foreach theme,$(THEMES),$(DESTDIR)$(PREFIX)/share/themes/$(theme))
 
+packages:
+	cd src && ./packages-portage.sh
+
 _get_version:
 	$(eval VERSION ?= $(shell git show -s --format=%cd --date=format:%Y%m%d HEAD))
 	@echo $(VERSION)
