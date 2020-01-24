@@ -1,3 +1,23 @@
+[20200124]
+ * Generate themes for milestone 20200124
+ * Simplify Whiplash by removing solid and noBorder variations
+ * Fix whitespace in rc files
+ * Fix whitespace in scss files
+ * Update README.md
+ * Update portage package requirements
+ * Add a new color 'bloody red' to color palette
+ * Update build scripts
+ * Follow Unix/Linux naming convention
+ * Change theme name from 'Flat Remix' to Whiplash
+ * Add portage specifications
+ * Add Whiplash color palette
+ * Merge branch 'flat-remix-PR1'
+ * Delete unnecessary rc files
+ * Initial cleanup
+ * === Whiplash initial fork ===
+ * Update flat-remix-gtk.spec version 20191224
+ * Update aur version 20191223
+
 [20191223]
  * Fix darkest variant scale slider not visible
  * Match gtk3 menubar styles with gtk2 theme
@@ -88,4 +108,3 @@
  * Add padding to nautilus path-bar .image-button
  * Revert "Add new nautilus full sidebar design"
  * Change focus outline style
-
