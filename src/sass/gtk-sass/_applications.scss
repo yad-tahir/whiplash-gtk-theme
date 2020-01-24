@@ -36,7 +36,7 @@ terminal-window,
 }
 
 .nautilus-desktop.nautilus-canvas-item {
-  color: white;
+  color: #E6BEAE;
   text-shadow: 1px 1px transparentize(black, 0.4);
 
   &:active { color: $fg_color; }
@@ -173,7 +173,7 @@ $disk_space_free: darken($bg_color, 3%);
 //
 .thunar scrolledwindow treeview {
   background: $dark_sidebar_bg;
-  color: white;
+  color: #E6BEAE;
 }
 
 //
@@ -710,7 +710,7 @@ panel-toplevel.background {
   }
 
   &:checked {
-	color: white;
+	color: #E6BEAE;
 	background-color: transparentize(black, 0.75);
 	box-shadow: inset 0 -2px $selected_bg_color;
   }
@@ -865,7 +865,7 @@ headerbar > box.horizontal > entry.pathbar {
   border: 1px solid rgba(0, 0, 0, 0.35);
   border-radius: 6px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  background-image: _solid(white);
+  background-image: _solid(#E6BEAE);
   background-color: transparent;
 
   .title, .label {
@@ -878,7 +878,7 @@ headerbar > box.horizontal > entry.pathbar {
 //
 .panel {
   background-color: transparent;
-  color: white;
+  color: #E6BEAE;
   font-weight: bold;
   text-shadow: 0 1px 2px transparentize(black, 0.4);
   -gtk-icon-shadow: 0 1px 2px transparentize(black, 0.4);
@@ -917,7 +917,7 @@ headerbar > box.horizontal > entry.pathbar {
 
 .composited-indicator {
   background-color: transparent;
-  color: white;
+  color: #E6BEAE;
   text-shadow: 0 1px 2px transparentize(black, 0.4);
   -gtk-icon-shadow: 0 1px 2px transparentize(black, 0.4);
 
@@ -963,8 +963,8 @@ headerbar > box.horizontal > entry.pathbar {
 //    label, image { padding: 0 3px; }
 //
 //    &:hover, &:active {
-//      background-color: if($variant == 'light', transparentize(black, 0.96), transparentize(white, 0.95));
-//      border: solid if($variant == 'light', transparentize(black, 0.92), transparentize(white, 0.93));
+//      background-color: if($variant == 'light', transparentize(black, 0.96), transparentize(#E6BEAE, 0.95));
+//      border: solid if($variant == 'light', transparentize(black, 0.92), transparentize(#E6BEAE, 0.93));
 //      border-width: 1px 0;
 //    }
 //    *:disabled { color: $insensitive_fg_color; }

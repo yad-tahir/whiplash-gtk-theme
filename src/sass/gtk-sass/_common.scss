@@ -1867,8 +1867,8 @@ treeview.view {
 	  border-radius: 0;
 	  border-image: linear-gradient(to bottom,
 			  $base_color 20%,
-			  transparentize(if($variant == 'light', black, white), 0.89) 20%,
-			  transparentize(if($variant == 'light', black, white), 0.89) 80%,
+			  transparentize(if($variant == 'light', black, #E6BEAE), 0.89) 20%,
+			  transparentize(if($variant == 'light', black, #E6BEAE), 0.89) 80%,
 			  $base_color 80%) 0 1 0 0 / 0 1px 0 0 stretch;
 
 	  &:hover {
@@ -2414,7 +2414,7 @@ scrollbar {
 		min-width: 4px;
 		min-height: 4px;
 		background-color: mix($fg_color, $bg_color, 70%);
-		border: 1px solid if($variant == 'light', transparentize(white, 0.4), transparentize(black, 0.7));
+		border: 1px solid if($variant == 'light', transparentize(#E6BEAE, 0.4), transparentize(black, 0.7));
 	  }
 
 	  &.horizontal slider {
@@ -2454,7 +2454,7 @@ switch {
   border: 1px solid $borders_color;
   border-radius: 100px;
   color: transparent;
-  background-color: if($darkest=='true', white, $base_color);
+  background-color: if($darkest=='true', #E6BEAE, $base_color);
   @if $variant == 'light' {
 	background-color: darken($base_color, 7%);
 	border-color: darken($borders_color, 7%);
@@ -2506,7 +2506,7 @@ switch {
 
 @if $darker == 'true' {
   headerbar switch {
-	background-color: white;
+	background-color: #E6BEAE;
 	border-color: opacify($header_bg, 1);
 
 	slider {
@@ -3056,7 +3056,7 @@ row {
   &.activatable {
 	&.has-open-popup,
 	&:hover {
-	  background-color: if($variant == 'light', transparentize(black, 0.95), transparentize(white, 0.97));
+	  background-color: if($variant == 'light', transparentize(black, 0.95), transparentize(#E6BEAE, 0.97));
 	}
 
 	&:active {
@@ -3630,7 +3630,7 @@ colorswatch {
   }
 
   &.dark overlay {
-	color: transparentize(white, 0.3);
+	color: transparentize(#E6BEAE, 0.3);
 	&:hover {
 	  border-color: if($variant == 'light', transparentize(black, 0.5), $borders_color);
 	}
@@ -3645,7 +3645,7 @@ colorswatch {
   overlay {
 	border: 1px solid if($variant == 'light', transparentize(black, 0.85), $borders_color);
 	&:hover {
-	  background-color: transparentize(white, 0.8)
+	  background-color: transparentize(#E6BEAE, 0.8)
 	}
   }
 
@@ -3780,7 +3780,7 @@ decoration {
   border-width: 0px;
 
   box-shadow: 0 2px if($windowOutline=='true', 11px 3px, 8px 0) if($darkest=='true', black, transparentize(black, .6)),
-  0 0 0 if($windowOutline=='true', 3px white, 1px transparentize(white, .95));
+  0 0 0 if($windowOutline=='true', 3px #E6BEAE, 1px transparentize(#E6BEAE, .95));
 
   // this is used for the resize cursor area
   margin: 10px;
@@ -3806,7 +3806,7 @@ decoration {
   // server-side decorations as used by mutter
   .ssd & {
 	border-radius: $_header_radius $_header_radius 0 0;
-	box-shadow: 0 0 0 if($windowOutline=='true', 3px white, 1px transparentize(black, .95));
+	box-shadow: 0 0 0 if($windowOutline=='true', 3px #E6BEAE, 1px transparentize(black, .95));
 
 	&.maximized {
 	  border-radius: 0;

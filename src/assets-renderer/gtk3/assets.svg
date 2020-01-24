@@ -1,1083 +1,3799 @@
-<svg version="1.1" viewBox="0 0 484 276" xmlns="http://www.w3.org/2000/svg">
-	<rect transform="scale(1,-1)" y="-138" width="121" height="138" rx="0" ry="0" style="color:#000000;fill:#f9fafb"/>
-	<rect x="121" y="-1.4648e-5" width="121" height="138" style="fill:#e7e8eb;stroke-width:0"/>
-	<rect y="138" width="121" height="138" rx="0" ry="0" style="color:#000000;fill:#367bf0"/>
-	<rect transform="scale(1,-1)" x="242" y="-138" width="121" height="138" rx="0" ry="0" style="color:#000000;fill:#383c4a"/>
-	<rect x="363" y="-1.4648e-5" width="121" height="138" style="fill:#2f343f;stroke-width:0"/>
-	<rect transform="scale(1,-1)" x="242" y="-276" width="121" height="138" rx="0" ry="0" style="color:#000000;fill:#1a1a1a"/>
-	<rect x="363" y="138" width="121" height="138" style="fill:#010101;stroke-width:0"/>
-	<g id="checkbox-checked" transform="translate(-14,56.64)">
-		<g transform="translate(19)">
-			<g transform="translate(0,-30)">
-				<rect x="17" y="30.362" width="16" height="16" style="color:#000000;fill:none"/>
-				<rect x="18" y="31.362" width="14" height="14" rx="2" ry="2" style="color:#000000;fill:#367bf0;stroke-width:0"/>
-			</g>
-		</g>
-		<g transform="translate(35.801 -1036)">
-			<g transform="matrix(.70711 .70711 -.70711 .70711 727.94 295.31)">
-				<g transform="translate(12.374,11.531)">
-					<g transform="translate(-3,-5)" style="fill:#3b3c3e">
-						<rect x="8.141" y="1033.3" width="5" height="2" rx=".66666" ry=".66666" style="fill:#fff"/>
-						<rect x="11.141" y="1027.3" width="2" height="8" ry="0" style="fill:#fff"/>
-					</g>
-					<rect transform="translate(0,1036.4)" x="5" y="-8" width="3" height="1" style="fill-opacity:0"/>
-				</g>
-			</g>
-		</g>
-	</g>
-	<g id="checkbox-mixed" transform="translate(5,56.64)">
-		<g transform="translate(19)">
-			<g transform="translate(0,-30)">
-				<rect x="17" y="30.362" width="16" height="16" style="color:#000000;fill:none"/>
-				<rect x="18" y="31.362" width="14" height="14" rx="2" ry="2" style="color:#000000;fill:#367bf0;stroke-width:0"/>
-			</g>
-		</g>
-		<g transform="translate(36,-1036)">
-			<g transform="matrix(.70711 .70711 -.70711 .70711 727.94 295.31)">
-				<g transform="translate(12.374,11.531)">
-					<g transform="translate(-3,-5)" style="fill:#3b3c3e">
-						<rect transform="matrix(-.70711 -.70711 .70711 -.70711 0 0)" x="-738.8" y="-725.95" width="2" height="8" ry="0" style="fill:#fff"/>
-					</g>
-					<rect transform="translate(0,1036.4)" x="5" y="-8" width="3" height="1" style="fill-opacity:0"/>
-				</g>
-			</g>
-		</g>
-	</g>
-	<g id="radio-checked" transform="translate(-33,56.64)">
-		<g transform="translate(19.004,-4.6993e-6)">
-			<g transform="matrix(.93617 0 0 .93566 -96.783 -244.76)">
-				<rect x="206.99" y="261.98" width="17.091" height="17.1" style="color:#000000;fill:none"/>
-				<g transform="matrix(.50892 0 0 .5174 181.79 197.56)">
-					<rect x="51.611" y="126.56" width="29.385" height="28.919" rx="14.692" ry="14.46" style="color:#000000;fill:#367bf0;stroke-width:0"/>
-				</g>
-			</g>
-		</g>
-		<rect x="122" y="6.3622" width="4" height="4" rx="1.9989" ry="2" style="color:#000000;fill:#fff"/>
-	</g>
-	<g id="radio-mixed" transform="translate(-33,56.64)">
-		<g transform="translate(19,-4.6993e-6)">
-			<g transform="translate(19.004,-4.6993e-6)">
-				<g transform="matrix(.93617 0 0 .93566 -96.783 -244.76)">
-					<rect x="206.99" y="261.98" width="17.091" height="17.1" style="color:#000000;fill:none"/>
-					<g transform="matrix(.50892 0 0 .5174 181.79 197.56)">
-						<rect x="51.611" y="126.56" width="29.385" height="28.919" rx="14.692" ry="14.46" style="color:#000000;fill:#367bf0;stroke-width:0"/>
-					</g>
-				</g>
-			</g>
-		</g>
-		<rect transform="rotate(-90)" x="-9.3622" y="139" width="2" height="8" ry="0" style="fill:#fff"/>
-	</g>
-	<g id="checkbox-unchecked" transform="translate(-14,56.64)">
-		<g transform="translate(0,-30)">
-			<rect x="17" y="30.362" width="16" height="16" style="color:#000000;fill:none"/>
-			<rect x="18.5" y="31.862" width="13" height="13" rx="2" ry="2" style="color:#000000;fill:#fff;stroke-linejoin:round;stroke:#cfd6e6"/>
-		</g>
-	</g>
-	<g id="radio-unchecked" transform="translate(-33.996,56.64)">
-		<g transform="matrix(.93617 0 0 .93566 -96.783 -244.76)">
-			<rect x="206.99" y="261.98" width="17.091" height="17.1" style="color:#000000;fill:none"/>
-			<g transform="matrix(.50892 0 0 .5174 181.79 197.56)">
-				<rect x="52.66" y="127.6" width="27.304" height="26.836" rx="13.224" ry="13.246" style="color:#000000;fill:#fff;stroke-linejoin:round;stroke-width:2.0822;stroke:#cfd6e6"/>
-			</g>
-		</g>
-	</g>
-	<g id="checkbox-checked-insensitive" transform="translate(-14,75.64)" style="opacity:.55">
-		<g transform="translate(19)">
-			<g transform="translate(0,-30)">
-				<rect x="17" y="30.362" width="16" height="16" style="color:#000000;fill:none"/>
-				<rect x="18" y="31.362" width="14" height="14" rx="2" ry="2" style="color:#000000;fill:#367bf0;stroke-width:0"/>
-			</g>
-		</g>
-		<g transform="translate(36 -1036)">
-			<g transform="matrix(.70711 .70711 -.70711 .70711 727.94 295.31)">
-				<g transform="translate(12.374,11.531)">
-					<g transform="translate(-3,-5)" style="fill:#3b3c3e">
-						<rect x="8" y="1033.4" width="5" height="2" rx=".66666" ry=".66666" style="fill:#fff"/>
-						<rect x="11" y="1027.4" width="2" height="8" ry="0" style="fill:#fff"/>
-					</g>
-					<rect transform="translate(0,1036.4)" x="5" y="-8" width="3" height="1" style="fill-opacity:0"/>
-				</g>
-			</g>
-		</g>
-	</g>
-	<g id="checkbox-mixed-insensitive" transform="translate(5,75.64)" style="opacity:.55">
-		<g transform="translate(19)">
-			<g transform="translate(0,-30)">
-				<rect x="17" y="30.362" width="16" height="16" style="color:#000000;fill:none"/>
-				<rect x="18" y="31.362" width="14" height="14" rx="2" ry="2" style="color:#000000;fill:#367bf0;stroke-width:0"/>
-			</g>
-		</g>
-		<g transform="translate(36,-1036)">
-			<g transform="matrix(.70711 .70711 -.70711 .70711 727.94 295.31)">
-				<g transform="translate(12.374,11.531)">
-					<g transform="translate(-3,-5)" style="fill:#3b3c3e">
-						<rect transform="matrix(-.70711 -.70711 .70711 -.70711 0 0)" x="-738.8" y="-725.95" width="2" height="8" ry="0" style="fill:#fff"/>
-					</g>
-					<rect transform="translate(0,1036.4)" x="5" y="-8" width="3" height="1" style="fill-opacity:0"/>
-				</g>
-			</g>
-		</g>
-	</g>
-	<g id="radio-checked-insensitive" transform="translate(-33,75.64)" style="opacity:.55">
-		<g transform="translate(19.004,-4.6993e-6)">
-			<g transform="matrix(.93617 0 0 .93566 -96.783 -244.76)">
-				<rect x="206.99" y="261.98" width="17.091" height="17.1" style="color:#000000;fill:none"/>
-				<g transform="matrix(.50892 0 0 .5174 181.79 197.56)">
-					<rect x="51.611" y="126.56" width="29.385" height="28.919" rx="14.692" ry="14.46" style="color:#000000;fill:#367bf0;stroke-width:0"/>
-				</g>
-			</g>
-		</g>
-		<rect x="122" y="6.3622" width="4" height="4" rx="1.9989" ry="2" style="color:#000000;fill:#fff"/>
-	</g>
-	<g id="radio-mixed-insensitive" transform="translate(-33,75.64)" style="opacity:.55">
-		<g transform="translate(19,-4.6993e-6)">
-			<g transform="translate(19.004,-4.6993e-6)">
-				<g transform="matrix(.93617 0 0 .93566 -96.783 -244.76)">
-					<rect x="206.99" y="261.98" width="17.091" height="17.1" style="color:#000000;fill:none"/>
-					<g transform="matrix(.50892 0 0 .5174 181.79 197.56)">
-						<rect x="51.611" y="126.56" width="29.385" height="28.919" rx="14.692" ry="14.46" style="color:#000000;fill:#367bf0;stroke-width:0"/>
-					</g>
-				</g>
-			</g>
-		</g>
-		<rect transform="rotate(-90)" x="-9.3622" y="139" width="2" height="8" ry="0" style="fill:#fff"/>
-	</g>
-	<g id="checkbox-unchecked-insensitive" transform="translate(-14,75.64)" style="opacity:.55">
-		<g transform="translate(0,-30)">
-			<rect x="17" y="30.362" width="16" height="16" style="color:#000000;fill:none"/>
-			<rect x="18.5" y="31.862" width="13" height="13" rx="2" ry="2" style="color:#000000;fill:#fff;stroke-linejoin:round;stroke:#cfd6e6"/>
-		</g>
-	</g>
-	<g id="radio-unchecked-insensitive" transform="translate(-33.996,75.64)" style="opacity:.55">
-		<g transform="matrix(.93617 0 0 .93566 -96.783 -244.76)">
-			<rect x="206.99" y="261.98" width="17.091" height="17.1" style="color:#000000;fill:none"/>
-			<g transform="matrix(.50892 0 0 .5174 181.79 197.56)">
-				<rect x="52.66" y="127.6" width="27.304" height="26.836" rx="13.224" ry="13.246" style="color:#000000;fill:#fff;stroke-linejoin:round;stroke-width:2.0822;stroke:#cfd6e6"/>
-			</g>
-		</g>
-	</g>
-	<g id="checkbox-checked-selected" transform="translate(-14,194.64)">
-		<g transform="translate(19)">
-			<g transform="translate(0,-30)">
-				<rect x="17" y="30.362" width="16" height="16" style="color:#000000;fill:none"/>
-				<rect x="18" y="31.362" width="14" height="14" rx="2" ry="2" style="color:#000000;fill:#fff;stroke-width:0"/>
-			</g>
-		</g>
-		<g transform="translate(36,-1036)">
-			<g transform="matrix(.70711 .70711 -.70711 .70711 727.94 295.31)">
-				<g transform="translate(12.374,11.531)">
-					<g transform="translate(-3,-5)" style="fill:#3b3c3e">
-						<rect x="8" y="1033.4" width="5" height="2" rx=".66666" ry=".66666" style="fill:#367bf0"/>
-						<rect x="11" y="1027.4" width="2" height="8" ry="0" style="fill:#367bf0"/>
-					</g>
-					<rect transform="translate(0,1036.4)" x="5" y="-8" width="3" height="1" style="fill-opacity:0"/>
-				</g>
-			</g>
-		</g>
-	</g>
-	<g id="checkbox-mixed-selected" transform="translate(5,194.64)">
-		<g transform="translate(19)">
-			<g transform="translate(0,-30)">
-				<rect x="17" y="30.362" width="16" height="16" style="color:#000000;fill:none"/>
-				<rect x="18" y="31.362" width="14" height="14" rx="2" ry="2" style="color:#000000;fill:#fff;stroke-width:0"/>
-			</g>
-		</g>
-		<g transform="translate(36,-1036)">
-			<g transform="matrix(.70711 .70711 -.70711 .70711 727.94 295.31)">
-				<g transform="translate(12.374,11.531)">
-					<g transform="translate(-3,-5)" style="fill:#3b3c3e">
-						<rect transform="matrix(-.70711 -.70711 .70711 -.70711 0 0)" x="-738.8" y="-725.95" width="2" height="8" ry="0" style="fill:#367bf0"/>
-					</g>
-					<rect transform="translate(0,1036.4)" x="5" y="-8" width="3" height="1" style="fill-opacity:0"/>
-				</g>
-			</g>
-		</g>
-	</g>
-	<g id="radio-checked-selected" transform="translate(-33,194.64)">
-		<g transform="translate(19.004,-4.6993e-6)">
-			<g transform="matrix(.93617 0 0 .93566 -96.783 -244.76)">
-				<rect x="206.99" y="261.98" width="17.091" height="17.1" style="color:#000000;fill:none"/>
-				<g transform="matrix(.50892 0 0 .5174 181.79 197.56)">
-					<rect x="51.611" y="126.56" width="29.385" height="28.919" rx="14.692" ry="14.46" style="color:#000000;fill:#fff;stroke-width:0"/>
-				</g>
-			</g>
-		</g>
-		<rect x="122" y="6.3622" width="4" height="4" rx="1.9989" ry="2" style="color:#000000;fill:#367bf0"/>
-	</g>
-	<g id="radio-mixed-selected" transform="translate(-33,194.64)">
-		<g transform="translate(19,-4.6993e-6)">
-			<g transform="translate(19.004,-4.6993e-6)">
-				<g transform="matrix(.93617 0 0 .93566 -96.783 -244.76)">
-					<rect x="206.99" y="261.98" width="17.091" height="17.1" style="color:#000000;fill:none"/>
-					<g transform="matrix(.50892 0 0 .5174 181.79 197.56)">
-						<rect x="51.611" y="126.56" width="29.385" height="28.919" rx="14.692" ry="14.46" style="color:#000000;fill:#fff;stroke-width:0"/>
-					</g>
-				</g>
-			</g>
-		</g>
-		<rect transform="rotate(-90)" x="-9.3622" y="139" width="2" height="8" ry="0" style="fill:#367bf0"/>
-	</g>
-	<g id="checkbox-unchecked-selected" transform="translate(-14,194.64)">
-		<g transform="translate(0,-30)">
-			<rect x="17" y="30.362" width="16" height="16" style="color:#000000;fill:none"/>
-			<rect x="18.5" y="31.862" width="13" height="13" rx="2" ry="2" style="color:#000000;fill:#367bf0;opacity:.5;stroke-linejoin:round;stroke:#fff"/>
-		</g>
-	</g>
-	<g id="radio-unchecked-selected" transform="translate(-33.996 194.64)">
-		<g transform="matrix(.93617 0 0 .93566 -96.783 -244.76)">
-			<rect x="206.99" y="261.98" width="17.091" height="17.1" style="color:#000000;fill:none"/>
-			<g transform="matrix(.50892 0 0 .5174 181.79 197.56)">
-				<rect x="52.66" y="127.6" width="27.304" height="26.836" rx="13.224" ry="13.246" style="color:#000000;fill:#367bf0;opacity:.5;stroke-linejoin:round;stroke-width:2.0822;stroke:#fff"/>
-			</g>
-		</g>
-	</g>
-	<g id="checkbox-checked-insensitive-selected" transform="translate(-14,213.64)" style="opacity:.55">
-		<g transform="translate(19)">
-			<g transform="translate(0,-30)">
-				<rect x="17" y="30.362" width="16" height="16" style="color:#000000;fill:none"/>
-				<rect x="18" y="31.362" width="14" height="14" rx="2" ry="2" style="color:#000000;fill:#fff;stroke-width:0"/>
-			</g>
-		</g>
-		<g transform="translate(36,-1036)">
-			<g transform="matrix(.70711 .70711 -.70711 .70711 727.94 295.31)">
-				<g transform="translate(12.374,11.531)">
-					<g transform="translate(-3,-5)" style="fill:#3b3c3e">
-						<rect x="8" y="1033.4" width="5" height="2" rx=".66666" ry=".66666" style="fill:#367bf0"/>
-						<rect x="11" y="1027.4" width="2" height="8" ry="0" style="fill:#367bf0"/>
-					</g>
-					<rect transform="translate(0,1036.4)" x="5" y="-8" width="3" height="1" style="fill-opacity:0"/>
-				</g>
-			</g>
-		</g>
-	</g>
-	<g id="checkbox-mixed-insensitive-selected" transform="translate(5,213.64)" style="opacity:.55">
-		<g transform="translate(19)">
-			<g transform="translate(0,-30)">
-				<rect x="17" y="30.362" width="16" height="16" style="color:#000000;fill:none"/>
-				<rect x="18" y="31.362" width="14" height="14" rx="2" ry="2" style="color:#000000;fill:#fff;stroke-width:0"/>
-			</g>
-		</g>
-		<g transform="translate(36,-1036)">
-			<g transform="matrix(.70711 .70711 -.70711 .70711 727.94 295.31)">
-				<g transform="translate(12.374,11.531)">
-					<g transform="translate(-3,-5)" style="fill:#3b3c3e">
-						<rect transform="matrix(-.70711 -.70711 .70711 -.70711 0 0)" x="-738.8" y="-725.95" width="2" height="8" ry="0" style="fill:#367bf0"/>
-					</g>
-					<rect transform="translate(0,1036.4)" x="5" y="-8" width="3" height="1" style="fill-opacity:0"/>
-				</g>
-			</g>
-		</g>
-	</g>
-	<g id="radio-checked-insensitive-selected" transform="translate(-33,213.64)" style="opacity:.55">
-		<g transform="translate(19.004,-4.6993e-6)">
-			<g transform="matrix(.93617 0 0 .93566 -96.783 -244.76)">
-				<rect x="206.99" y="261.98" width="17.091" height="17.1" style="color:#000000;fill:none"/>
-				<g transform="matrix(.50892 0 0 .5174 181.79 197.56)">
-					<rect x="51.611" y="126.56" width="29.385" height="28.919" rx="14.692" ry="14.46" style="color:#000000;fill:#fff;stroke-width:0"/>
-				</g>
-			</g>
-		</g>
-		<rect x="122" y="6.3622" width="4" height="4" rx="1.9989" ry="2" style="color:#000000;fill:#367bf0"/>
-	</g>
-	<g id="radio-mixed-insensitive-selected" transform="translate(-33,213.64)" style="opacity:.55">
-		<g transform="translate(19,-4.6993e-6)">
-			<g transform="translate(19.004,-4.6993e-6)">
-				<g transform="matrix(.93617 0 0 .93566 -96.783 -244.76)">
-					<rect x="206.99" y="261.98" width="17.091" height="17.1" style="color:#000000;fill:none"/>
-					<g transform="matrix(.50892 0 0 .5174 181.79 197.56)">
-						<rect x="51.611" y="126.56" width="29.385" height="28.919" rx="14.692" ry="14.46" style="color:#000000;fill:#fff;stroke-width:0"/>
-					</g>
-				</g>
-			</g>
-		</g>
-		<rect transform="rotate(-90)" x="-9.3622" y="139" width="2" height="8" ry="0" style="fill:#367bf0"/>
-	</g>
-	<g id="checkbox-unchecked-insensitive-selected" transform="translate(-14,213.64)" style="opacity:.55">
-		<g transform="translate(0,-30)">
-			<rect x="17" y="30.362" width="16" height="16" style="color:#000000;fill:none"/>
-			<rect x="18.5" y="31.862" width="13" height="13" rx="2" ry="2" style="color:#000000;fill:#367bf0;opacity:.5;stroke-linejoin:round;stroke:#fff"/>
-		</g>
-	</g>
-	<g id="radio-unchecked-insensitive-selected" transform="translate(-33.996,213.64)" style="opacity:.55">
-		<g transform="matrix(.93617 0 0 .93566 -96.783 -244.76)">
-			<rect x="206.99" y="261.98" width="17.091" height="17.1" style="color:#000000;fill:none"/>
-			<g transform="matrix(.50892 0 0 .5174 181.79 197.56)">
-				<rect x="52.66" y="127.6" width="27.304" height="26.836" rx="13.224" ry="13.246" style="color:#000000;fill:#367bf0;opacity:.5;stroke-linejoin:round;stroke-width:2.0822;stroke:#fff"/>
-			</g>
-		</g>
-	</g>
-	<g id="titlebutton-minimize" transform="translate(-463,242.64)">
-		<path d="m595-184.64a7 7 0 0 0-7 7 7 7 0 0 0 7 7 7 7 0 0 0 7-7 7 7 0 0 0-7-7z" style="fill:#fd7d00;stroke-width:.5;stroke:#c05f00"/>
-		<rect x="587" y="-185.64" width="16" height="16" style="fill:none"/>
-	</g>
-	<g id="checkbox-checked-selectionmode" transform="translate(-462,-83.36)">
-		<rect x="462" y="179.36" width="40" height="40" rx="2" ry="2" style="fill:none;stroke-width:0"/>
-		<rect x="466" y="183.36" width="32" height="32" rx="2" ry="2" style="fill:#367bf0;stroke-width:0"/>
-		<g transform="translate(-2.2045,1.973)">
-			<path d="m491.36 188.95-9.5312 9.5625-4.7812-4.7812-3.1876 3.1875 4.7813 4.7812 3.1875 3.1875 3.1562-3.1875 9.5626-9.5625z" style="fill:#fff"/>
-		</g>
-	</g>
-	<g id="checkbox-selectionmode" transform="translate(-417,-83.36)">
-		<rect x="466.5" y="183.86" width="31" height="31" rx="2" ry="2" style="fill:#fff;stroke:#cfd6e6"/>
-		<g transform="translate(-2.2045,1.973)">
-			<path d="m491.36 188.95-9.5312 9.5625-4.7812-4.7812-3.1876 3.1875 4.7813 4.7812 3.1875 3.1875 3.1562-3.1875 9.5626-9.5625z" style="fill:#cfd6e6;opacity:.4"/>
-		</g>
-		<rect x="462" y="179.36" width="40" height="40" rx="2" ry="2" style="fill:none;stroke-width:0"/>
-	</g>
-	<g id="titlebutton-close" transform="translate(-481,242.64)">
-		<g transform="translate(-678,-432.64)">
-			<g transform="translate(-103)">
-				<g transform="translate(58)">
-					<path transform="translate(1204,190)" d="m172 58c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#d31919;stroke-width:.5;stroke:#8b1111"/>
-				</g>
-			</g>
-		</g>
-		<rect x="645" y="-185.64" width="16" height="16" style="fill:none"/>
-	</g>
-	<g id="titlebutton-maximize" transform="translate(-472,242.64)">
-		<path d="m624-184.63a7 7 0 0 0-7 7 7 7 0 0 0 7 7 7 7 0 0 0 7-7 7 7 0 0 0-7-7z" style="fill:#377cf1;stroke-width:.5;stroke:#0e53ca"/>
-		<rect x="616" y="-185.64" width="16" height="16" style="fill:none"/>
-	</g>
-	<g id="titlebutton-close-hover" transform="translate(-378,276.64)">
-		<g transform="translate(-781,-432.64)">
-			<g transform="translate(-103)">
-				<g transform="translate(58)">
-					<path transform="translate(1204,156)" d="m172 92c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#d31919;stroke-width:.5;stroke:#8b1111"/>
-				</g>
-			</g>
-		</g>
-		<rect x="542" y="-185.64" width="16" height="16" style="fill:none"/>
-		<path d="m547-180.72h0.75c8e-3 -9e-5 0.0156-3.5e-4 0.0234 0 0.19122 8e-3 0.3824 0.0964 0.51563 0.23437l1.7109 1.7109 1.7344-1.7109c0.19922-0.17287 0.335-0.22912 0.51562-0.23437h0.75v0.75c0 0.21485-0.0257 0.41298-0.1875 0.5625l-1.7109 1.7109 1.6875 1.6875c0.14114 0.14113 0.21093 0.34009 0.21093 0.53907v0.75h-0.75c-0.19897-1e-5 -0.39793-0.0698-0.53906-0.21094l-1.7109-1.7109-1.7109 1.7109c-0.14113 0.14114-0.3401 0.21094-0.53907 0.21094h-0.75v-0.75c0-0.19897 0.0698-0.39794 0.21094-0.53907l1.7109-1.6875-1.7109-1.7109c-0.15805-0.14598-0.22737-0.35194-0.21094-0.5625v-0.75z" style="color:#bebebe;enable-background:new;opacity:.5;text-decoration-line:none;text-indent:0;text-transform:none"/>
-	</g>
-	<g id="titlebutton-maximize-hover" transform="translate(-369,276.64)">
-		<g transform="translate(-781,-432.64)">
-			<path transform="translate(1150,156)" d="m152 92a7 7 0 0 0-7 7 7 7 0 0 0 7 7 7 7 0 0 0 7-7 7 7 0 0 0-7-7z" style="fill:#377cf1;stroke-width:.5;stroke:#0e53ca"/>
-			<g transform="translate(1294,247)" style="fill:#c0e3ff">
-				<g transform="translate(-81,-967)" style="fill:#c0e3ff">
-					<path d="m87.8 972h3.3817c0.4503 0 0.81623 0.36847 0.81876 0.8188v3.3817zm2.4074 6.0069h-3.3951c-0.45035 0-0.81876-0.36842-0.81876-0.81875v-3.3951l4.2138 4.2138" style="fill-rule:evenodd;fill:#000;opacity:.5"/>
-				</g>
-			</g>
-		</g>
-		<rect x="513" y="-185.64" width="16" height="16" style="fill:none"/>
-	</g>
-	<g id="titlebutton-minimize-hover" transform="translate(-360,276.64)">
-		<g transform="translate(-781,-432.64)">
-			<path transform="translate(1141,156)" d="m132 92a7 7 0 0 0-7 7 7 7 0 0 0 7 7 7 7 0 0 0 7-7 7 7 0 0 0-7-7z" style="fill:#fd7d00;opacity:.95;stroke-width:.5;stroke:#c05f00"/>
-			<g transform="translate(1265,247)" style="fill:#c0e3ff">
-				<g transform="translate(-81,-967)" style="fill:#c0e3ff">
-					<path d="m86 974.25v1.5h6v-1.5z" style="color:#000000;fill:#000;opacity:.5;stroke-width:.86603;text-decoration-line:none;text-indent:0;text-transform:none"/>
-				</g>
-			</g>
-		</g>
-		<rect x="484" y="-185.64" width="16" height="16" style="fill:none"/>
-	</g>
-	<g id="titlebutton-close-active" transform="translate(-277,293.64)">
-		<g transform="translate(-882,-432.64)">
-			<g transform="translate(-103)">
-				<g transform="translate(58)">
-					<circle cx="1376" cy="255" r="7" style="fill:#d31919;stroke-width:.5;stroke:#8b1111"/>
-				</g>
-			</g>
-			<g transform="translate(1323,246.87)" style="fill:#fff">
-				<g transform="matrix(.75 0 0 .75 2 2.0547)" style="fill:#fff">
-					<g transform="translate(-60,-518)" style="fill:#fff">
-						<g transform="translate(19,-242)" style="fill:#fff">
-							<path d="m45 764h1c0.01037-1.2e-4 0.02079-4.6e-4 0.03125 0 0.25495 0.0112 0.50987 0.12858 0.6875 0.3125l2.2812 2.2812 2.3125-2.2812c0.26562-0.2305 0.44667-0.3055 0.6875-0.3125h1v1c0 0.28647-0.03434 0.55065-0.25 0.75l-2.2812 2.2812 2.25 2.25c0.18819 0.18817 0.28124 0.45345 0.28125 0.71875v1h-1c-0.2653-1e-5 -0.53059-0.0931-0.71875-0.28125l-2.2812-2.2812-2.2812 2.2812c-0.18816 0.18819-0.45346 0.28125-0.71875 0.28125h-1v-1c-3e-6 -0.26529 0.09306-0.53058 0.28125-0.71875l2.2812-2.25-2.2812-2.2812c-0.21074-0.19463-0.30316-0.46925-0.28125-0.75v-1z" style="color:#bebebe;enable-background:new;fill:#000;opacity:.5;text-decoration-line:none;text-indent:0;text-transform:none"/>
-						</g>
-					</g>
-				</g>
-			</g>
-		</g>
-		<rect x="441" y="-185.64" width="16" height="16" style="fill:none"/>
-	</g>
-	<g id="titlebutton-maximize-active" transform="translate(-268,293.64)">
-		<g transform="translate(-882,-432.64)">
-			<g transform="translate(-132)">
-				<g transform="translate(58)">
-					<circle cx="1376" cy="255" r="7" style="fill:#377cf1;stroke-width:.5;stroke:#0e53ca"/>
-				</g>
-			</g>
-			<g transform="translate(1294,247)" style="fill:#c0e3ff">
-				<g transform="translate(-81,-967)" style="fill:#c0e3ff">
-					<path d="m87.8 972h3.3817c0.4503 0 0.81623 0.36847 0.81876 0.8188v3.3817zm2.4074 6.0069h-3.3951c-0.45035 0-0.81876-0.36842-0.81876-0.81875v-3.3951l4.2138 4.2138" style="fill-rule:evenodd;fill:#000;opacity:.5"/>
-				</g>
-			</g>
-		</g>
-		<rect x="412" y="-185.64" width="16" height="16" style="fill:none"/>
-	</g>
-	<g id="titlebutton-minimize-active" transform="translate(-259,293.64)">
-		<g transform="translate(-882,-432.64)">
-			<g transform="translate(-161)">
-				<g transform="translate(58)">
-					<circle cx="1376" cy="255" r="7" style="fill:#fd7d00;stroke-width:.5;stroke:#c05f00"/>
-				</g>
-			</g>
-			<g transform="translate(1265,247)" style="fill:#c0e3ff">
-				<g transform="translate(-81,-967)" style="fill:#c0e3ff">
-					<path d="m86 974.25v1.5h6v-1.5z" style="color:#000000;fill:#000;opacity:.5;stroke-width:.86603;text-decoration-line:none;text-indent:0;text-transform:none"/>
-				</g>
-			</g>
-		</g>
-		<rect x="383" y="-185.64" width="16" height="16" style="fill:none"/>
-	</g>
-	<g id="titlebutton-maximize-backdrop" transform="translate(-472,242.64)" style="opacity:.3">
-		<rect x="616" y="-168.64" width="16" height="16" style="fill:none;opacity:1"/>
-		<path d="m624-167.88c-4.0011 0-7.25 3.2489-7.25 7.25s3.2489 7.25 7.25 7.25 7.25-3.2489 7.25-7.25-3.2489-7.25-7.25-7.25z" style="color-rendering:auto;color:#000000;dominant-baseline:auto;font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;image-rendering:auto;isolation:auto;mix-blend-mode:normal;opacity:1;shape-padding:0;shape-rendering:auto;solid-color:#000000;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
-	</g>
-	<g id="titlebutton-minimize-backdrop" transform="translate(-463,242.64)" style="opacity:.3">
-		<rect x="587" y="-168.64" width="16" height="16" style="fill:none;opacity:1"/>
-		<path d="m595-167.89c-4.0011 0-7.25 3.2489-7.25 7.25s3.2489 7.25 7.25 7.25 7.25-3.2489 7.25-7.25-3.2489-7.25-7.25-7.25z" style="color-rendering:auto;color:#000000;dominant-baseline:auto;font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;image-rendering:auto;isolation:auto;mix-blend-mode:normal;opacity:1;shape-padding:0;shape-rendering:auto;solid-color:#000000;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
-	</g>
-	<g id="titlebutton-close-backdrop" transform="translate(-481,259.64)" style="opacity:.3">
-		<g transform="translate(-678,-432.64)" style="opacity:1">
-			<g transform="translate(-103)" style="opacity:1">
-				<g transform="translate(58)">
-					<path d="m1376 247.75c-4.0011 0-7.25 3.2489-7.25 7.25s3.2489 7.25 7.25 7.25 7.25-3.2489 7.25-7.25-3.2489-7.25-7.25-7.25z" style="color-rendering:auto;color:#000000;dominant-baseline:auto;font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;image-rendering:auto;isolation:auto;mix-blend-mode:normal;opacity:1;shape-padding:0;shape-rendering:auto;solid-color:#000000;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
-				</g>
-			</g>
-		</g>
-		<rect x="645" y="-185.64" width="16" height="16" style="fill:none;opacity:1"/>
-	</g>
-	<g id="checkbox-checked-dark" transform="translate(228,56.64)">
-		<g transform="translate(19)">
-			<g transform="translate(0,-30)">
-				<rect x="17" y="30.362" width="16" height="16" style="color:#000000;fill:none"/>
-				<rect x="18" y="31.362" width="14" height="14" rx="2" ry="2" style="color:#000000;fill:#367bf0;stroke-width:0"/>
-			</g>
-		</g>
-		<g transform="translate(36,-1036)">
-			<g transform="rotate(45,7.5,1026.4)">
-				<g transform="translate(12.374,11.531)">
-					<g transform="translate(-3,-5)" style="fill:#3b3c3e">
-						<rect x="8" y="1033.4" width="5" height="2" rx=".66666" ry=".66666" style="fill:#2b303b"/>
-						<rect x="11" y="1027.4" width="2" height="8" ry="0" style="fill:#2b303b"/>
-					</g>
-					<rect transform="translate(0,1036.4)" x="5" y="-8" width="3" height="1" style="fill-opacity:0"/>
-				</g>
-			</g>
-		</g>
-	</g>
-	<g id="checkbox-mixed-dark" transform="translate(247,56.64)">
-		<g transform="translate(19)">
-			<g transform="translate(0,-30)">
-				<rect x="17" y="30.362" width="16" height="16" style="color:#000000;fill:none"/>
-				<rect x="18" y="31.362" width="14" height="14" rx="2" ry="2" style="color:#000000;fill:#367bf0;stroke-width:0"/>
-			</g>
-		</g>
-		<g transform="translate(36,-1036)">
-			<g transform="rotate(45,7.5,1026.4)">
-				<g transform="translate(12.374,11.531)">
-					<g transform="translate(-3,-5)" style="fill:#3b3c3e">
-						<rect transform="rotate(225)" x="-738.8" y="-725.95" width="2" height="8" ry="0" style="fill:#2b303b"/>
-					</g>
-					<rect transform="translate(0,1036.4)" x="5" y="-8" width="3" height="1" style="fill-opacity:0"/>
-				</g>
-			</g>
-		</g>
-	</g>
-	<g id="radio-checked-dark" transform="translate(209,56.64)">
-		<g transform="translate(19.004,-4.6993e-6)">
-			<g transform="matrix(.93617 0 0 .93566 -96.783 -244.76)">
-				<rect x="206.99" y="261.98" width="17.091" height="17.1" style="color:#000000;fill:none"/>
-				<g transform="matrix(.50892 0 0 .5174 181.79 197.56)">
-					<rect x="51.611" y="126.56" width="29.385" height="28.919" rx="14.692" ry="14.46" style="color:#000000;fill:#367bf0;stroke-width:0"/>
-				</g>
-			</g>
-		</g>
-		<rect x="122" y="6.3622" width="4" height="4" rx="1.9989" ry="2" style="color:#000000;fill:#2b303b"/>
-	</g>
-	<g id="radio-mixed-dark" transform="translate(209,56.64)">
-		<g transform="translate(19,-4.6993e-6)">
-			<g transform="translate(19.004,-4.6993e-6)">
-				<g transform="matrix(.93617 0 0 .93566 -96.783 -244.76)">
-					<rect x="206.99" y="261.98" width="17.091" height="17.1" style="color:#000000;fill:none"/>
-					<g transform="matrix(.50892 0 0 .5174 181.79 197.56)">
-						<rect x="51.611" y="126.56" width="29.385" height="28.919" rx="14.692" ry="14.46" style="color:#000000;fill:#367bf0;stroke-width:0"/>
-					</g>
-				</g>
-			</g>
-		</g>
-		<rect transform="rotate(-90)" x="-9.3622" y="139" width="2" height="8" ry="0" style="fill:#2b303b"/>
-	</g>
-	<g id="checkbox-unchecked-dark" transform="translate(228,56.64)">
-		<g transform="translate(0,-30)">
-			<rect x="17" y="30.362" width="16" height="16" style="color:#000000;fill:none"/>
-			<rect x="18.5" y="31.862" width="13" height="13" rx="2" ry="2" style="color:#000000;fill:#2d323d;stroke-linejoin:round;stroke:#262934"/>
-		</g>
-	</g>
-	<g id="radio-unchecked-dark" transform="translate(208,56.64)">
-		<g transform="matrix(.93617 0 0 .93566 -96.783 -244.76)">
-			<rect x="206.99" y="261.98" width="17.091" height="17.1" style="color:#000000;fill:none"/>
-			<g transform="matrix(.50892 0 0 .5174 181.79 197.56)">
-				<rect x="52.66" y="127.6" width="27.304" height="26.836" rx="13.224" ry="13.246" style="color:#000000;fill:#2d323d;stroke-linejoin:round;stroke-width:2.0822;stroke:#262934"/>
-			</g>
-		</g>
-	</g>
-	<g id="checkbox-checked-insensitive-dark" transform="translate(228,75.64)" style="opacity:.55">
-		<g transform="translate(19)">
-			<g transform="translate(0,-30)">
-				<rect x="17" y="30.362" width="16" height="16" style="color:#000000;fill:none"/>
-				<rect x="18" y="31.362" width="14" height="14" rx="2" ry="2" style="color:#000000;fill:#367bf0;stroke-width:0"/>
-			</g>
-		</g>
-		<g transform="translate(36,-1036)">
-			<g transform="rotate(45,7.5,1026.4)">
-				<g transform="translate(12.374,11.531)">
-					<g transform="translate(-3,-5)" style="fill:#3b3c3e">
-						<rect x="8" y="1033.4" width="5" height="2" rx=".66666" ry=".66666" style="fill:#2b303b"/>
-						<rect x="11" y="1027.4" width="2" height="8" ry="0" style="fill:#2b303b"/>
-					</g>
-					<rect transform="translate(0,1036.4)" x="5" y="-8" width="3" height="1" style="fill-opacity:0"/>
-				</g>
-			</g>
-		</g>
-	</g>
-	<g id="checkbox-mixed-insensitive-dark" transform="translate(247,75.64)" style="opacity:.55">
-		<g transform="translate(19)">
-			<g transform="translate(0,-30)">
-				<rect x="17" y="30.362" width="16" height="16" style="color:#000000;fill:none"/>
-				<rect x="18" y="31.362" width="14" height="14" rx="2" ry="2" style="color:#000000;fill:#367bf0;stroke-width:0"/>
-			</g>
-		</g>
-		<g transform="translate(36,-1036)">
-			<g transform="rotate(45,7.5,1026.4)">
-				<g transform="translate(12.374,11.531)">
-					<g transform="translate(-3,-5)" style="fill:#3b3c3e">
-						<rect transform="rotate(225)" x="-738.8" y="-725.95" width="2" height="8" ry="0" style="fill:#2b303b"/>
-					</g>
-					<rect transform="translate(0,1036.4)" x="5" y="-8" width="3" height="1" style="fill-opacity:0"/>
-				</g>
-			</g>
-		</g>
-	</g>
-	<g id="radio-checked-insensitive-dark" transform="translate(209,75.64)" style="opacity:.55">
-		<g transform="translate(19.004,-4.6993e-6)">
-			<g transform="matrix(.93617 0 0 .93566 -96.783 -244.76)">
-				<rect x="206.99" y="261.98" width="17.091" height="17.1" style="color:#000000;fill:none"/>
-				<g transform="matrix(.50892 0 0 .5174 181.79 197.56)">
-					<rect x="51.611" y="126.56" width="29.385" height="28.919" rx="14.692" ry="14.46" style="color:#000000;fill:#367bf0;stroke-width:0"/>
-				</g>
-			</g>
-		</g>
-		<rect x="122" y="6.3622" width="4" height="4" rx="1.9989" ry="2" style="color:#000000;fill:#2b303b"/>
-	</g>
-	<g id="radio-mixed-insensitive-dark" transform="translate(209,75.64)" style="opacity:.55">
-		<g transform="translate(19,-4.6993e-6)">
-			<g transform="translate(19.004,-4.6993e-6)">
-				<g transform="matrix(.93617 0 0 .93566 -96.783 -244.76)">
-					<rect x="206.99" y="261.98" width="17.091" height="17.1" style="color:#000000;fill:none"/>
-					<g transform="matrix(.50892 0 0 .5174 181.79 197.56)">
-						<rect x="51.611" y="126.56" width="29.385" height="28.919" rx="14.692" ry="14.46" style="color:#000000;fill:#367bf0;stroke-width:0"/>
-					</g>
-				</g>
-			</g>
-		</g>
-		<rect transform="rotate(-90)" x="-9.3622" y="139" width="2" height="8" ry="0" style="fill:#2b303b"/>
-	</g>
-	<g id="checkbox-unchecked-insensitive-dark" transform="translate(228,75.64)" style="opacity:.6">
-		<g transform="translate(0,-30)">
-			<rect x="17" y="30.362" width="16" height="16" style="color:#000000;fill:none"/>
-			<rect x="18.5" y="31.862" width="13" height="13" rx="2" ry="2" style="color:#000000;fill:#2d323d;stroke-linejoin:round;stroke:#262934"/>
-		</g>
-	</g>
-	<g id="radio-unchecked-insensitive-dark" transform="translate(208,75.64)" style="opacity:.6">
-		<g transform="matrix(.93617 0 0 .93566 -96.783 -244.76)">
-			<rect x="206.99" y="261.98" width="17.091" height="17.1" style="color:#000000;fill:none"/>
-			<g transform="matrix(.50892 0 0 .5174 181.79 197.56)">
-				<rect x="52.66" y="127.6" width="27.304" height="26.836" rx="13.224" ry="13.246" style="color:#000000;fill:#2d323d;stroke-linejoin:round;stroke-width:2.0822;stroke:#262934"/>
-			</g>
-		</g>
-	</g>
-	<g id="checkbox-checked-selectionmode-dark" transform="translate(-220,-83.36)">
-		<rect x="466" y="183.36" width="32" height="32" rx="2" ry="2" style="fill:#367bf0;stroke-width:0"/>
-		<g transform="translate(-2.2045,1.973)">
-			<path d="m491.36 188.95-9.5312 9.5625-4.7812-4.7812-3.1876 3.1875 4.7813 4.7812 3.1875 3.1875 3.1562-3.1875 9.5626-9.5625z" style="fill:#2b303b"/>
-		</g>
-		<rect x="462" y="179.36" width="40" height="40" rx="2" ry="2" style="fill:none;stroke-width:0"/>
-	</g>
-	<g id="checkbox-selectionmode-dark" transform="translate(-175,-83.36)">
-		<rect x="466.5" y="183.86" width="31" height="31" rx="2" ry="2" style="fill:#2d323d;stroke:#262934"/>
-		<g transform="translate(-2.2045,1.973)">
-			<path d="m491.36 188.95-9.5312 9.5625-4.7812-4.7812-3.1876 3.1875 4.7813 4.7812 3.1875 3.1875 3.1562-3.1875 9.5626-9.5625z" style="fill:#5f6578;opacity:.55"/>
-		</g>
-		<rect x="462" y="179.36" width="40" height="40" rx="2" ry="2" style="fill:none;stroke-width:0"/>
-	</g>
-	<g id="titlebutton-minimize-dark" transform="translate(-221,242.64)">
-		<rect x="587" y="-185.64" width="16" height="16" style="fill:none"/>
-		<path d="m595-184.64c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#fd7d00;stroke-width:.5;stroke:#c05f00"/>
-	</g>
-	<g id="titlebutton-close-dark" transform="translate(-239,242.64)">
-		<g transform="translate(-678,-432.64)">
-			<g transform="translate(-103)">
-				<g transform="translate(58)">
-					<path transform="translate(962,190)" d="m414 58c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#d31919;stroke-width:.5;stroke:#8b1111"/>
-				</g>
-			</g>
-		</g>
-		<rect x="645" y="-185.64" width="16" height="16" style="fill:none"/>
-	</g>
-	<g id="titlebutton-maximize-dark" transform="translate(-230,242.64)">
-		<rect x="616" y="-185.64" width="16" height="16" style="fill:none"/>
-		<path d="m624-184.63c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#377cf1;stroke-width:.5;stroke:#0e53ca"/>
-	</g>
-	<g id="titlebutton-close-hover-dark" transform="translate(-136,276.64)">
-		<g transform="translate(-781,-432.64)">
-			<g transform="translate(-103)">
-				<g transform="translate(58)">
-					<path transform="translate(962,156)" d="m414 92c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#d31919;stroke-width:.5;stroke:#8b1111"/>
-				</g>
-			</g>
-		</g>
-		<rect x="542" y="-185.64" width="16" height="16" style="fill:none"/>
-		<path d="m547-180.72h0.75c8e-3 -9e-5 0.0156-3.5e-4 0.0234 0 0.19122 8e-3 0.3824 0.0964 0.51563 0.23437l1.7109 1.7109 1.7344-1.7109c0.19922-0.17287 0.335-0.22912 0.51562-0.23437h0.75v0.75c0 0.21485-0.0257 0.41298-0.1875 0.5625l-1.7109 1.7109 1.6875 1.6875c0.14114 0.14113 0.21093 0.34009 0.21093 0.53907v0.75h-0.75c-0.19897-1e-5 -0.39793-0.0698-0.53906-0.21094l-1.7109-1.7109-1.7109 1.7109c-0.14113 0.14114-0.3401 0.21094-0.53907 0.21094h-0.75v-0.75c0-0.19897 0.0698-0.39794 0.21094-0.53907l1.7109-1.6875-1.7109-1.7109c-0.15805-0.14598-0.22737-0.35194-0.21094-0.5625v-0.75z" style="color:#bebebe;enable-background:new;opacity:.5;text-decoration-line:none;text-indent:0;text-transform:none"/>
-	</g>
-	<g id="titlebutton-maximize-hover-dark" transform="translate(-127,276.64)">
-		<g transform="translate(-781,-432.64)">
-			<path transform="translate(908,156)" d="m394 92c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#377cf1;stroke-width:.5;stroke:#0e53ca"/>
-		</g>
-		<rect x="513" y="-185.64" width="16" height="16" style="fill:none"/>
-		<path d="m519.8-180.64h3.3817c0.4503 0 0.81623 0.36847 0.81876 0.8188v3.3817zm2.4074 6.0069h-3.3951c-0.45035 0-0.81876-0.36842-0.81876-0.81875v-3.3951l4.2138 4.2138" style="fill-rule:evenodd;opacity:.5"/>
-	</g>
-	<g id="titlebutton-minimize-hover-dark" transform="translate(-118,276.64)">
-		<g transform="translate(-781,-432.64)">
-			<path transform="translate(899,156)" d="m374 92c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#fd7d00;stroke-width:.5;stroke:#c05f00"/>
-		</g>
-		<rect x="484" y="-185.64" width="16" height="16" style="fill:none"/>
-		<path d="m489-178.39v1.5h6v-1.5z" style="color:#000000;opacity:.5;stroke-width:.86603;text-decoration-line:none;text-indent:0;text-transform:none"/>
-	</g>
-	<g id="titlebutton-close-active-dark" transform="translate(-35,293.64)">
-		<g transform="translate(-882,-432.64)">
-			<g transform="translate(-103)">
-				<g transform="translate(58)">
-					<path transform="translate(962,139)" d="m414 109c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#d31919;stroke-width:.5;stroke:#8b1111"/>
-				</g>
-			</g>
-		</g>
-		<rect x="441" y="-185.64" width="16" height="16" style="fill:none"/>
-		<path d="m446-180.72h0.75c8e-3 -9e-5 0.0156-3.5e-4 0.0234 0 0.19122 8e-3 0.3824 0.0964 0.51563 0.23437l1.7109 1.7109 1.7344-1.7109c0.19922-0.17287 0.335-0.22912 0.51562-0.23437h0.75v0.75c0 0.21485-0.0257 0.41298-0.1875 0.5625l-1.7109 1.7109 1.6875 1.6875c0.14114 0.14113 0.21093 0.34009 0.21093 0.53907v0.75h-0.75c-0.19897-1e-5 -0.39793-0.0698-0.53906-0.21094l-1.7109-1.7109-1.7109 1.7109c-0.14113 0.14114-0.3401 0.21094-0.53907 0.21094h-0.75v-0.75c0-0.19897 0.0698-0.39794 0.21094-0.53907l1.7109-1.6875-1.7109-1.7109c-0.15805-0.14598-0.22737-0.35194-0.21094-0.5625v-0.75z" style="color:#bebebe;enable-background:new;opacity:.5;text-decoration-line:none;text-indent:0;text-transform:none"/>
-	</g>
-	<g id="titlebutton-maximize-active-dark" transform="translate(-26,293.64)">
-		<g transform="translate(-882,-432.64)">
-			<g transform="translate(-132)">
-				<g transform="translate(58)">
-					<path transform="translate(982,139)" d="m394 109c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#377cf1;stroke-width:.5;stroke:#0e53ca"/>
-				</g>
-			</g>
-		</g>
-		<rect x="412" y="-185.64" width="16" height="16" style="fill:none"/>
-		<path d="m418.8-180.64h3.3817c0.4503 0 0.81623 0.36847 0.81876 0.8188v3.3817zm2.4074 6.0069h-3.3951c-0.45035 0-0.81876-0.36842-0.81876-0.81875v-3.3951l4.2138 4.2138" style="fill-rule:evenodd;opacity:.5"/>
-	</g>
-	<g id="titlebutton-minimize-active-dark" transform="translate(-17,293.64)">
-		<g transform="translate(-882,-432.64)">
-			<g transform="translate(-161)">
-				<g transform="translate(58)">
-					<path transform="translate(1002,139)" d="m374 109c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#fd7d00;stroke-width:.5;stroke:#c05f00"/>
-				</g>
-			</g>
-		</g>
-		<rect x="383" y="-185.64" width="16" height="16" style="fill:none"/>
-		<path d="m388-178.39v1.5h6v-1.5z" style="color:#000000;opacity:.5;stroke-width:.86603;text-decoration-line:none;text-indent:0;text-transform:none"/>
-	</g>
-	<g id="titlebutton-maximize-backdrop-dark" transform="translate(-230,242.64)" style="opacity:.3">
-		<path d="m624-167.88c-4.0011 0-7.25 3.2489-7.25 7.25s3.2489 7.25 7.25 7.25 7.25-3.2489 7.25-7.25-3.2489-7.25-7.25-7.25z" style="color-rendering:auto;color:#000000;dominant-baseline:auto;fill:#fbfefe;font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;image-rendering:auto;isolation:auto;mix-blend-mode:normal;opacity:1;shape-padding:0;shape-rendering:auto;solid-color:#000000;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
-		<rect x="616" y="-168.64" width="16" height="16" style="fill:none;opacity:1"/>
-	</g>
-	<g id="titlebutton-minimize-backdrop-dark" transform="translate(-221,242.64)" style="opacity:.3">
-		<rect x="587" y="-168.64" width="16" height="16" style="fill:none;opacity:1"/>
-		<path d="m595-167.89c-4.0011 0-7.25 3.2489-7.25 7.25s3.2489 7.25 7.25 7.25 7.25-3.2489 7.25-7.25-3.2489-7.25-7.25-7.25z" style="color-rendering:auto;color:#000000;dominant-baseline:auto;fill:#fbfefe;font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;image-rendering:auto;isolation:auto;mix-blend-mode:normal;opacity:1;shape-padding:0;shape-rendering:auto;solid-color:#000000;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
-	</g>
-	<g id="titlebutton-close-backdrop-dark" transform="translate(-239,259.64)" style="opacity:.3">
-		<g transform="translate(-678,-432.64)" style="opacity:1">
-			<g transform="translate(-103)" style="opacity:1">
-				<g transform="translate(58)">
-					<path d="m1376 247.75c-4.0011 0-7.25 3.2489-7.25 7.25s3.2489 7.25 7.25 7.25 7.25-3.2489 7.25-7.25-3.2489-7.25-7.25-7.25z" style="color-rendering:auto;color:#000000;dominant-baseline:auto;fill:#fbfefe;font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;image-rendering:auto;isolation:auto;mix-blend-mode:normal;opacity:1;shape-padding:0;shape-rendering:auto;solid-color:#000000;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
-				</g>
-			</g>
-		</g>
-		<rect x="645" y="-185.64" width="16" height="16" style="fill:none;opacity:1"/>
-	</g>
-	<g id="titlebutton-appmenu" transform="translate(-461,242.64)">
-		<g transform="translate(-678,-432.64)">
-			<g transform="translate(-103)">
-				<g transform="translate(58)">
-					<path transform="translate(1204,190)" d="m172 58c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#19a187;stroke-width:.5;stroke:#0e5c4d"/>
-				</g>
-			</g>
-		</g>
-		<rect x="645" y="-185.64" width="16" height="16" style="fill:none"/>
-	</g>
-	<g id="titlebutton-appmenu-backdrop" transform="translate(-461,259.64)" style="opacity:.3">
-		<g transform="translate(-678,-432.64)" style="opacity:1">
-			<g transform="translate(-103)" style="opacity:1">
-				<g transform="translate(58)">
-					<path d="m1376 247.75c-4.0011 0-7.25 3.2489-7.25 7.25s3.2489 7.25 7.25 7.25 7.25-3.2489 7.25-7.25-3.2489-7.25-7.25-7.25z" style="color-rendering:auto;color:#000000;dominant-baseline:auto;font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;image-rendering:auto;isolation:auto;mix-blend-mode:normal;opacity:1;shape-padding:0;shape-rendering:auto;solid-color:#000000;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
-				</g>
-			</g>
-		</g>
-		<rect x="645" y="-185.64" width="16" height="16" style="fill:none;opacity:1"/>
-	</g>
-	<g id="titlebutton-appmenu-hover" transform="translate(-358,276.64)">
-		<g transform="translate(-781,-432.64)">
-			<g transform="translate(-103)">
-				<g transform="translate(58)">
-					<path transform="translate(1184,156)" d="m192 92c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#19a187;stroke-width:.5;stroke:#0e5c4d"/>
-				</g>
-			</g>
-		</g>
-		<rect x="542" y="-185.64" width="16" height="16" style="fill:none"/>
-		<circle cx="550" cy="-177.64" r="1.5" style="opacity:.5;stroke-width:.5"/>
-	</g>
-	<g id="titlebutton-appmenu-active" transform="translate(-358,293.64)">
-		<g transform="translate(-781,-432.64)">
-			<g transform="translate(-103)">
-				<g transform="translate(58)">
-					<path transform="translate(1184,156)" d="m192 92c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#19a187;stroke-width:.5;stroke:#0e5c4d"/>
-				</g>
-			</g>
-		</g>
-		<rect x="542" y="-185.64" width="16" height="16" style="fill:none"/>
-		<circle cx="550" cy="-177.64" r="1.5" style="opacity:.5;stroke-width:.5"/>
-	</g>
-	<g id="titlebutton-appmenu-dark" transform="translate(-219,242.64)">
-		<g transform="translate(-678,-432.64)">
-			<g transform="translate(-103)">
-				<g transform="translate(58)">
-					<path transform="translate(1204,190)" d="m172 58c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#19a187;stroke-width:.5;stroke:#0e5c4d"/>
-				</g>
-			</g>
-		</g>
-		<rect x="645" y="-185.64" width="16" height="16" style="fill:none"/>
-	</g>
-	<g id="titlebutton-appmenu-backdrop-dark" transform="translate(-219,259.64)" style="opacity:.3">
-		<g transform="translate(-678,-432.64)" style="opacity:1">
-			<g transform="translate(-103)" style="opacity:1">
-				<g transform="translate(58)">
-					<path d="m1376 247.75c-4.0011 0-7.25 3.2489-7.25 7.25s3.2489 7.25 7.25 7.25 7.25-3.2489 7.25-7.25-3.2489-7.25-7.25-7.25z" style="color-rendering:auto;color:#000000;dominant-baseline:auto;fill:#fbfefe;font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;image-rendering:auto;isolation:auto;mix-blend-mode:normal;opacity:1;shape-padding:0;shape-rendering:auto;solid-color:#000000;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
-				</g>
-			</g>
-		</g>
-		<rect x="645" y="-185.64" width="16" height="16" style="fill:none;opacity:1"/>
-	</g>
-	<g id="titlebutton-appmenu-hover-dark" transform="translate(-116,276.64)">
-		<g transform="translate(-781,-432.64)">
-			<g transform="translate(-103)">
-				<g transform="translate(58)">
-					<path transform="translate(1184,156)" d="m192 92c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#19a187;stroke-width:.5;stroke:#0e5c4d"/>
-				</g>
-			</g>
-		</g>
-		<rect x="542" y="-185.64" width="16" height="16" style="fill:none"/>
-		<circle cx="550" cy="-177.64" r="1.5" style="opacity:.5;stroke-width:.5"/>
-	</g>
-	<g id="titlebutton-appmenu-active-dark" transform="translate(-116,293.64)">
-		<g transform="translate(-781,-432.64)">
-			<g transform="translate(-103)">
-				<g transform="translate(58)">
-					<path transform="translate(1184,156)" d="m192 92c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#19a187;stroke-width:.5;stroke:#0e5c4d"/>
-				</g>
-			</g>
-		</g>
-		<rect x="542" y="-185.64" width="16" height="16" style="fill:none"/>
-		<circle cx="550" cy="-177.64" r="1.5" style="opacity:.5;stroke-width:.5"/>
-	</g>
-	<g id="checkbox-checked-darkest" transform="translate(228,194.64)">
-		<g transform="translate(19)">
-			<g transform="translate(0,-30)">
-				<rect x="17" y="30.362" width="16" height="16" style="color:#000000;fill:none"/>
-				<rect x="18" y="31.362" width="14" height="14" rx="2" ry="2" style="color:#000000;fill:#367bf0;stroke-width:0"/>
-			</g>
-		</g>
-		<g transform="translate(36,-1036)">
-			<g transform="rotate(45,7.5,1026.4)">
-				<g transform="translate(12.374,11.531)">
-					<g transform="translate(-3,-5)" style="fill:#3b3c3e">
-						<rect x="8" y="1033.4" width="5" height="2" rx=".66666" ry=".66666" style="fill:#2b303b"/>
-						<rect x="11" y="1027.4" width="2" height="8" ry="0" style="fill:#2b303b"/>
-					</g>
-					<rect transform="translate(0,1036.4)" x="5" y="-8" width="3" height="1" style="fill-opacity:0"/>
-				</g>
-			</g>
-		</g>
-	</g>
-	<g id="checkbox-mixed-darkest" transform="translate(247,194.64)">
-		<g transform="translate(19)">
-			<g transform="translate(0,-30)">
-				<rect x="17" y="30.362" width="16" height="16" style="color:#000000;fill:none"/>
-				<rect x="18" y="31.362" width="14" height="14" rx="2" ry="2" style="color:#000000;fill:#367bf0;stroke-width:0"/>
-			</g>
-		</g>
-		<g transform="translate(36,-1036)">
-			<g transform="rotate(45,7.5,1026.4)">
-				<g transform="translate(12.374,11.531)">
-					<g transform="translate(-3,-5)" style="fill:#3b3c3e">
-						<rect transform="rotate(225)" x="-738.8" y="-725.95" width="2" height="8" ry="0" style="fill:#2b303b"/>
-					</g>
-					<rect transform="translate(0,1036.4)" x="5" y="-8" width="3" height="1" style="fill-opacity:0"/>
-				</g>
-			</g>
-		</g>
-	</g>
-	<g id="radio-checked-darkest" transform="translate(209,194.64)">
-		<g transform="translate(19.004,-4.6993e-6)">
-			<g transform="matrix(.93617 0 0 .93566 -96.783 -244.76)">
-				<rect x="206.99" y="261.98" width="17.091" height="17.1" style="color:#000000;fill:none"/>
-				<g transform="matrix(.50892 0 0 .5174 181.79 197.56)">
-					<rect x="51.611" y="126.56" width="29.385" height="28.919" rx="14.692" ry="14.46" style="color:#000000;fill:#367bf0;stroke-width:0"/>
-				</g>
-			</g>
-		</g>
-		<rect x="122" y="6.3622" width="4" height="4" rx="1.9989" ry="2" style="color:#000000;fill:#2b303b"/>
-	</g>
-	<g id="radio-mixed-darkest" transform="translate(209,194.64)">
-		<g transform="translate(19,-4.6993e-6)">
-			<g transform="translate(19.004,-4.6993e-6)">
-				<g transform="matrix(.93617 0 0 .93566 -96.783 -244.76)">
-					<rect x="206.99" y="261.98" width="17.091" height="17.1" style="color:#000000;fill:none"/>
-					<g transform="matrix(.50892 0 0 .5174 181.79 197.56)">
-						<rect x="51.611" y="126.56" width="29.385" height="28.919" rx="14.692" ry="14.46" style="color:#000000;fill:#367bf0;stroke-width:0"/>
-					</g>
-				</g>
-			</g>
-		</g>
-		<rect transform="rotate(-90)" x="-9.3622" y="139" width="2" height="8" ry="0" style="fill:#2b303b"/>
-	</g>
-	<g id="checkbox-unchecked-darkest" transform="translate(228,194.64)">
-		<g transform="translate(0,-30)">
-			<rect x="17" y="30.362" width="16" height="16" style="color:#000000;fill:none"/>
-			<rect x="18.5" y="31.862" width="13" height="13" rx="2" ry="2" style="color:#000000;fill:#2d323d;stroke-linejoin:round;stroke:#262934"/>
-		</g>
-	</g>
-	<g id="radio-unchecked-darkest" transform="translate(208 194.64)">
-		<g transform="matrix(.93617 0 0 .93566 -96.783 -244.76)">
-			<rect x="206.99" y="261.98" width="17.091" height="17.1" style="color:#000000;fill:none"/>
-			<g transform="matrix(.50892 0 0 .5174 181.79 197.56)">
-				<rect x="52.66" y="127.6" width="27.304" height="26.836" rx="13.224" ry="13.246" style="color:#000000;fill:#2d323d;stroke-linejoin:round;stroke-width:2.0822;stroke:#262934"/>
-			</g>
-		</g>
-	</g>
-	<g id="checkbox-checked-insensitive-darkest" transform="translate(228,213.64)" style="opacity:.55">
-		<g transform="translate(19)">
-			<g transform="translate(0,-30)">
-				<rect x="17" y="30.362" width="16" height="16" style="color:#000000;fill:none"/>
-				<rect x="18" y="31.362" width="14" height="14" rx="2" ry="2" style="color:#000000;fill:#367bf0;stroke-width:0"/>
-			</g>
-		</g>
-		<g transform="translate(36,-1036)">
-			<g transform="rotate(45,7.5,1026.4)">
-				<g transform="translate(12.374,11.531)">
-					<g transform="translate(-3,-5)" style="fill:#3b3c3e">
-						<rect x="8" y="1033.4" width="5" height="2" rx=".66666" ry=".66666" style="fill:#2b303b"/>
-						<rect x="11" y="1027.4" width="2" height="8" ry="0" style="fill:#2b303b"/>
-					</g>
-					<rect transform="translate(0,1036.4)" x="5" y="-8" width="3" height="1" style="fill-opacity:0"/>
-				</g>
-			</g>
-		</g>
-	</g>
-	<g id="checkbox-mixed-insensitive-darkest" transform="translate(247,213.64)" style="opacity:.55">
-		<g transform="translate(19)">
-			<g transform="translate(0,-30)">
-				<rect x="17" y="30.362" width="16" height="16" style="color:#000000;fill:none"/>
-				<rect x="18" y="31.362" width="14" height="14" rx="2" ry="2" style="color:#000000;fill:#367bf0;stroke-width:0"/>
-			</g>
-		</g>
-		<g transform="translate(36,-1036)">
-			<g transform="rotate(45,7.5,1026.4)">
-				<g transform="translate(12.374,11.531)">
-					<g transform="translate(-3,-5)" style="fill:#3b3c3e">
-						<rect transform="rotate(225)" x="-738.8" y="-725.95" width="2" height="8" ry="0" style="fill:#2b303b"/>
-					</g>
-					<rect transform="translate(0,1036.4)" x="5" y="-8" width="3" height="1" style="fill-opacity:0"/>
-				</g>
-			</g>
-		</g>
-	</g>
-	<g id="radio-checked-insensitive-darkest" transform="translate(209,213.64)" style="opacity:.55">
-		<g transform="translate(19.004,-4.6993e-6)">
-			<g transform="matrix(.93617 0 0 .93566 -96.783 -244.76)">
-				<rect x="206.99" y="261.98" width="17.091" height="17.1" style="color:#000000;fill:none"/>
-				<g transform="matrix(.50892 0 0 .5174 181.79 197.56)">
-					<rect x="51.611" y="126.56" width="29.385" height="28.919" rx="14.692" ry="14.46" style="color:#000000;fill:#367bf0;stroke-width:0"/>
-				</g>
-			</g>
-		</g>
-		<rect x="122" y="6.3622" width="4" height="4" rx="1.9989" ry="2" style="color:#000000;fill:#2b303b"/>
-	</g>
-	<g id="radio-mixed-insensitive-darkest" transform="translate(209,213.64)" style="opacity:.55">
-		<g transform="translate(19,-4.6993e-6)">
-			<g transform="translate(19.004,-4.6993e-6)">
-				<g transform="matrix(.93617 0 0 .93566 -96.783 -244.76)">
-					<rect x="206.99" y="261.98" width="17.091" height="17.1" style="color:#000000;fill:none"/>
-					<g transform="matrix(.50892 0 0 .5174 181.79 197.56)">
-						<rect x="51.611" y="126.56" width="29.385" height="28.919" rx="14.692" ry="14.46" style="color:#000000;fill:#367bf0;stroke-width:0"/>
-					</g>
-				</g>
-			</g>
-		</g>
-		<rect transform="rotate(-90)" x="-9.3622" y="139" width="2" height="8" ry="0" style="fill:#2b303b"/>
-	</g>
-	<g id="checkbox-unchecked-insensitive-darkest" transform="translate(228,213.64)" style="opacity:.6">
-		<g transform="translate(0,-30)">
-			<rect x="17" y="30.362" width="16" height="16" style="color:#000000;fill:none"/>
-			<rect x="18.5" y="31.862" width="13" height="13" rx="2" ry="2" style="color:#000000;fill:#2d323d;stroke-linejoin:round;stroke:#262934"/>
-		</g>
-	</g>
-	<g id="radio-unchecked-insensitive-darkest" transform="translate(208,213.64)" style="opacity:.6">
-		<g transform="matrix(.93617 0 0 .93566 -96.783 -244.76)">
-			<rect x="206.99" y="261.98" width="17.091" height="17.1" style="color:#000000;fill:none"/>
-			<g transform="matrix(.50892 0 0 .5174 181.79 197.56)">
-				<rect x="52.66" y="127.6" width="27.304" height="26.836" rx="13.224" ry="13.246" style="color:#000000;fill:#2d323d;stroke-linejoin:round;stroke-width:2.0822;stroke:#262934"/>
-			</g>
-		</g>
-	</g>
-	<g id="checkbox-checked-selectionmode-darkest" transform="translate(-220,54.64)">
-		<rect x="466" y="183.36" width="32" height="32" rx="2" ry="2" style="fill:#367bf0;stroke-width:0"/>
-		<g transform="translate(-2.2045,1.973)">
-			<path d="m491.36 188.95-9.5312 9.5625-4.7812-4.7812-3.1876 3.1875 4.7813 4.7812 3.1875 3.1875 3.1562-3.1875 9.5626-9.5625z" style="fill:#2b303b"/>
-		</g>
-		<rect x="462" y="179.36" width="40" height="40" rx="2" ry="2" style="fill:none;stroke-width:0"/>
-	</g>
-	<g id="checkbox-selectionmode-darkest" transform="translate(-175,54.64)">
-		<rect x="466.5" y="183.86" width="31" height="31" rx="2" ry="2" style="fill:#2d323d;stroke:#262934"/>
-		<g transform="translate(-2.2045,1.973)">
-			<path d="m491.36 188.95-9.5312 9.5625-4.7812-4.7812-3.1876 3.1875 4.7813 4.7812 3.1875 3.1875 3.1562-3.1875 9.5626-9.5625z" style="fill:#5f6578;opacity:.55"/>
-		</g>
-		<rect x="462" y="179.36" width="40" height="40" rx="2" ry="2" style="fill:none;stroke-width:0"/>
-	</g>
-	<g id="titlebutton-minimize-darkest" transform="translate(-221,380.64)">
-		<rect x="587" y="-185.64" width="16" height="16" style="fill:none"/>
-		<path d="m595-184.64c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#fd7d00;stroke-width:.5;stroke:#c05f00"/>
-	</g>
-	<g id="titlebutton-close-darkest" transform="translate(-239,380.64)">
-		<g transform="translate(-678,-432.64)">
-			<g transform="translate(-103)">
-				<g transform="translate(58)">
-					<path transform="translate(962,190)" d="m414 58c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#d31919;stroke-width:.5;stroke:#8b1111"/>
-				</g>
-			</g>
-		</g>
-		<rect x="645" y="-185.64" width="16" height="16" style="fill:none"/>
-	</g>
-	<g id="titlebutton-maximize-darkest" transform="translate(-230,380.64)">
-		<rect x="616" y="-185.64" width="16" height="16" style="fill:none"/>
-		<path d="m624-184.63c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#377cf1;stroke-width:.5;stroke:#0e53ca"/>
-	</g>
-	<g id="titlebutton-close-hover-darkest" transform="translate(-136,414.64)">
-		<g transform="translate(-781,-432.64)">
-			<g transform="translate(-103)">
-				<g transform="translate(58)">
-					<path transform="translate(962,156)" d="m414 92c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#d31919;stroke-width:.5;stroke:#8b1111"/>
-				</g>
-			</g>
-		</g>
-		<rect x="542" y="-185.64" width="16" height="16" style="fill:none"/>
-		<path d="m547-180.72h0.75c8e-3 -9e-5 0.0156-3.5e-4 0.0234 0 0.19122 8e-3 0.3824 0.0964 0.51563 0.23437l1.7109 1.7109 1.7344-1.7109c0.19922-0.17287 0.335-0.22912 0.51562-0.23437h0.75v0.75c0 0.21485-0.0257 0.41298-0.1875 0.5625l-1.7109 1.7109 1.6875 1.6875c0.14114 0.14113 0.21093 0.34009 0.21093 0.53907v0.75h-0.75c-0.19897-1e-5 -0.39793-0.0698-0.53906-0.21094l-1.7109-1.7109-1.7109 1.7109c-0.14113 0.14114-0.3401 0.21094-0.53907 0.21094h-0.75v-0.75c0-0.19897 0.0698-0.39794 0.21094-0.53907l1.7109-1.6875-1.7109-1.7109c-0.15805-0.14598-0.22737-0.35194-0.21094-0.5625v-0.75z" style="color:#bebebe;enable-background:new;opacity:.5;text-decoration-line:none;text-indent:0;text-transform:none"/>
-	</g>
-	<g id="titlebutton-maximize-hover-darkest" transform="translate(-127,414.64)">
-		<g transform="translate(-781,-432.64)">
-			<path transform="translate(908,156)" d="m394 92c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#377cf1;stroke-width:.5;stroke:#0e53ca"/>
-		</g>
-		<rect x="513" y="-185.64" width="16" height="16" style="fill:none"/>
-		<path d="m519.8-180.64h3.3817c0.4503 0 0.81623 0.36847 0.81876 0.8188v3.3817zm2.4074 6.0069h-3.3951c-0.45035 0-0.81876-0.36842-0.81876-0.81875v-3.3951l4.2138 4.2138" style="fill-rule:evenodd;opacity:.5"/>
-	</g>
-	<g id="titlebutton-minimize-hover-darkest" transform="translate(-118,414.64)">
-		<g transform="translate(-781,-432.64)">
-			<path transform="translate(899,156)" d="m374 92c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#fd7d00;stroke-width:.5;stroke:#c05f00"/>
-		</g>
-		<rect x="484" y="-185.64" width="16" height="16" style="fill:none"/>
-		<path d="m489-178.39v1.5h6v-1.5z" style="color:#000000;opacity:.5;stroke-width:.86603;text-decoration-line:none;text-indent:0;text-transform:none"/>
-	</g>
-	<g id="titlebutton-close-active-darkest" transform="translate(-35,431.64)">
-		<g transform="translate(-882,-432.64)">
-			<g transform="translate(-103)">
-				<g transform="translate(58)">
-					<path transform="translate(962,139)" d="m414 109c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#d31919;stroke-width:.5;stroke:#8b1111"/>
-				</g>
-			</g>
-		</g>
-		<rect x="441" y="-185.64" width="16" height="16" style="fill:none"/>
-		<path d="m446-180.72h0.75c8e-3 -9e-5 0.0156-3.5e-4 0.0234 0 0.19122 8e-3 0.3824 0.0964 0.51563 0.23437l1.7109 1.7109 1.7344-1.7109c0.19922-0.17287 0.335-0.22912 0.51562-0.23437h0.75v0.75c0 0.21485-0.0257 0.41298-0.1875 0.5625l-1.7109 1.7109 1.6875 1.6875c0.14114 0.14113 0.21093 0.34009 0.21093 0.53907v0.75h-0.75c-0.19897-1e-5 -0.39793-0.0698-0.53906-0.21094l-1.7109-1.7109-1.7109 1.7109c-0.14113 0.14114-0.3401 0.21094-0.53907 0.21094h-0.75v-0.75c0-0.19897 0.0698-0.39794 0.21094-0.53907l1.7109-1.6875-1.7109-1.7109c-0.15805-0.14598-0.22737-0.35194-0.21094-0.5625v-0.75z" style="color:#bebebe;enable-background:new;opacity:.5;text-decoration-line:none;text-indent:0;text-transform:none"/>
-	</g>
-	<g id="titlebutton-maximize-active-darkest" transform="translate(-26,431.64)">
-		<g transform="translate(-882,-432.64)">
-			<g transform="translate(-132)">
-				<g transform="translate(58)">
-					<path transform="translate(982,139)" d="m394 109c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#377cf1;stroke-width:.5;stroke:#0e53ca"/>
-				</g>
-			</g>
-		</g>
-		<rect x="412" y="-185.64" width="16" height="16" style="fill:none"/>
-		<path d="m418.8-180.64h3.3817c0.4503 0 0.81623 0.36847 0.81876 0.8188v3.3817zm2.4074 6.0069h-3.3951c-0.45035 0-0.81876-0.36842-0.81876-0.81875v-3.3951l4.2138 4.2138" style="fill-rule:evenodd;opacity:.5"/>
-	</g>
-	<g id="titlebutton-minimize-active-darkest" transform="translate(-17,431.64)">
-		<g transform="translate(-882,-432.64)">
-			<g transform="translate(-161)">
-				<g transform="translate(58)">
-					<path transform="translate(1002,139)" d="m374 109c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#fd7d00;stroke-width:.5;stroke:#c05f00"/>
-				</g>
-			</g>
-		</g>
-		<rect x="383" y="-185.64" width="16" height="16" style="fill:none"/>
-		<path d="m388-178.39v1.5h6v-1.5z" style="color:#000000;opacity:.5;stroke-width:.86603;text-decoration-line:none;text-indent:0;text-transform:none"/>
-	</g>
-	<g id="titlebutton-maximize-backdrop-darkest" transform="translate(-230,380.64)" style="opacity:.3">
-		<path d="m624-167.88c-4.0011 0-7.25 3.2489-7.25 7.25s3.2489 7.25 7.25 7.25 7.25-3.2489 7.25-7.25-3.2489-7.25-7.25-7.25z" style="color-rendering:auto;color:#000000;dominant-baseline:auto;fill:#fff;font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;image-rendering:auto;isolation:auto;mix-blend-mode:normal;opacity:1;shape-padding:0;shape-rendering:auto;solid-color:#000000;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
-		<rect x="616" y="-168.64" width="16" height="16" style="fill:none;opacity:1"/>
-	</g>
-	<g id="titlebutton-minimize-backdrop-darkest" transform="translate(-221,380.64)" style="opacity:.3">
-		<rect x="587" y="-168.64" width="16" height="16" style="fill:none;opacity:1"/>
-		<path d="m595-167.89c-4.0011 0-7.25 3.2489-7.25 7.25s3.2489 7.25 7.25 7.25 7.25-3.2489 7.25-7.25-3.2489-7.25-7.25-7.25z" style="color-rendering:auto;color:#000000;dominant-baseline:auto;fill:#fff;font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;image-rendering:auto;isolation:auto;mix-blend-mode:normal;opacity:1;shape-padding:0;shape-rendering:auto;solid-color:#000000;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
-	</g>
-	<g id="titlebutton-close-backdrop-darkest" transform="translate(-239,397.64)" style="opacity:.3">
-		<g transform="translate(-678,-432.64)" style="opacity:1">
-			<g transform="translate(-103)" style="opacity:1">
-				<g transform="translate(58)">
-					<path d="m1376 247.75c-4.0011 0-7.25 3.2489-7.25 7.25s3.2489 7.25 7.25 7.25 7.25-3.2489 7.25-7.25-3.2489-7.25-7.25-7.25z" style="color-rendering:auto;color:#000000;dominant-baseline:auto;fill:#fff;font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;image-rendering:auto;isolation:auto;mix-blend-mode:normal;opacity:1;shape-padding:0;shape-rendering:auto;solid-color:#000000;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
-				</g>
-			</g>
-		</g>
-		<rect x="645" y="-185.64" width="16" height="16" style="fill:none;opacity:1"/>
-	</g>
-	<g id="titlebutton-appmenu-darkest" transform="translate(-219,380.64)">
-		<g transform="translate(-678,-432.64)">
-			<g transform="translate(-103)">
-				<g transform="translate(58)">
-					<path transform="translate(1204,190)" d="m172 58c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#19a187;stroke-width:.5;stroke:#0e5c4d"/>
-				</g>
-			</g>
-		</g>
-		<rect x="645" y="-185.64" width="16" height="16" style="fill:none"/>
-	</g>
-	<g id="titlebutton-appmenu-backdrop-darkest" transform="translate(-219,397.64)" style="opacity:.3">
-		<g transform="translate(-678,-432.64)" style="opacity:1">
-			<g transform="translate(-103)" style="opacity:1">
-				<g transform="translate(58)">
-					<path d="m1376 247.75c-4.0011 0-7.25 3.2489-7.25 7.25s3.2489 7.25 7.25 7.25 7.25-3.2489 7.25-7.25-3.2489-7.25-7.25-7.25z" style="color-rendering:auto;color:#000000;dominant-baseline:auto;fill:#fff;font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;image-rendering:auto;isolation:auto;mix-blend-mode:normal;opacity:1;shape-padding:0;shape-rendering:auto;solid-color:#000000;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
-				</g>
-			</g>
-		</g>
-		<rect x="645" y="-185.64" width="16" height="16" style="fill:none;opacity:1"/>
-	</g>
-	<g id="titlebutton-appmenu-hover-darkest" transform="translate(-116,414.64)">
-		<g transform="translate(-781,-432.64)">
-			<g transform="translate(-103)">
-				<g transform="translate(58)">
-					<path transform="translate(1184,156)" d="m192 92c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#19a187;stroke-width:.5;stroke:#0e5c4d"/>
-				</g>
-			</g>
-		</g>
-		<rect x="542" y="-185.64" width="16" height="16" style="fill:none"/>
-		<circle cx="550" cy="-177.64" r="1.5" style="opacity:.5;stroke-width:.5"/>
-	</g>
-	<g id="titlebutton-appmenu-active-darkest" transform="translate(-116,431.64)">
-		<g transform="translate(-781,-432.64)">
-			<g transform="translate(-103)">
-				<g transform="translate(58)">
-					<path transform="translate(1184,156)" d="m192 92c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#19a187;stroke-width:.5;stroke:#0e5c4d"/>
-				</g>
-			</g>
-		</g>
-		<rect x="542" y="-185.64" width="16" height="16" style="fill:none"/>
-		<circle cx="550" cy="-177.64" r="1.5" style="opacity:.5;stroke-width:.5"/>
-	</g>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   viewBox="0 0 484 276"
+   id="svg10436"
+   sodipodi:docname="assets.svg"
+   inkscape:version="0.92.4 5da689c313, 2019-01-14">
+  <metadata
+     id="metadata10442">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs10440" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1278"
+     inkscape:window-height="1568"
+     id="namedview10438"
+     showgrid="false"
+     inkscape:zoom="1.5516529"
+     inkscape:cx="242"
+     inkscape:cy="138"
+     inkscape:window-x="2160"
+     inkscape:window-y="1010"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg10436" />
+  <rect
+     transform="scale(1,-1)"
+     y="-138"
+     width="121"
+     height="138"
+     rx="0"
+     ry="0"
+     style="color:#000000;fill:#f9fafb"
+     id="rect9160" />
+  <rect
+     x="121"
+     y="-1.4648e-5"
+     width="121"
+     height="138"
+     style="fill:#e7e8eb;stroke-width:0"
+     id="rect9162" />
+  <rect
+     y="138"
+     width="121"
+     height="138"
+     rx="0"
+     ry="0"
+     style="color:#000000;fill:#367bf0"
+     id="rect9164" />
+  <rect
+     transform="scale(1,-1)"
+     x="242"
+     y="-138"
+     width="121"
+     height="138"
+     rx="0"
+     ry="0"
+     style="color:#000000;fill:#403333;fill-opacity:1"
+     id="rect9166" />
+  <rect
+     x="363"
+     y="-1.4648e-5"
+     width="121"
+     height="138"
+     style="fill:#40333f;stroke-width:0;fill-opacity:0.94117647"
+     id="rect9168" />
+  <rect
+     transform="scale(1,-1)"
+     x="242"
+     y="-276"
+     width="121"
+     height="138"
+     rx="0"
+     ry="0"
+     style="color:#000000;fill:#1a1a1a"
+     id="rect9170" />
+  <rect
+     x="363"
+     y="138"
+     width="121"
+     height="138"
+     style="fill:#010101;stroke-width:0"
+     id="rect9172" />
+  <g
+     id="checkbox-checked"
+     transform="translate(-14,56.64)">
+    <g
+       transform="translate(19)"
+       id="g9180">
+      <g
+         transform="translate(0,-30)"
+         id="g9178">
+        <rect
+           x="17"
+           y="30.362"
+           width="16"
+           height="16"
+           style="color:#000000;fill:none"
+           id="rect9174" />
+        <rect
+           x="18"
+           y="31.362"
+           width="14"
+           height="14"
+           rx="2"
+           ry="2"
+           style="color:#000000;fill:#367bf0;stroke-width:0"
+           id="rect9176" />
+      </g>
+    </g>
+    <g
+       transform="translate(35.801 -1036)"
+       id="g9194">
+      <g
+         transform="matrix(.70711 .70711 -.70711 .70711 727.94 295.31)"
+         id="g9192">
+        <g
+           transform="translate(12.374,11.531)"
+           id="g9190">
+          <g
+             transform="translate(-3,-5)"
+             style="fill:#392626"
+             id="g9186">
+            <rect
+               x="8.141"
+               y="1033.3"
+               width="5"
+               height="2"
+               rx=".66666"
+               ry=".66666"
+               style="fill:#392626"
+               id="rect9182" />
+            <rect
+               x="11.141"
+               y="1027.3"
+               width="2"
+               height="8"
+               ry="0"
+               style="fill:#392626"
+               id="rect9184" />
+          </g>
+          <rect
+             transform="translate(0,1036.4)"
+             x="5"
+             y="-8"
+             width="3"
+             height="1"
+             style="fill-opacity:0"
+             id="rect9188" />
+        </g>
+      </g>
+    </g>
+  </g>
+  <g
+     id="checkbox-mixed"
+     transform="translate(5,56.64)">
+    <g
+       transform="translate(19)"
+       id="g9203">
+      <g
+         transform="translate(0,-30)"
+         id="g9201">
+        <rect
+           x="17"
+           y="30.362"
+           width="16"
+           height="16"
+           style="color:#000000;fill:none"
+           id="rect9197" />
+        <rect
+           x="18"
+           y="31.362"
+           width="14"
+           height="14"
+           rx="2"
+           ry="2"
+           style="color:#000000;fill:#367bf0;stroke-width:0"
+           id="rect9199" />
+      </g>
+    </g>
+    <g
+       transform="translate(36,-1036)"
+       id="g9215">
+      <g
+         transform="matrix(.70711 .70711 -.70711 .70711 727.94 295.31)"
+         id="g9213">
+        <g
+           transform="translate(12.374,11.531)"
+           id="g9211">
+          <g
+             transform="translate(-3,-5)"
+             style="fill:#392626"
+             id="g9207">
+            <rect
+               transform="matrix(-.70711 -.70711 .70711 -.70711 0 0)"
+               x="-738.8"
+               y="-725.95"
+               width="2"
+               height="8"
+               ry="0"
+               style="fill:#392626"
+               id="rect9205" />
+          </g>
+          <rect
+             transform="translate(0,1036.4)"
+             x="5"
+             y="-8"
+             width="3"
+             height="1"
+             style="fill-opacity:0"
+             id="rect9209" />
+        </g>
+      </g>
+    </g>
+  </g>
+  <g
+     id="radio-checked"
+     transform="translate(-33,56.64)">
+    <g
+       transform="translate(19.004,-4.6993e-6)"
+       id="g9226">
+      <g
+         transform="matrix(.93617 0 0 .93566 -96.783 -244.76)"
+         id="g9224">
+        <rect
+           x="206.99"
+           y="261.98"
+           width="17.091"
+           height="17.1"
+           style="color:#000000;fill:none"
+           id="rect9218" />
+        <g
+           transform="matrix(.50892 0 0 .5174 181.79 197.56)"
+           id="g9222">
+          <rect
+             x="51.611"
+             y="126.56"
+             width="29.385"
+             height="28.919"
+             rx="14.692"
+             ry="14.46"
+             style="color:#000000;fill:#367bf0;stroke-width:0"
+             id="rect9220" />
+        </g>
+      </g>
+    </g>
+    <rect
+       x="122"
+       y="6.3622"
+       width="4"
+       height="4"
+       rx="1.9989"
+       ry="2"
+       style="color:#000000;fill:#392626"
+       id="rect9228" />
+  </g>
+  <g
+     id="radio-mixed"
+     transform="translate(-33,56.64)">
+    <g
+       transform="translate(19,-4.6993e-6)"
+       id="g9241">
+      <g
+         transform="translate(19.004,-4.6993e-6)"
+         id="g9239">
+        <g
+           transform="matrix(.93617 0 0 .93566 -96.783 -244.76)"
+           id="g9237">
+          <rect
+             x="206.99"
+             y="261.98"
+             width="17.091"
+             height="17.1"
+             style="color:#000000;fill:none"
+             id="rect9231" />
+          <g
+             transform="matrix(.50892 0 0 .5174 181.79 197.56)"
+             id="g9235">
+            <rect
+               x="51.611"
+               y="126.56"
+               width="29.385"
+               height="28.919"
+               rx="14.692"
+               ry="14.46"
+               style="color:#000000;fill:#367bf0;stroke-width:0"
+               id="rect9233" />
+          </g>
+        </g>
+      </g>
+    </g>
+    <rect
+       transform="rotate(-90)"
+       x="-9.3622"
+       y="139"
+       width="2"
+       height="8"
+       ry="0"
+       style="fill:#392626"
+       id="rect9243" />
+  </g>
+  <g
+     id="checkbox-unchecked"
+     transform="translate(-14,56.64)">
+    <g
+       transform="translate(0,-30)"
+       id="g9250">
+      <rect
+         x="17"
+         y="30.362"
+         width="16"
+         height="16"
+         style="color:#000000;fill:none"
+         id="rect9246" />
+      <rect
+         x="18.5"
+         y="31.862"
+         width="13"
+         height="13"
+         rx="2"
+         ry="2"
+         style="color:#000000;fill:#efd5cb;stroke-linejoin:round;stroke:#654d4d"
+         id="rect9248" />
+    </g>
+  </g>
+  <g
+     id="radio-unchecked"
+     transform="translate(-33.996,56.64)">
+    <g
+       transform="matrix(.93617 0 0 .93566 -96.783 -244.76)"
+       id="g9259">
+      <rect
+         x="206.99"
+         y="261.98"
+         width="17.091"
+         height="17.1"
+         style="color:#000000;fill:none"
+         id="rect9253" />
+      <g
+         transform="matrix(.50892 0 0 .5174 181.79 197.56)"
+         id="g9257">
+        <rect
+           x="52.66"
+           y="127.6"
+           width="27.304"
+           height="26.836"
+           rx="13.224"
+           ry="13.246"
+           style="color:#000000;fill:#efd5cb;stroke-linejoin:round;stroke-width:2.0822;stroke:#654d4d"
+           id="rect9255" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="checkbox-checked-insensitive"
+     transform="translate(-14,75.64)"
+     style="opacity:.55">
+    <g
+       transform="translate(19)"
+       id="g9268">
+      <g
+         transform="translate(0,-30)"
+         id="g9266">
+        <rect
+           x="17"
+           y="30.362"
+           width="16"
+           height="16"
+           style="color:#000000;fill:none"
+           id="rect9262" />
+        <rect
+           x="18"
+           y="31.362"
+           width="14"
+           height="14"
+           rx="2"
+           ry="2"
+           style="color:#000000;fill:#367bf0;stroke-width:0"
+           id="rect9264" />
+      </g>
+    </g>
+    <g
+       transform="translate(36 -1036)"
+       id="g9282">
+      <g
+         transform="matrix(.70711 .70711 -.70711 .70711 727.94 295.31)"
+         id="g9280">
+        <g
+           transform="translate(12.374,11.531)"
+           id="g9278">
+          <g
+             transform="translate(-3,-5)"
+             style="fill:#392626"
+             id="g9274">
+            <rect
+               x="8"
+               y="1033.4"
+               width="5"
+               height="2"
+               rx=".66666"
+               ry=".66666"
+               style="fill:#392626"
+               id="rect9270" />
+            <rect
+               x="11"
+               y="1027.4"
+               width="2"
+               height="8"
+               ry="0"
+               style="fill:#392626"
+               id="rect9272" />
+          </g>
+          <rect
+             transform="translate(0,1036.4)"
+             x="5"
+             y="-8"
+             width="3"
+             height="1"
+             style="fill-opacity:0"
+             id="rect9276" />
+        </g>
+      </g>
+    </g>
+  </g>
+  <g
+     id="checkbox-mixed-insensitive"
+     transform="translate(5,75.64)"
+     style="opacity:.55">
+    <g
+       transform="translate(19)"
+       id="g9291">
+      <g
+         transform="translate(0,-30)"
+         id="g9289">
+        <rect
+           x="17"
+           y="30.362"
+           width="16"
+           height="16"
+           style="color:#000000;fill:none"
+           id="rect9285" />
+        <rect
+           x="18"
+           y="31.362"
+           width="14"
+           height="14"
+           rx="2"
+           ry="2"
+           style="color:#000000;fill:#367bf0;stroke-width:0"
+           id="rect9287" />
+      </g>
+    </g>
+    <g
+       transform="translate(36,-1036)"
+       id="g9303">
+      <g
+         transform="matrix(.70711 .70711 -.70711 .70711 727.94 295.31)"
+         id="g9301">
+        <g
+           transform="translate(12.374,11.531)"
+           id="g9299">
+          <g
+             transform="translate(-3,-5)"
+             style="fill:#392626"
+             id="g9295">
+            <rect
+               transform="matrix(-.70711 -.70711 .70711 -.70711 0 0)"
+               x="-738.8"
+               y="-725.95"
+               width="2"
+               height="8"
+               ry="0"
+               style="fill:#392626"
+               id="rect9293" />
+          </g>
+          <rect
+             transform="translate(0,1036.4)"
+             x="5"
+             y="-8"
+             width="3"
+             height="1"
+             style="fill-opacity:0"
+             id="rect9297" />
+        </g>
+      </g>
+    </g>
+  </g>
+  <g
+     id="radio-checked-insensitive"
+     transform="translate(-33,75.64)"
+     style="opacity:.55">
+    <g
+       transform="translate(19.004,-4.6993e-6)"
+       id="g9314">
+      <g
+         transform="matrix(.93617 0 0 .93566 -96.783 -244.76)"
+         id="g9312">
+        <rect
+           x="206.99"
+           y="261.98"
+           width="17.091"
+           height="17.1"
+           style="color:#000000;fill:none"
+           id="rect9306" />
+        <g
+           transform="matrix(.50892 0 0 .5174 181.79 197.56)"
+           id="g9310">
+          <rect
+             x="51.611"
+             y="126.56"
+             width="29.385"
+             height="28.919"
+             rx="14.692"
+             ry="14.46"
+             style="color:#000000;fill:#367bf0;stroke-width:0"
+             id="rect9308" />
+        </g>
+      </g>
+    </g>
+    <rect
+       x="122"
+       y="6.3622"
+       width="4"
+       height="4"
+       rx="1.9989"
+       ry="2"
+       style="color:#000000;fill:#392626"
+       id="rect9316" />
+  </g>
+  <g
+     id="radio-mixed-insensitive"
+     transform="translate(-33,75.64)"
+     style="opacity:.55">
+    <g
+       transform="translate(19,-4.6993e-6)"
+       id="g9329">
+      <g
+         transform="translate(19.004,-4.6993e-6)"
+         id="g9327">
+        <g
+           transform="matrix(.93617 0 0 .93566 -96.783 -244.76)"
+           id="g9325">
+          <rect
+             x="206.99"
+             y="261.98"
+             width="17.091"
+             height="17.1"
+             style="color:#000000;fill:none"
+             id="rect9319" />
+          <g
+             transform="matrix(.50892 0 0 .5174 181.79 197.56)"
+             id="g9323">
+            <rect
+               x="51.611"
+               y="126.56"
+               width="29.385"
+               height="28.919"
+               rx="14.692"
+               ry="14.46"
+               style="color:#000000;fill:#367bf0;stroke-width:0"
+               id="rect9321" />
+          </g>
+        </g>
+      </g>
+    </g>
+    <rect
+       transform="rotate(-90)"
+       x="-9.3622"
+       y="139"
+       width="2"
+       height="8"
+       ry="0"
+       style="fill:#392626"
+       id="rect9331" />
+  </g>
+  <g
+     id="checkbox-unchecked-insensitive"
+     transform="translate(-14,75.64)"
+     style="opacity:.55">
+    <g
+       transform="translate(0,-30)"
+       id="g9338">
+      <rect
+         x="17"
+         y="30.362"
+         width="16"
+         height="16"
+         style="color:#000000;fill:none"
+         id="rect9334" />
+      <rect
+         x="18.5"
+         y="31.862"
+         width="13"
+         height="13"
+         rx="2"
+         ry="2"
+         style="color:#000000;fill:#efd5cb;stroke-linejoin:round;stroke:#654d4d"
+         id="rect9336" />
+    </g>
+  </g>
+  <g
+     id="radio-unchecked-insensitive"
+     transform="translate(-33.996,75.64)"
+     style="opacity:.55">
+    <g
+       transform="matrix(.93617 0 0 .93566 -96.783 -244.76)"
+       id="g9347">
+      <rect
+         x="206.99"
+         y="261.98"
+         width="17.091"
+         height="17.1"
+         style="color:#000000;fill:none"
+         id="rect9341" />
+      <g
+         transform="matrix(.50892 0 0 .5174 181.79 197.56)"
+         id="g9345">
+        <rect
+           x="52.66"
+           y="127.6"
+           width="27.304"
+           height="26.836"
+           rx="13.224"
+           ry="13.246"
+           style="color:#000000;fill:#efd5cb;stroke-linejoin:round;stroke-width:2.0822;stroke:#654d4d"
+           id="rect9343" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="checkbox-checked-selected"
+     transform="translate(-14,194.64)">
+    <g
+       transform="translate(19)"
+       id="g9356">
+      <g
+         transform="translate(0,-30)"
+         id="g9354">
+        <rect
+           x="17"
+           y="30.362"
+           width="16"
+           height="16"
+           style="color:#000000;fill:none"
+           id="rect9350" />
+        <rect
+           x="18"
+           y="31.362"
+           width="14"
+           height="14"
+           rx="2"
+           ry="2"
+           style="color:#000000;fill:#000000;stroke-width:0"
+           id="rect9352" />
+      </g>
+    </g>
+    <g
+       transform="translate(36,-1036)"
+       id="g9370">
+      <g
+         transform="matrix(.70711 .70711 -.70711 .70711 727.94 295.31)"
+         id="g9368">
+        <g
+           transform="translate(12.374,11.531)"
+           id="g9366">
+          <g
+             transform="translate(-3,-5)"
+             style="fill:#367bf0"
+             id="g9362">
+            <rect
+               x="8"
+               y="1033.4"
+               width="5"
+               height="2"
+               rx=".66666"
+               ry=".66666"
+               style="fill:#367bf0"
+               id="rect9358" />
+            <rect
+               x="11"
+               y="1027.4"
+               width="2"
+               height="8"
+               ry="0"
+               style="fill:#367bf0"
+               id="rect9360" />
+          </g>
+          <rect
+             transform="translate(0,1036.4)"
+             x="5"
+             y="-8"
+             width="3"
+             height="1"
+             style="fill-opacity:0"
+             id="rect9364" />
+        </g>
+      </g>
+    </g>
+  </g>
+  <g
+     id="checkbox-mixed-selected"
+     transform="translate(5,194.64)">
+    <g
+       transform="translate(19)"
+       id="g9379">
+      <g
+         transform="translate(0,-30)"
+         id="g9377">
+        <rect
+           x="17"
+           y="30.362"
+           width="16"
+           height="16"
+           style="color:#000000;fill:none"
+           id="rect9373" />
+        <rect
+           x="18"
+           y="31.362"
+           width="14"
+           height="14"
+           rx="2"
+           ry="2"
+           style="color:#000000;fill:#000000;stroke-width:0"
+           id="rect9375" />
+      </g>
+    </g>
+    <g
+       transform="translate(36,-1036)"
+       id="g9391">
+      <g
+         transform="matrix(.70711 .70711 -.70711 .70711 727.94 295.31)"
+         id="g9389">
+        <g
+           transform="translate(12.374,11.531)"
+           id="g9387">
+          <g
+             transform="translate(-3,-5)"
+             style="fill:#3b3c3e"
+             id="g9383">
+            <rect
+               transform="matrix(-.70711 -.70711 .70711 -.70711 0 0)"
+               x="-738.8"
+               y="-725.95"
+               width="2"
+               height="8"
+               ry="0"
+               style="fill:#367bf0"
+               id="rect9381" />
+          </g>
+          <rect
+             transform="translate(0,1036.4)"
+             x="5"
+             y="-8"
+             width="3"
+             height="1"
+             style="fill-opacity:0"
+             id="rect9385" />
+        </g>
+      </g>
+    </g>
+  </g>
+  <g
+     id="radio-checked-selected"
+     transform="translate(-33,194.64)">
+    <g
+       transform="translate(19.004,-4.6993e-6)"
+       id="g9402">
+      <g
+         transform="matrix(.93617 0 0 .93566 -96.783 -244.76)"
+         id="g9400">
+        <rect
+           x="206.99"
+           y="261.98"
+           width="17.091"
+           height="17.1"
+           style="color:#000000;fill:none"
+           id="rect9394" />
+        <g
+           transform="matrix(.50892 0 0 .5174 181.79 197.56)"
+           id="g9398">
+          <rect
+             x="51.611"
+             y="126.56"
+             width="29.385"
+             height="28.919"
+             rx="14.692"
+             ry="14.46"
+             style="color:#000000;fill:#000000;stroke-width:0"
+             id="rect9396" />
+        </g>
+      </g>
+    </g>
+    <rect
+       x="122"
+       y="6.3622"
+       width="4"
+       height="4"
+       rx="1.9989"
+       ry="2"
+       style="color:#000000;fill:#367bf0"
+       id="rect9404" />
+  </g>
+  <g
+     id="radio-mixed-selected"
+     transform="translate(-33,194.64)">
+    <g
+       transform="translate(19,-4.6993e-6)"
+       id="g9417">
+      <g
+         transform="translate(19.004,-4.6993e-6)"
+         id="g9415">
+        <g
+           transform="matrix(.93617 0 0 .93566 -96.783 -244.76)"
+           id="g9413">
+          <rect
+             x="206.99"
+             y="261.98"
+             width="17.091"
+             height="17.1"
+             style="color:#000000;fill:none"
+             id="rect9407" />
+          <g
+             transform="matrix(.50892 0 0 .5174 181.79 197.56)"
+             id="g9411">
+            <rect
+               x="51.611"
+               y="126.56"
+               width="29.385"
+               height="28.919"
+               rx="14.692"
+               ry="14.46"
+               style="color:#000000;fill:#000000;stroke-width:0"
+               id="rect9409" />
+          </g>
+        </g>
+      </g>
+    </g>
+    <rect
+       transform="rotate(-90)"
+       x="-9.3622"
+       y="139"
+       width="2"
+       height="8"
+       ry="0"
+       style="fill:#367bf0"
+       id="rect9419" />
+  </g>
+  <g
+     id="checkbox-unchecked-selected"
+     transform="translate(-14,194.64)">
+    <g
+       transform="translate(0,-30)"
+       id="g9426">
+      <rect
+         x="17"
+         y="30.362"
+         width="16"
+         height="16"
+         style="color:#000000;fill:none"
+         id="rect9422" />
+      <rect
+         x="18.5"
+         y="31.862"
+         width="13"
+         height="13"
+         rx="2"
+         ry="2"
+         style="color:#000000;fill:#367bf0;opacity:.5;stroke-linejoin:round;stroke:#000000"
+         id="rect9424" />
+    </g>
+  </g>
+  <g
+     id="radio-unchecked-selected"
+     transform="translate(-33.996 194.64)">
+    <g
+       transform="matrix(.93617 0 0 .93566 -96.783 -244.76)"
+       id="g9435">
+      <rect
+         x="206.99"
+         y="261.98"
+         width="17.091"
+         height="17.1"
+         style="color:#000000;fill:none"
+         id="rect9429" />
+      <g
+         transform="matrix(.50892 0 0 .5174 181.79 197.56)"
+         id="g9433">
+        <rect
+           x="52.66"
+           y="127.6"
+           width="27.304"
+           height="26.836"
+           rx="13.224"
+           ry="13.246"
+           style="color:#000000;fill:#367bf0;opacity:.5;stroke-linejoin:round;stroke-width:2.0822;stroke:#000000"
+           id="rect9431" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="checkbox-checked-insensitive-selected"
+     transform="translate(-14,213.64)"
+     style="opacity:.55">
+    <g
+       transform="translate(19)"
+       id="g9444">
+      <g
+         transform="translate(0,-30)"
+         id="g9442">
+        <rect
+           x="17"
+           y="30.362"
+           width="16"
+           height="16"
+           style="color:#000000;fill:none"
+           id="rect9438" />
+        <rect
+           x="18"
+           y="31.362"
+           width="14"
+           height="14"
+           rx="2"
+           ry="2"
+           style="color:#000000;fill:#000000;stroke-width:0"
+           id="rect9440" />
+      </g>
+    </g>
+    <g
+       transform="translate(36,-1036)"
+       id="g9458">
+      <g
+         transform="matrix(.70711 .70711 -.70711 .70711 727.94 295.31)"
+         id="g9456">
+        <g
+           transform="translate(12.374,11.531)"
+           id="g9454">
+          <g
+             transform="translate(-3,-5)"
+             style="fill:#3b3c3e"
+             id="g9450">
+            <rect
+               x="8"
+               y="1033.4"
+               width="5"
+               height="2"
+               rx=".66666"
+               ry=".66666"
+               style="fill:#367bf0"
+               id="rect9446" />
+            <rect
+               x="11"
+               y="1027.4"
+               width="2"
+               height="8"
+               ry="0"
+               style="fill:#367bf0"
+               id="rect9448" />
+          </g>
+          <rect
+             transform="translate(0,1036.4)"
+             x="5"
+             y="-8"
+             width="3"
+             height="1"
+             style="fill-opacity:0"
+             id="rect9452" />
+        </g>
+      </g>
+    </g>
+  </g>
+  <g
+     id="checkbox-mixed-insensitive-selected"
+     transform="translate(5,213.64)"
+     style="opacity:.55">
+    <g
+       transform="translate(19)"
+       id="g9467">
+      <g
+         transform="translate(0,-30)"
+         id="g9465">
+        <rect
+           x="17"
+           y="30.362"
+           width="16"
+           height="16"
+           style="color:#000000;fill:none"
+           id="rect9461" />
+        <rect
+           x="18"
+           y="31.362"
+           width="14"
+           height="14"
+           rx="2"
+           ry="2"
+           style="color:#000000;fill:#000000;stroke-width:0"
+           id="rect9463" />
+      </g>
+    </g>
+    <g
+       transform="translate(36,-1036)"
+       id="g9479">
+      <g
+         transform="matrix(.70711 .70711 -.70711 .70711 727.94 295.31)"
+         id="g9477">
+        <g
+           transform="translate(12.374,11.531)"
+           id="g9475">
+          <g
+             transform="translate(-3,-5)"
+             style="fill:#3b3c3e"
+             id="g9471">
+            <rect
+               transform="matrix(-.70711 -.70711 .70711 -.70711 0 0)"
+               x="-738.8"
+               y="-725.95"
+               width="2"
+               height="8"
+               ry="0"
+               style="fill:#367bf0"
+               id="rect9469" />
+          </g>
+          <rect
+             transform="translate(0,1036.4)"
+             x="5"
+             y="-8"
+             width="3"
+             height="1"
+             style="fill-opacity:0"
+             id="rect9473" />
+        </g>
+      </g>
+    </g>
+  </g>
+  <g
+     id="radio-checked-insensitive-selected"
+     transform="translate(-33,213.64)"
+     style="opacity:.55">
+    <g
+       transform="translate(19.004,-4.6993e-6)"
+       id="g9490">
+      <g
+         transform="matrix(.93617 0 0 .93566 -96.783 -244.76)"
+         id="g9488">
+        <rect
+           x="206.99"
+           y="261.98"
+           width="17.091"
+           height="17.1"
+           style="color:#000000;fill:none"
+           id="rect9482" />
+        <g
+           transform="matrix(.50892 0 0 .5174 181.79 197.56)"
+           id="g9486">
+          <rect
+             x="51.611"
+             y="126.56"
+             width="29.385"
+             height="28.919"
+             rx="14.692"
+             ry="14.46"
+             style="color:#000000;fill:#000000;stroke-width:0"
+             id="rect9484" />
+        </g>
+      </g>
+    </g>
+    <rect
+       x="122"
+       y="6.3622"
+       width="4"
+       height="4"
+       rx="1.9989"
+       ry="2"
+       style="color:#000000;fill:#367bf0"
+       id="rect9492" />
+  </g>
+  <g
+     id="radio-mixed-insensitive-selected"
+     transform="translate(-33,213.64)"
+     style="opacity:.55">
+    <g
+       transform="translate(19,-4.6993e-6)"
+       id="g9505">
+      <g
+         transform="translate(19.004,-4.6993e-6)"
+         id="g9503">
+        <g
+           transform="matrix(.93617 0 0 .93566 -96.783 -244.76)"
+           id="g9501">
+          <rect
+             x="206.99"
+             y="261.98"
+             width="17.091"
+             height="17.1"
+             style="color:#000000;fill:none"
+             id="rect9495" />
+          <g
+             transform="matrix(.50892 0 0 .5174 181.79 197.56)"
+             id="g9499">
+            <rect
+               x="51.611"
+               y="126.56"
+               width="29.385"
+               height="28.919"
+               rx="14.692"
+               ry="14.46"
+               style="color:#000000;fill:#000000;stroke-width:0"
+               id="rect9497" />
+          </g>
+        </g>
+      </g>
+    </g>
+    <rect
+       transform="rotate(-90)"
+       x="-9.3622"
+       y="139"
+       width="2"
+       height="8"
+       ry="0"
+       style="fill:#367bf0"
+       id="rect9507" />
+  </g>
+  <g
+     id="checkbox-unchecked-insensitive-selected"
+     transform="translate(-14,213.64)"
+     style="opacity:.55">
+    <g
+       transform="translate(0,-30)"
+       id="g9514">
+      <rect
+         x="17"
+         y="30.362"
+         width="16"
+         height="16"
+         style="color:#000000;fill:none"
+         id="rect9510" />
+      <rect
+         x="18.5"
+         y="31.862"
+         width="13"
+         height="13"
+         rx="2"
+         ry="2"
+         style="color:#000000;fill:#367bf0;opacity:.5;stroke-linejoin:round;stroke:#000000"
+         id="rect9512" />
+    </g>
+  </g>
+  <g
+     id="radio-unchecked-insensitive-selected"
+     transform="translate(-33.996,213.64)"
+     style="opacity:.55">
+    <g
+       transform="matrix(.93617 0 0 .93566 -96.783 -244.76)"
+       id="g9523">
+      <rect
+         x="206.99"
+         y="261.98"
+         width="17.091"
+         height="17.1"
+         style="color:#000000;fill:none"
+         id="rect9517" />
+      <g
+         transform="matrix(.50892 0 0 .5174 181.79 197.56)"
+         id="g9521">
+        <rect
+           x="52.66"
+           y="127.6"
+           width="27.304"
+           height="26.836"
+           rx="13.224"
+           ry="13.246"
+           style="color:#000000;fill:#367bf0;opacity:.5;stroke-linejoin:round;stroke-width:2.0822;stroke:#000000"
+           id="rect9519" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="titlebutton-minimize"
+     transform="translate(-463,242.64)">
+    <path
+       d="m595-184.64a7 7 0 0 0-7 7 7 7 0 0 0 7 7 7 7 0 0 0 7-7 7 7 0 0 0-7-7z"
+       style="fill:#fd7d00;stroke-width:.5;stroke:#c05f00"
+       id="path9526" />
+    <rect
+       x="587"
+       y="-185.64"
+       width="16"
+       height="16"
+       style="fill:none"
+       id="rect9528" />
+  </g>
+  <g
+     id="checkbox-checked-selectionmode"
+     transform="translate(-462,-83.36)">
+    <rect
+       x="462"
+       y="179.36"
+       width="40"
+       height="40"
+       rx="2"
+       ry="2"
+       style="fill:none;stroke-width:0"
+       id="rect9531" />
+    <rect
+       x="466"
+       y="183.36"
+       width="32"
+       height="32"
+       rx="2"
+       ry="2"
+       style="fill:#367bf0;stroke-width:0"
+       id="rect9533" />
+    <g
+       transform="translate(-2.2045,1.973)"
+       id="g9537">
+      <path
+         d="m491.36 188.95-9.5312 9.5625-4.7812-4.7812-3.1876 3.1875 4.7813 4.7812 3.1875 3.1875 3.1562-3.1875 9.5626-9.5625z"
+         style="fill:#efd5cb"
+         id="path9535" />
+    </g>
+  </g>
+  <g
+     id="checkbox-selectionmode"
+     transform="translate(-417,-83.36)">
+    <rect
+       x="466.5"
+       y="183.86"
+       width="31"
+       height="31"
+       rx="2"
+       ry="2"
+       style="fill:#efd5cb;stroke:#403333"
+       id="rect9540" />
+    <g
+       transform="translate(-2.2045,1.973)"
+       id="g9544">
+      <path
+         d="m491.36 188.95-9.5312 9.5625-4.7812-4.7812-3.1876 3.1875 4.7813 4.7812 3.1875 3.1875 3.1562-3.1875 9.5626-9.5625z"
+         style="fill:#403333;opacity:.4"
+         id="path9542" />
+    </g>
+    <rect
+       x="462"
+       y="179.36"
+       width="40"
+       height="40"
+       rx="2"
+       ry="2"
+       style="fill:none;stroke-width:0"
+       id="rect9546" />
+  </g>
+  <g
+     id="titlebutton-close"
+     transform="translate(-481,242.64)">
+    <g
+       transform="translate(-678,-432.64)"
+       id="g9555">
+      <g
+         transform="translate(-103)"
+         id="g9553">
+        <g
+           transform="translate(58)"
+           id="g9551">
+          <path
+             transform="translate(1204,190)"
+             d="m172 58c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z"
+             style="fill:#d31919;stroke-width:.5;stroke:#8b1111"
+             id="path9549" />
+        </g>
+      </g>
+    </g>
+    <rect
+       x="645"
+       y="-185.64"
+       width="16"
+       height="16"
+       style="fill:none"
+       id="rect9557" />
+  </g>
+  <g
+     id="titlebutton-maximize"
+     transform="translate(-472,242.64)">
+    <path
+       d="m624-184.63a7 7 0 0 0-7 7 7 7 0 0 0 7 7 7 7 0 0 0 7-7 7 7 0 0 0-7-7z"
+       style="fill:#377cf1;stroke-width:.5;stroke:#0e53ca"
+       id="path9560" />
+    <rect
+       x="616"
+       y="-185.64"
+       width="16"
+       height="16"
+       style="fill:none"
+       id="rect9562" />
+  </g>
+  <g
+     id="titlebutton-close-hover"
+     transform="translate(-378,276.64)">
+    <g
+       transform="translate(-781,-432.64)"
+       id="g9571">
+      <g
+         transform="translate(-103)"
+         id="g9569">
+        <g
+           transform="translate(58)"
+           id="g9567">
+          <path
+             transform="translate(1204,156)"
+             d="m172 92c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z"
+             style="fill:#d31919;stroke-width:.5;stroke:#8b1111"
+             id="path9565" />
+        </g>
+      </g>
+    </g>
+    <rect
+       x="542"
+       y="-185.64"
+       width="16"
+       height="16"
+       style="fill:none"
+       id="rect9573" />
+    <path
+       d="m547-180.72h0.75c8e-3 -9e-5 0.0156-3.5e-4 0.0234 0 0.19122 8e-3 0.3824 0.0964 0.51563 0.23437l1.7109 1.7109 1.7344-1.7109c0.19922-0.17287 0.335-0.22912 0.51562-0.23437h0.75v0.75c0 0.21485-0.0257 0.41298-0.1875 0.5625l-1.7109 1.7109 1.6875 1.6875c0.14114 0.14113 0.21093 0.34009 0.21093 0.53907v0.75h-0.75c-0.19897-1e-5 -0.39793-0.0698-0.53906-0.21094l-1.7109-1.7109-1.7109 1.7109c-0.14113 0.14114-0.3401 0.21094-0.53907 0.21094h-0.75v-0.75c0-0.19897 0.0698-0.39794 0.21094-0.53907l1.7109-1.6875-1.7109-1.7109c-0.15805-0.14598-0.22737-0.35194-0.21094-0.5625v-0.75z"
+       style="color:#bebebe;enable-background:new;opacity:.5;text-decoration-line:none;text-indent:0;text-transform:none"
+       id="path9575" />
+  </g>
+  <g
+     id="titlebutton-maximize-hover"
+     transform="translate(-369,276.64)">
+    <g
+       transform="translate(-781,-432.64)"
+       id="g9586">
+      <path
+         transform="translate(1150,156)"
+         d="m152 92a7 7 0 0 0-7 7 7 7 0 0 0 7 7 7 7 0 0 0 7-7 7 7 0 0 0-7-7z"
+         style="fill:#377cf1;stroke-width:.5;stroke:#0e53ca"
+         id="path9578" />
+      <g
+         transform="translate(1294,247)"
+         style="fill:#c0e3ff"
+         id="g9584">
+        <g
+           transform="translate(-81,-967)"
+           style="fill:#c0e3ff"
+           id="g9582">
+          <path
+             d="m87.8 972h3.3817c0.4503 0 0.81623 0.36847 0.81876 0.8188v3.3817zm2.4074 6.0069h-3.3951c-0.45035 0-0.81876-0.36842-0.81876-0.81875v-3.3951l4.2138 4.2138"
+             style="fill-rule:evenodd;fill:#000;opacity:.5"
+             id="path9580" />
+        </g>
+      </g>
+    </g>
+    <rect
+       x="513"
+       y="-185.64"
+       width="16"
+       height="16"
+       style="fill:none"
+       id="rect9588" />
+  </g>
+  <g
+     id="titlebutton-minimize-hover"
+     transform="translate(-360,276.64)">
+    <g
+       transform="translate(-781,-432.64)"
+       id="g9599">
+      <path
+         transform="translate(1141,156)"
+         d="m132 92a7 7 0 0 0-7 7 7 7 0 0 0 7 7 7 7 0 0 0 7-7 7 7 0 0 0-7-7z"
+         style="fill:#fd7d00;opacity:.95;stroke-width:.5;stroke:#c05f00"
+         id="path9591" />
+      <g
+         transform="translate(1265,247)"
+         style="fill:#c0e3ff"
+         id="g9597">
+        <g
+           transform="translate(-81,-967)"
+           style="fill:#c0e3ff"
+           id="g9595">
+          <path
+             d="m86 974.25v1.5h6v-1.5z"
+             style="color:#000000;fill:#000;opacity:.5;stroke-width:.86603;text-decoration-line:none;text-indent:0;text-transform:none"
+             id="path9593" />
+        </g>
+      </g>
+    </g>
+    <rect
+       x="484"
+       y="-185.64"
+       width="16"
+       height="16"
+       style="fill:none"
+       id="rect9601" />
+  </g>
+  <g
+     id="titlebutton-close-active"
+     transform="translate(-277,293.64)">
+    <g
+       transform="translate(-882,-432.64)"
+       id="g9620">
+      <g
+         transform="translate(-103)"
+         id="g9608">
+        <g
+           transform="translate(58)"
+           id="g9606">
+          <circle
+             cx="1376"
+             cy="255"
+             r="7"
+             style="fill:#d31919;stroke-width:.5;stroke:#8b1111"
+             id="circle9604" />
+        </g>
+      </g>
+      <g
+         transform="translate(1323,246.87)"
+         style="fill:#efd5cb"
+         id="g9618">
+        <g
+           transform="matrix(.75 0 0 .75 2 2.0547)"
+           style="fill:#efd5cb"
+           id="g9616">
+          <g
+             transform="translate(-60,-518)"
+             style="fill:#efd5cb"
+             id="g9614">
+            <g
+               transform="translate(19,-242)"
+               style="fill:#efd5cb"
+               id="g9612">
+              <path
+                 d="m45 764h1c0.01037-1.2e-4 0.02079-4.6e-4 0.03125 0 0.25495 0.0112 0.50987 0.12858 0.6875 0.3125l2.2812 2.2812 2.3125-2.2812c0.26562-0.2305 0.44667-0.3055 0.6875-0.3125h1v1c0 0.28647-0.03434 0.55065-0.25 0.75l-2.2812 2.2812 2.25 2.25c0.18819 0.18817 0.28124 0.45345 0.28125 0.71875v1h-1c-0.2653-1e-5 -0.53059-0.0931-0.71875-0.28125l-2.2812-2.2812-2.2812 2.2812c-0.18816 0.18819-0.45346 0.28125-0.71875 0.28125h-1v-1c-3e-6 -0.26529 0.09306-0.53058 0.28125-0.71875l2.2812-2.25-2.2812-2.2812c-0.21074-0.19463-0.30316-0.46925-0.28125-0.75v-1z"
+                 style="color:#bebebe;enable-background:new;fill:#000;opacity:.5;text-decoration-line:none;text-indent:0;text-transform:none"
+                 id="path9610" />
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <rect
+       x="441"
+       y="-185.64"
+       width="16"
+       height="16"
+       style="fill:none"
+       id="rect9622" />
+  </g>
+  <g
+     id="titlebutton-maximize-active"
+     transform="translate(-268,293.64)">
+    <g
+       transform="translate(-882,-432.64)"
+       id="g9637">
+      <g
+         transform="translate(-132)"
+         id="g9629">
+        <g
+           transform="translate(58)"
+           id="g9627">
+          <circle
+             cx="1376"
+             cy="255"
+             r="7"
+             style="fill:#377cf1;stroke-width:.5;stroke:#0e53ca"
+             id="circle9625" />
+        </g>
+      </g>
+      <g
+         transform="translate(1294,247)"
+         style="fill:#c0e3ff"
+         id="g9635">
+        <g
+           transform="translate(-81,-967)"
+           style="fill:#c0e3ff"
+           id="g9633">
+          <path
+             d="m87.8 972h3.3817c0.4503 0 0.81623 0.36847 0.81876 0.8188v3.3817zm2.4074 6.0069h-3.3951c-0.45035 0-0.81876-0.36842-0.81876-0.81875v-3.3951l4.2138 4.2138"
+             style="fill-rule:evenodd;fill:#000;opacity:.5"
+             id="path9631" />
+        </g>
+      </g>
+    </g>
+    <rect
+       x="412"
+       y="-185.64"
+       width="16"
+       height="16"
+       style="fill:none"
+       id="rect9639" />
+  </g>
+  <g
+     id="titlebutton-minimize-active"
+     transform="translate(-259,293.64)">
+    <g
+       transform="translate(-882,-432.64)"
+       id="g9654">
+      <g
+         transform="translate(-161)"
+         id="g9646">
+        <g
+           transform="translate(58)"
+           id="g9644">
+          <circle
+             cx="1376"
+             cy="255"
+             r="7"
+             style="fill:#fd7d00;stroke-width:.5;stroke:#c05f00"
+             id="circle9642" />
+        </g>
+      </g>
+      <g
+         transform="translate(1265,247)"
+         style="fill:#c0e3ff"
+         id="g9652">
+        <g
+           transform="translate(-81,-967)"
+           style="fill:#c0e3ff"
+           id="g9650">
+          <path
+             d="m86 974.25v1.5h6v-1.5z"
+             style="color:#000000;fill:#000;opacity:.5;stroke-width:.86603;text-decoration-line:none;text-indent:0;text-transform:none"
+             id="path9648" />
+        </g>
+      </g>
+    </g>
+    <rect
+       x="383"
+       y="-185.64"
+       width="16"
+       height="16"
+       style="fill:none"
+       id="rect9656" />
+  </g>
+  <g
+     id="titlebutton-maximize-backdrop"
+     transform="translate(-472,242.64)"
+     style="opacity:.3">
+    <rect
+       x="616"
+       y="-168.64"
+       width="16"
+       height="16"
+       style="fill:none;opacity:1"
+       id="rect9659" />
+    <path
+       d="m624-167.88c-4.0011 0-7.25 3.2489-7.25 7.25s3.2489 7.25 7.25 7.25 7.25-3.2489 7.25-7.25-3.2489-7.25-7.25-7.25z"
+       style="color-rendering:auto;color:#000000;dominant-baseline:auto;font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;image-rendering:auto;isolation:auto;mix-blend-mode:normal;opacity:1;shape-padding:0;shape-rendering:auto;solid-color:#000000;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"
+       id="path9661" />
+  </g>
+  <g
+     id="titlebutton-minimize-backdrop"
+     transform="translate(-463,242.64)"
+     style="opacity:.3">
+    <rect
+       x="587"
+       y="-168.64"
+       width="16"
+       height="16"
+       style="fill:none;opacity:1"
+       id="rect9664" />
+    <path
+       d="m595-167.89c-4.0011 0-7.25 3.2489-7.25 7.25s3.2489 7.25 7.25 7.25 7.25-3.2489 7.25-7.25-3.2489-7.25-7.25-7.25z"
+       style="color-rendering:auto;color:#000000;dominant-baseline:auto;font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;image-rendering:auto;isolation:auto;mix-blend-mode:normal;opacity:1;shape-padding:0;shape-rendering:auto;solid-color:#000000;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"
+       id="path9666" />
+  </g>
+  <g
+     id="titlebutton-close-backdrop"
+     transform="translate(-481,259.64)"
+     style="opacity:.3">
+    <g
+       transform="translate(-678,-432.64)"
+       style="opacity:1"
+       id="g9675">
+      <g
+         transform="translate(-103)"
+         style="opacity:1"
+         id="g9673">
+        <g
+           transform="translate(58)"
+           id="g9671">
+          <path
+             d="m1376 247.75c-4.0011 0-7.25 3.2489-7.25 7.25s3.2489 7.25 7.25 7.25 7.25-3.2489 7.25-7.25-3.2489-7.25-7.25-7.25z"
+             style="color-rendering:auto;color:#000000;dominant-baseline:auto;font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;image-rendering:auto;isolation:auto;mix-blend-mode:normal;opacity:1;shape-padding:0;shape-rendering:auto;solid-color:#000000;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"
+             id="path9669" />
+        </g>
+      </g>
+    </g>
+    <rect
+       x="645"
+       y="-185.64"
+       width="16"
+       height="16"
+       style="fill:none;opacity:1"
+       id="rect9677" />
+  </g>
+  <g
+     id="checkbox-checked-dark"
+     transform="translate(228,56.64)">
+    <g
+       transform="translate(19)"
+       id="g9686">
+      <g
+         transform="translate(0,-30)"
+         id="g9684">
+        <rect
+           x="17"
+           y="30.362"
+           width="16"
+           height="16"
+           style="color:#000000;fill:none"
+           id="rect9680" />
+        <rect
+           x="18"
+           y="31.362"
+           width="14"
+           height="14"
+           rx="2"
+           ry="2"
+           style="color:#000000;fill:#367bf0;stroke-width:0"
+           id="rect9682" />
+      </g>
+    </g>
+    <g
+       transform="translate(36,-1036)"
+       id="g9700">
+      <g
+         transform="rotate(45,7.5,1026.4)"
+         id="g9698">
+        <g
+           transform="translate(12.374,11.531)"
+           id="g9696">
+          <g
+             transform="translate(-3,-5)"
+             style="fill:#3b3c3e"
+             id="g9692">
+            <rect
+               x="8"
+               y="1033.4"
+               width="5"
+               height="2"
+               rx=".66666"
+               ry=".66666"
+               style="fill:#2b303b"
+               id="rect9688" />
+            <rect
+               x="11"
+               y="1027.4"
+               width="2"
+               height="8"
+               ry="0"
+               style="fill:#2b303b"
+               id="rect9690" />
+          </g>
+          <rect
+             transform="translate(0,1036.4)"
+             x="5"
+             y="-8"
+             width="3"
+             height="1"
+             style="fill-opacity:0"
+             id="rect9694" />
+        </g>
+      </g>
+    </g>
+  </g>
+  <g
+     id="checkbox-mixed-dark"
+     transform="translate(247,56.64)">
+    <g
+       transform="translate(19)"
+       id="g9709">
+      <g
+         transform="translate(0,-30)"
+         id="g9707">
+        <rect
+           x="17"
+           y="30.362"
+           width="16"
+           height="16"
+           style="color:#000000;fill:none"
+           id="rect9703" />
+        <rect
+           x="18"
+           y="31.362"
+           width="14"
+           height="14"
+           rx="2"
+           ry="2"
+           style="color:#000000;fill:#367bf0;stroke-width:0"
+           id="rect9705" />
+      </g>
+    </g>
+    <g
+       transform="translate(36,-1036)"
+       id="g9721">
+      <g
+         transform="rotate(45,7.5,1026.4)"
+         id="g9719">
+        <g
+           transform="translate(12.374,11.531)"
+           id="g9717">
+          <g
+             transform="translate(-3,-5)"
+             style="fill:#3b3c3e"
+             id="g9713">
+            <rect
+               transform="rotate(225)"
+               x="-738.8"
+               y="-725.95"
+               width="2"
+               height="8"
+               ry="0"
+               style="fill:#2b303b"
+               id="rect9711" />
+          </g>
+          <rect
+             transform="translate(0,1036.4)"
+             x="5"
+             y="-8"
+             width="3"
+             height="1"
+             style="fill-opacity:0"
+             id="rect9715" />
+        </g>
+      </g>
+    </g>
+  </g>
+  <g
+     id="radio-checked-dark"
+     transform="translate(209,56.64)">
+    <g
+       transform="translate(19.004,-4.6993e-6)"
+       id="g9732">
+      <g
+         transform="matrix(.93617 0 0 .93566 -96.783 -244.76)"
+         id="g9730">
+        <rect
+           x="206.99"
+           y="261.98"
+           width="17.091"
+           height="17.1"
+           style="color:#000000;fill:none"
+           id="rect9724" />
+        <g
+           transform="matrix(.50892 0 0 .5174 181.79 197.56)"
+           id="g9728">
+          <rect
+             x="51.611"
+             y="126.56"
+             width="29.385"
+             height="28.919"
+             rx="14.692"
+             ry="14.46"
+             style="color:#000000;fill:#367bf0;stroke-width:0"
+             id="rect9726" />
+        </g>
+      </g>
+    </g>
+    <rect
+       x="122"
+       y="6.3622"
+       width="4"
+       height="4"
+       rx="1.9989"
+       ry="2"
+       style="color:#000000;fill:#2b303b"
+       id="rect9734" />
+  </g>
+  <g
+     id="radio-mixed-dark"
+     transform="translate(209,56.64)">
+    <g
+       transform="translate(19,-4.6993e-6)"
+       id="g9747">
+      <g
+         transform="translate(19.004,-4.6993e-6)"
+         id="g9745">
+        <g
+           transform="matrix(.93617 0 0 .93566 -96.783 -244.76)"
+           id="g9743">
+          <rect
+             x="206.99"
+             y="261.98"
+             width="17.091"
+             height="17.1"
+             style="color:#000000;fill:none"
+             id="rect9737" />
+          <g
+             transform="matrix(.50892 0 0 .5174 181.79 197.56)"
+             id="g9741">
+            <rect
+               x="51.611"
+               y="126.56"
+               width="29.385"
+               height="28.919"
+               rx="14.692"
+               ry="14.46"
+               style="color:#000000;fill:#367bf0;stroke-width:0"
+               id="rect9739" />
+          </g>
+        </g>
+      </g>
+    </g>
+    <rect
+       transform="rotate(-90)"
+       x="-9.3622"
+       y="139"
+       width="2"
+       height="8"
+       ry="0"
+       style="fill:#2b303b"
+       id="rect9749" />
+  </g>
+  <g
+     id="checkbox-unchecked-dark"
+     transform="translate(228,56.64)">
+    <g
+       transform="translate(0,-30)"
+       id="g9756">
+      <rect
+         x="17"
+         y="30.362"
+         width="16"
+         height="16"
+         style="color:#000000;fill:none"
+         id="rect9752" />
+      <rect
+         x="18.5"
+         y="31.862"
+         width="13"
+         height="13"
+         rx="2"
+         ry="2"
+         style="color:#000000;fill:#e6beae;stroke-linejoin:round;stroke:#654d4d"
+         id="rect9754" />
+    </g>
+  </g>
+  <g
+     id="radio-unchecked-dark"
+     transform="translate(208,56.64)">
+    <g
+       transform="matrix(.93617 0 0 .93566 -96.783 -244.76)"
+       id="g9765">
+      <rect
+         x="206.99"
+         y="261.98"
+         width="17.091"
+         height="17.1"
+         style="color:#000000;fill:none"
+         id="rect9759" />
+      <g
+         transform="matrix(.50892 0 0 .5174 181.79 197.56)"
+         id="g9763">
+        <rect
+           x="52.66"
+           y="127.6"
+           width="27.304"
+           height="26.836"
+           rx="13.224"
+           ry="13.246"
+           style="color:#000000;fill:#e6beae;stroke-linejoin:round;stroke-width:2.0822;stroke:#654d4d"
+           id="rect9761" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="checkbox-checked-insensitive-dark"
+     transform="translate(228,75.64)"
+     style="opacity:.55">
+    <g
+       transform="translate(19)"
+       id="g9774">
+      <g
+         transform="translate(0,-30)"
+         id="g9772">
+        <rect
+           x="17"
+           y="30.362"
+           width="16"
+           height="16"
+           style="color:#000000;fill:none"
+           id="rect9768" />
+        <rect
+           x="18"
+           y="31.362"
+           width="14"
+           height="14"
+           rx="2"
+           ry="2"
+           style="color:#000000;fill:#367bf0;stroke-width:0"
+           id="rect9770" />
+      </g>
+    </g>
+    <g
+       transform="translate(36,-1036)"
+       id="g9788">
+      <g
+         transform="rotate(45,7.5,1026.4)"
+         id="g9786">
+        <g
+           transform="translate(12.374,11.531)"
+           id="g9784">
+          <g
+             transform="translate(-3,-5)"
+             style="fill:#3b3c3e"
+             id="g9780">
+            <rect
+               x="8"
+               y="1033.4"
+               width="5"
+               height="2"
+               rx=".66666"
+               ry=".66666"
+               style="fill:#2b303b"
+               id="rect9776" />
+            <rect
+               x="11"
+               y="1027.4"
+               width="2"
+               height="8"
+               ry="0"
+               style="fill:#2b303b"
+               id="rect9778" />
+          </g>
+          <rect
+             transform="translate(0,1036.4)"
+             x="5"
+             y="-8"
+             width="3"
+             height="1"
+             style="fill-opacity:0"
+             id="rect9782" />
+        </g>
+      </g>
+    </g>
+  </g>
+  <g
+     id="checkbox-mixed-insensitive-dark"
+     transform="translate(247,75.64)"
+     style="opacity:.55">
+    <g
+       transform="translate(19)"
+       id="g9797">
+      <g
+         transform="translate(0,-30)"
+         id="g9795">
+        <rect
+           x="17"
+           y="30.362"
+           width="16"
+           height="16"
+           style="color:#000000;fill:none"
+           id="rect9791" />
+        <rect
+           x="18"
+           y="31.362"
+           width="14"
+           height="14"
+           rx="2"
+           ry="2"
+           style="color:#000000;fill:#367bf0;stroke-width:0"
+           id="rect9793" />
+      </g>
+    </g>
+    <g
+       transform="translate(36,-1036)"
+       id="g9809">
+      <g
+         transform="rotate(45,7.5,1026.4)"
+         id="g9807">
+        <g
+           transform="translate(12.374,11.531)"
+           id="g9805">
+          <g
+             transform="translate(-3,-5)"
+             style="fill:#3b3c3e"
+             id="g9801">
+            <rect
+               transform="rotate(225)"
+               x="-738.8"
+               y="-725.95"
+               width="2"
+               height="8"
+               ry="0"
+               style="fill:#2b303b"
+               id="rect9799" />
+          </g>
+          <rect
+             transform="translate(0,1036.4)"
+             x="5"
+             y="-8"
+             width="3"
+             height="1"
+             style="fill-opacity:0"
+             id="rect9803" />
+        </g>
+      </g>
+    </g>
+  </g>
+  <g
+     id="radio-checked-insensitive-dark"
+     transform="translate(209,75.64)"
+     style="opacity:.55">
+    <g
+       transform="translate(19.004,-4.6993e-6)"
+       id="g9820">
+      <g
+         transform="matrix(.93617 0 0 .93566 -96.783 -244.76)"
+         id="g9818">
+        <rect
+           x="206.99"
+           y="261.98"
+           width="17.091"
+           height="17.1"
+           style="color:#000000;fill:none"
+           id="rect9812" />
+        <g
+           transform="matrix(.50892 0 0 .5174 181.79 197.56)"
+           id="g9816">
+          <rect
+             x="51.611"
+             y="126.56"
+             width="29.385"
+             height="28.919"
+             rx="14.692"
+             ry="14.46"
+             style="color:#000000;fill:#367bf0;stroke-width:0"
+             id="rect9814" />
+        </g>
+      </g>
+    </g>
+    <rect
+       x="122"
+       y="6.3622"
+       width="4"
+       height="4"
+       rx="1.9989"
+       ry="2"
+       style="color:#000000;fill:#2b303b"
+       id="rect9822" />
+  </g>
+  <g
+     id="radio-mixed-insensitive-dark"
+     transform="translate(209,75.64)"
+     style="opacity:.55">
+    <g
+       transform="translate(19,-4.6993e-6)"
+       id="g9835">
+      <g
+         transform="translate(19.004,-4.6993e-6)"
+         id="g9833">
+        <g
+           transform="matrix(.93617 0 0 .93566 -96.783 -244.76)"
+           id="g9831">
+          <rect
+             x="206.99"
+             y="261.98"
+             width="17.091"
+             height="17.1"
+             style="color:#000000;fill:none"
+             id="rect9825" />
+          <g
+             transform="matrix(.50892 0 0 .5174 181.79 197.56)"
+             id="g9829">
+            <rect
+               x="51.611"
+               y="126.56"
+               width="29.385"
+               height="28.919"
+               rx="14.692"
+               ry="14.46"
+               style="color:#000000;fill:#367bf0;stroke-width:0"
+               id="rect9827" />
+          </g>
+        </g>
+      </g>
+    </g>
+    <rect
+       transform="rotate(-90)"
+       x="-9.3622"
+       y="139"
+       width="2"
+       height="8"
+       ry="0"
+       style="fill:#2b303b"
+       id="rect9837" />
+  </g>
+  <g
+     id="checkbox-unchecked-insensitive-dark"
+     transform="translate(228,75.64)"
+     style="opacity:.6">
+    <g
+       transform="translate(0,-30)"
+       id="g9844">
+      <rect
+         x="17"
+         y="30.362"
+         width="16"
+         height="16"
+         style="color:#000000;fill:none"
+         id="rect9840" />
+      <rect
+         x="18.5"
+         y="31.862"
+         width="13"
+         height="13"
+         rx="2"
+         ry="2"
+         style="color:#000000;fill:#e6beae;stroke-linejoin:round;stroke:#654d4d"
+         id="rect9842" />
+    </g>
+  </g>
+  <g
+     id="radio-unchecked-insensitive-dark"
+     transform="translate(208,75.64)"
+     style="opacity:.6">
+    <g
+       transform="matrix(.93617 0 0 .93566 -96.783 -244.76)"
+       id="g9853">
+      <rect
+         x="206.99"
+         y="261.98"
+         width="17.091"
+         height="17.1"
+         style="color:#000000;fill:none"
+         id="rect9847" />
+      <g
+         transform="matrix(.50892 0 0 .5174 181.79 197.56)"
+         id="g9851">
+        <rect
+           x="52.66"
+           y="127.6"
+           width="27.304"
+           height="26.836"
+           rx="13.224"
+           ry="13.246"
+           style="color:#000000;fill:#e6beae;stroke-linejoin:round;stroke-width:2.0822;stroke:#654d4d"
+           id="rect9849" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="checkbox-checked-selectionmode-dark"
+     transform="translate(-220,-83.36)">
+    <rect
+       x="466"
+       y="183.36"
+       width="32"
+       height="32"
+       rx="2"
+       ry="2"
+       style="fill:#367bf0;stroke-width:0"
+       id="rect9856" />
+    <g
+       transform="translate(-2.2045,1.973)"
+       id="g9860">
+      <path
+         d="m491.36 188.95-9.5312 9.5625-4.7812-4.7812-3.1876 3.1875 4.7813 4.7812 3.1875 3.1875 3.1562-3.1875 9.5626-9.5625z"
+         style="fill:#2b303b"
+         id="path9858" />
+    </g>
+    <rect
+       x="462"
+       y="179.36"
+       width="40"
+       height="40"
+       rx="2"
+       ry="2"
+       style="fill:none;stroke-width:0"
+       id="rect9862" />
+  </g>
+  <g
+     id="checkbox-selectionmode-dark"
+     transform="translate(-175,-83.36)">
+    <rect
+       x="466.5"
+       y="183.86"
+       width="31"
+       height="31"
+       rx="2"
+       ry="2"
+       style="fill:#e6beae;stroke:#654d4d"
+       id="rect9865" />
+    <g
+       transform="translate(-2.2045,1.973)"
+       id="g9869">
+      <path
+         d="m491.36 188.95-9.5312 9.5625-4.7812-4.7812-3.1876 3.1875 4.7813 4.7812 3.1875 3.1875 3.1562-3.1875 9.5626-9.5625z"
+         style="fill:#5f6578;opacity:.55"
+         id="path9867" />
+    </g>
+    <rect
+       x="462"
+       y="179.36"
+       width="40"
+       height="40"
+       rx="2"
+       ry="2"
+       style="fill:none;stroke-width:0"
+       id="rect9871" />
+  </g>
+  <g
+     id="titlebutton-minimize-dark"
+     transform="translate(-221,242.64)">
+    <rect
+       x="587"
+       y="-185.64"
+       width="16"
+       height="16"
+       style="fill:none"
+       id="rect9874" />
+    <path
+       d="m595-184.64c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z"
+       style="fill:#fd7d00;stroke-width:.5;stroke:#c05f00"
+       id="path9876" />
+  </g>
+  <g
+     id="titlebutton-close-dark"
+     transform="translate(-239,242.64)">
+    <g
+       transform="translate(-678,-432.64)"
+       id="g9885">
+      <g
+         transform="translate(-103)"
+         id="g9883">
+        <g
+           transform="translate(58)"
+           id="g9881">
+          <path
+             transform="translate(962,190)"
+             d="m414 58c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z"
+             style="fill:#d31919;stroke-width:.5;stroke:#8b1111"
+             id="path9879" />
+        </g>
+      </g>
+    </g>
+    <rect
+       x="645"
+       y="-185.64"
+       width="16"
+       height="16"
+       style="fill:none"
+       id="rect9887" />
+  </g>
+  <g
+     id="titlebutton-maximize-dark"
+     transform="translate(-230,242.64)">
+    <rect
+       x="616"
+       y="-185.64"
+       width="16"
+       height="16"
+       style="fill:none"
+       id="rect9890" />
+    <path
+       d="m624-184.63c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z"
+       style="fill:#377cf1;stroke-width:.5;stroke:#0e53ca"
+       id="path9892" />
+  </g>
+  <g
+     id="titlebutton-close-hover-dark"
+     transform="translate(-136,276.64)">
+    <g
+       transform="translate(-781,-432.64)"
+       id="g9901">
+      <g
+         transform="translate(-103)"
+         id="g9899">
+        <g
+           transform="translate(58)"
+           id="g9897">
+          <path
+             transform="translate(962,156)"
+             d="m414 92c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z"
+             style="fill:#d31919;stroke-width:.5;stroke:#8b1111"
+             id="path9895" />
+        </g>
+      </g>
+    </g>
+    <rect
+       x="542"
+       y="-185.64"
+       width="16"
+       height="16"
+       style="fill:none"
+       id="rect9903" />
+    <path
+       d="m547-180.72h0.75c8e-3 -9e-5 0.0156-3.5e-4 0.0234 0 0.19122 8e-3 0.3824 0.0964 0.51563 0.23437l1.7109 1.7109 1.7344-1.7109c0.19922-0.17287 0.335-0.22912 0.51562-0.23437h0.75v0.75c0 0.21485-0.0257 0.41298-0.1875 0.5625l-1.7109 1.7109 1.6875 1.6875c0.14114 0.14113 0.21093 0.34009 0.21093 0.53907v0.75h-0.75c-0.19897-1e-5 -0.39793-0.0698-0.53906-0.21094l-1.7109-1.7109-1.7109 1.7109c-0.14113 0.14114-0.3401 0.21094-0.53907 0.21094h-0.75v-0.75c0-0.19897 0.0698-0.39794 0.21094-0.53907l1.7109-1.6875-1.7109-1.7109c-0.15805-0.14598-0.22737-0.35194-0.21094-0.5625v-0.75z"
+       style="color:#bebebe;enable-background:new;opacity:.5;text-decoration-line:none;text-indent:0;text-transform:none"
+       id="path9905" />
+  </g>
+  <g
+     id="titlebutton-maximize-hover-dark"
+     transform="translate(-127,276.64)">
+    <g
+       transform="translate(-781,-432.64)"
+       id="g9910">
+      <path
+         transform="translate(908,156)"
+         d="m394 92c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z"
+         style="fill:#377cf1;stroke-width:.5;stroke:#0e53ca"
+         id="path9908" />
+    </g>
+    <rect
+       x="513"
+       y="-185.64"
+       width="16"
+       height="16"
+       style="fill:none"
+       id="rect9912" />
+    <path
+       d="m519.8-180.64h3.3817c0.4503 0 0.81623 0.36847 0.81876 0.8188v3.3817zm2.4074 6.0069h-3.3951c-0.45035 0-0.81876-0.36842-0.81876-0.81875v-3.3951l4.2138 4.2138"
+       style="fill-rule:evenodd;opacity:.5"
+       id="path9914" />
+  </g>
+  <g
+     id="titlebutton-minimize-hover-dark"
+     transform="translate(-118,276.64)">
+    <g
+       transform="translate(-781,-432.64)"
+       id="g9919">
+      <path
+         transform="translate(899,156)"
+         d="m374 92c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z"
+         style="fill:#fd7d00;stroke-width:.5;stroke:#c05f00"
+         id="path9917" />
+    </g>
+    <rect
+       x="484"
+       y="-185.64"
+       width="16"
+       height="16"
+       style="fill:none"
+       id="rect9921" />
+    <path
+       d="m489-178.39v1.5h6v-1.5z"
+       style="color:#000000;opacity:.5;stroke-width:.86603;text-decoration-line:none;text-indent:0;text-transform:none"
+       id="path9923" />
+  </g>
+  <g
+     id="titlebutton-close-active-dark"
+     transform="translate(-35,293.64)">
+    <g
+       transform="translate(-882,-432.64)"
+       id="g9932">
+      <g
+         transform="translate(-103)"
+         id="g9930">
+        <g
+           transform="translate(58)"
+           id="g9928">
+          <path
+             transform="translate(962,139)"
+             d="m414 109c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z"
+             style="fill:#d31919;stroke-width:.5;stroke:#8b1111"
+             id="path9926" />
+        </g>
+      </g>
+    </g>
+    <rect
+       x="441"
+       y="-185.64"
+       width="16"
+       height="16"
+       style="fill:none"
+       id="rect9934" />
+    <path
+       d="m446-180.72h0.75c8e-3 -9e-5 0.0156-3.5e-4 0.0234 0 0.19122 8e-3 0.3824 0.0964 0.51563 0.23437l1.7109 1.7109 1.7344-1.7109c0.19922-0.17287 0.335-0.22912 0.51562-0.23437h0.75v0.75c0 0.21485-0.0257 0.41298-0.1875 0.5625l-1.7109 1.7109 1.6875 1.6875c0.14114 0.14113 0.21093 0.34009 0.21093 0.53907v0.75h-0.75c-0.19897-1e-5 -0.39793-0.0698-0.53906-0.21094l-1.7109-1.7109-1.7109 1.7109c-0.14113 0.14114-0.3401 0.21094-0.53907 0.21094h-0.75v-0.75c0-0.19897 0.0698-0.39794 0.21094-0.53907l1.7109-1.6875-1.7109-1.7109c-0.15805-0.14598-0.22737-0.35194-0.21094-0.5625v-0.75z"
+       style="color:#bebebe;enable-background:new;opacity:.5;text-decoration-line:none;text-indent:0;text-transform:none"
+       id="path9936" />
+  </g>
+  <g
+     id="titlebutton-maximize-active-dark"
+     transform="translate(-26,293.64)">
+    <g
+       transform="translate(-882,-432.64)"
+       id="g9945">
+      <g
+         transform="translate(-132)"
+         id="g9943">
+        <g
+           transform="translate(58)"
+           id="g9941">
+          <path
+             transform="translate(982,139)"
+             d="m394 109c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z"
+             style="fill:#377cf1;stroke-width:.5;stroke:#0e53ca"
+             id="path9939" />
+        </g>
+      </g>
+    </g>
+    <rect
+       x="412"
+       y="-185.64"
+       width="16"
+       height="16"
+       style="fill:none"
+       id="rect9947" />
+    <path
+       d="m418.8-180.64h3.3817c0.4503 0 0.81623 0.36847 0.81876 0.8188v3.3817zm2.4074 6.0069h-3.3951c-0.45035 0-0.81876-0.36842-0.81876-0.81875v-3.3951l4.2138 4.2138"
+       style="fill-rule:evenodd;opacity:.5"
+       id="path9949" />
+  </g>
+  <g
+     id="titlebutton-minimize-active-dark"
+     transform="translate(-17,293.64)">
+    <g
+       transform="translate(-882,-432.64)"
+       id="g9958">
+      <g
+         transform="translate(-161)"
+         id="g9956">
+        <g
+           transform="translate(58)"
+           id="g9954">
+          <path
+             transform="translate(1002,139)"
+             d="m374 109c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z"
+             style="fill:#fd7d00;stroke-width:.5;stroke:#c05f00"
+             id="path9952" />
+        </g>
+      </g>
+    </g>
+    <rect
+       x="383"
+       y="-185.64"
+       width="16"
+       height="16"
+       style="fill:none"
+       id="rect9960" />
+    <path
+       d="m388-178.39v1.5h6v-1.5z"
+       style="color:#000000;opacity:.5;stroke-width:.86603;text-decoration-line:none;text-indent:0;text-transform:none"
+       id="path9962" />
+  </g>
+  <g
+     id="titlebutton-maximize-backdrop-dark"
+     transform="translate(-230,242.64)"
+     style="opacity:.3">
+    <path
+       d="m624-167.88c-4.0011 0-7.25 3.2489-7.25 7.25s3.2489 7.25 7.25 7.25 7.25-3.2489 7.25-7.25-3.2489-7.25-7.25-7.25z"
+       style="color-rendering:auto;color:#000000;dominant-baseline:auto;fill:#fbfefe;font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;image-rendering:auto;isolation:auto;mix-blend-mode:normal;opacity:1;shape-padding:0;shape-rendering:auto;solid-color:#000000;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"
+       id="path9965" />
+    <rect
+       x="616"
+       y="-168.64"
+       width="16"
+       height="16"
+       style="fill:none;opacity:1"
+       id="rect9967" />
+  </g>
+  <g
+     id="titlebutton-minimize-backdrop-dark"
+     transform="translate(-221,242.64)"
+     style="opacity:.3">
+    <rect
+       x="587"
+       y="-168.64"
+       width="16"
+       height="16"
+       style="fill:none;opacity:1"
+       id="rect9970" />
+    <path
+       d="m595-167.89c-4.0011 0-7.25 3.2489-7.25 7.25s3.2489 7.25 7.25 7.25 7.25-3.2489 7.25-7.25-3.2489-7.25-7.25-7.25z"
+       style="color-rendering:auto;color:#000000;dominant-baseline:auto;fill:#fbfefe;font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;image-rendering:auto;isolation:auto;mix-blend-mode:normal;opacity:1;shape-padding:0;shape-rendering:auto;solid-color:#000000;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"
+       id="path9972" />
+  </g>
+  <g
+     id="titlebutton-close-backdrop-dark"
+     transform="translate(-239,259.64)"
+     style="opacity:.3">
+    <g
+       transform="translate(-678,-432.64)"
+       style="opacity:1"
+       id="g9981">
+      <g
+         transform="translate(-103)"
+         style="opacity:1"
+         id="g9979">
+        <g
+           transform="translate(58)"
+           id="g9977">
+          <path
+             d="m1376 247.75c-4.0011 0-7.25 3.2489-7.25 7.25s3.2489 7.25 7.25 7.25 7.25-3.2489 7.25-7.25-3.2489-7.25-7.25-7.25z"
+             style="color-rendering:auto;color:#000000;dominant-baseline:auto;fill:#fbfefe;font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;image-rendering:auto;isolation:auto;mix-blend-mode:normal;opacity:1;shape-padding:0;shape-rendering:auto;solid-color:#000000;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"
+             id="path9975" />
+        </g>
+      </g>
+    </g>
+    <rect
+       x="645"
+       y="-185.64"
+       width="16"
+       height="16"
+       style="fill:none;opacity:1"
+       id="rect9983" />
+  </g>
+  <g
+     id="titlebutton-appmenu"
+     transform="translate(-461,242.64)">
+    <g
+       transform="translate(-678,-432.64)"
+       id="g9992">
+      <g
+         transform="translate(-103)"
+         id="g9990">
+        <g
+           transform="translate(58)"
+           id="g9988">
+          <path
+             transform="translate(1204,190)"
+             d="m172 58c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z"
+             style="fill:#19a187;stroke-width:.5;stroke:#0e5c4d"
+             id="path9986" />
+        </g>
+      </g>
+    </g>
+    <rect
+       x="645"
+       y="-185.64"
+       width="16"
+       height="16"
+       style="fill:none"
+       id="rect9994" />
+  </g>
+  <g
+     id="titlebutton-appmenu-backdrop"
+     transform="translate(-461,259.64)"
+     style="opacity:.3">
+    <g
+       transform="translate(-678,-432.64)"
+       style="opacity:1"
+       id="g10003">
+      <g
+         transform="translate(-103)"
+         style="opacity:1"
+         id="g10001">
+        <g
+           transform="translate(58)"
+           id="g9999">
+          <path
+             d="m1376 247.75c-4.0011 0-7.25 3.2489-7.25 7.25s3.2489 7.25 7.25 7.25 7.25-3.2489 7.25-7.25-3.2489-7.25-7.25-7.25z"
+             style="color-rendering:auto;color:#000000;dominant-baseline:auto;font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;image-rendering:auto;isolation:auto;mix-blend-mode:normal;opacity:1;shape-padding:0;shape-rendering:auto;solid-color:#000000;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"
+             id="path9997" />
+        </g>
+      </g>
+    </g>
+    <rect
+       x="645"
+       y="-185.64"
+       width="16"
+       height="16"
+       style="fill:none;opacity:1"
+       id="rect10005" />
+  </g>
+  <g
+     id="titlebutton-appmenu-hover"
+     transform="translate(-358,276.64)">
+    <g
+       transform="translate(-781,-432.64)"
+       id="g10014">
+      <g
+         transform="translate(-103)"
+         id="g10012">
+        <g
+           transform="translate(58)"
+           id="g10010">
+          <path
+             transform="translate(1184,156)"
+             d="m192 92c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z"
+             style="fill:#19a187;stroke-width:.5;stroke:#0e5c4d"
+             id="path10008" />
+        </g>
+      </g>
+    </g>
+    <rect
+       x="542"
+       y="-185.64"
+       width="16"
+       height="16"
+       style="fill:none"
+       id="rect10016" />
+    <circle
+       cx="550"
+       cy="-177.64"
+       r="1.5"
+       style="opacity:.5;stroke-width:.5"
+       id="circle10018" />
+  </g>
+  <g
+     id="titlebutton-appmenu-active"
+     transform="translate(-358,293.64)">
+    <g
+       transform="translate(-781,-432.64)"
+       id="g10027">
+      <g
+         transform="translate(-103)"
+         id="g10025">
+        <g
+           transform="translate(58)"
+           id="g10023">
+          <path
+             transform="translate(1184,156)"
+             d="m192 92c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z"
+             style="fill:#19a187;stroke-width:.5;stroke:#0e5c4d"
+             id="path10021" />
+        </g>
+      </g>
+    </g>
+    <rect
+       x="542"
+       y="-185.64"
+       width="16"
+       height="16"
+       style="fill:none"
+       id="rect10029" />
+    <circle
+       cx="550"
+       cy="-177.64"
+       r="1.5"
+       style="opacity:.5;stroke-width:.5"
+       id="circle10031" />
+  </g>
+  <g
+     id="titlebutton-appmenu-dark"
+     transform="translate(-219,242.64)">
+    <g
+       transform="translate(-678,-432.64)"
+       id="g10040">
+      <g
+         transform="translate(-103)"
+         id="g10038">
+        <g
+           transform="translate(58)"
+           id="g10036">
+          <path
+             transform="translate(1204,190)"
+             d="m172 58c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z"
+             style="fill:#19a187;stroke-width:.5;stroke:#0e5c4d"
+             id="path10034" />
+        </g>
+      </g>
+    </g>
+    <rect
+       x="645"
+       y="-185.64"
+       width="16"
+       height="16"
+       style="fill:none"
+       id="rect10042" />
+  </g>
+  <g
+     id="titlebutton-appmenu-backdrop-dark"
+     transform="translate(-219,259.64)"
+     style="opacity:.3">
+    <g
+       transform="translate(-678,-432.64)"
+       style="opacity:1"
+       id="g10051">
+      <g
+         transform="translate(-103)"
+         style="opacity:1"
+         id="g10049">
+        <g
+           transform="translate(58)"
+           id="g10047">
+          <path
+             d="m1376 247.75c-4.0011 0-7.25 3.2489-7.25 7.25s3.2489 7.25 7.25 7.25 7.25-3.2489 7.25-7.25-3.2489-7.25-7.25-7.25z"
+             style="color-rendering:auto;color:#000000;dominant-baseline:auto;fill:#fbfefe;font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;image-rendering:auto;isolation:auto;mix-blend-mode:normal;opacity:1;shape-padding:0;shape-rendering:auto;solid-color:#000000;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"
+             id="path10045" />
+        </g>
+      </g>
+    </g>
+    <rect
+       x="645"
+       y="-185.64"
+       width="16"
+       height="16"
+       style="fill:none;opacity:1"
+       id="rect10053" />
+  </g>
+  <g
+     id="titlebutton-appmenu-hover-dark"
+     transform="translate(-116,276.64)">
+    <g
+       transform="translate(-781,-432.64)"
+       id="g10062">
+      <g
+         transform="translate(-103)"
+         id="g10060">
+        <g
+           transform="translate(58)"
+           id="g10058">
+          <path
+             transform="translate(1184,156)"
+             d="m192 92c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z"
+             style="fill:#19a187;stroke-width:.5;stroke:#0e5c4d"
+             id="path10056" />
+        </g>
+      </g>
+    </g>
+    <rect
+       x="542"
+       y="-185.64"
+       width="16"
+       height="16"
+       style="fill:none"
+       id="rect10064" />
+    <circle
+       cx="550"
+       cy="-177.64"
+       r="1.5"
+       style="opacity:.5;stroke-width:.5"
+       id="circle10066" />
+  </g>
+  <g
+     id="titlebutton-appmenu-active-dark"
+     transform="translate(-116,293.64)">
+    <g
+       transform="translate(-781,-432.64)"
+       id="g10075">
+      <g
+         transform="translate(-103)"
+         id="g10073">
+        <g
+           transform="translate(58)"
+           id="g10071">
+          <path
+             transform="translate(1184,156)"
+             d="m192 92c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z"
+             style="fill:#19a187;stroke-width:.5;stroke:#0e5c4d"
+             id="path10069" />
+        </g>
+      </g>
+    </g>
+    <rect
+       x="542"
+       y="-185.64"
+       width="16"
+       height="16"
+       style="fill:none"
+       id="rect10077" />
+    <circle
+       cx="550"
+       cy="-177.64"
+       r="1.5"
+       style="opacity:.5;stroke-width:.5"
+       id="circle10079" />
+  </g>
+  <g
+     id="checkbox-checked-darkest"
+     transform="translate(228,194.64)">
+    <g
+       transform="translate(19)"
+       id="g10088">
+      <g
+         transform="translate(0,-30)"
+         id="g10086">
+        <rect
+           x="17"
+           y="30.362"
+           width="16"
+           height="16"
+           style="color:#000000;fill:none"
+           id="rect10082" />
+        <rect
+           x="18"
+           y="31.362"
+           width="14"
+           height="14"
+           rx="2"
+           ry="2"
+           style="color:#000000;fill:#367bf0;stroke-width:0"
+           id="rect10084" />
+      </g>
+    </g>
+    <g
+       transform="translate(36,-1036)"
+       id="g10102">
+      <g
+         transform="rotate(45,7.5,1026.4)"
+         id="g10100">
+        <g
+           transform="translate(12.374,11.531)"
+           id="g10098">
+          <g
+             transform="translate(-3,-5)"
+             style="fill:#3b3c3e"
+             id="g10094">
+            <rect
+               x="8"
+               y="1033.4"
+               width="5"
+               height="2"
+               rx=".66666"
+               ry=".66666"
+               style="fill:#2b303b"
+               id="rect10090" />
+            <rect
+               x="11"
+               y="1027.4"
+               width="2"
+               height="8"
+               ry="0"
+               style="fill:#2b303b"
+               id="rect10092" />
+          </g>
+          <rect
+             transform="translate(0,1036.4)"
+             x="5"
+             y="-8"
+             width="3"
+             height="1"
+             style="fill-opacity:0"
+             id="rect10096" />
+        </g>
+      </g>
+    </g>
+  </g>
+  <g
+     id="checkbox-mixed-darkest"
+     transform="translate(247,194.64)">
+    <g
+       transform="translate(19)"
+       id="g10111">
+      <g
+         transform="translate(0,-30)"
+         id="g10109">
+        <rect
+           x="17"
+           y="30.362"
+           width="16"
+           height="16"
+           style="color:#000000;fill:none"
+           id="rect10105" />
+        <rect
+           x="18"
+           y="31.362"
+           width="14"
+           height="14"
+           rx="2"
+           ry="2"
+           style="color:#000000;fill:#367bf0;stroke-width:0"
+           id="rect10107" />
+      </g>
+    </g>
+    <g
+       transform="translate(36,-1036)"
+       id="g10123">
+      <g
+         transform="rotate(45,7.5,1026.4)"
+         id="g10121">
+        <g
+           transform="translate(12.374,11.531)"
+           id="g10119">
+          <g
+             transform="translate(-3,-5)"
+             style="fill:#3b3c3e"
+             id="g10115">
+            <rect
+               transform="rotate(225)"
+               x="-738.8"
+               y="-725.95"
+               width="2"
+               height="8"
+               ry="0"
+               style="fill:#2b303b"
+               id="rect10113" />
+          </g>
+          <rect
+             transform="translate(0,1036.4)"
+             x="5"
+             y="-8"
+             width="3"
+             height="1"
+             style="fill-opacity:0"
+             id="rect10117" />
+        </g>
+      </g>
+    </g>
+  </g>
+  <g
+     id="radio-checked-darkest"
+     transform="translate(209,194.64)">
+    <g
+       transform="translate(19.004,-4.6993e-6)"
+       id="g10134">
+      <g
+         transform="matrix(.93617 0 0 .93566 -96.783 -244.76)"
+         id="g10132">
+        <rect
+           x="206.99"
+           y="261.98"
+           width="17.091"
+           height="17.1"
+           style="color:#000000;fill:none"
+           id="rect10126" />
+        <g
+           transform="matrix(.50892 0 0 .5174 181.79 197.56)"
+           id="g10130">
+          <rect
+             x="51.611"
+             y="126.56"
+             width="29.385"
+             height="28.919"
+             rx="14.692"
+             ry="14.46"
+             style="color:#000000;fill:#367bf0;stroke-width:0"
+             id="rect10128" />
+        </g>
+      </g>
+    </g>
+    <rect
+       x="122"
+       y="6.3622"
+       width="4"
+       height="4"
+       rx="1.9989"
+       ry="2"
+       style="color:#000000;fill:#2b303b"
+       id="rect10136" />
+  </g>
+  <g
+     id="radio-mixed-darkest"
+     transform="translate(209,194.64)">
+    <g
+       transform="translate(19,-4.6993e-6)"
+       id="g10149">
+      <g
+         transform="translate(19.004,-4.6993e-6)"
+         id="g10147">
+        <g
+           transform="matrix(.93617 0 0 .93566 -96.783 -244.76)"
+           id="g10145">
+          <rect
+             x="206.99"
+             y="261.98"
+             width="17.091"
+             height="17.1"
+             style="color:#000000;fill:none"
+             id="rect10139" />
+          <g
+             transform="matrix(.50892 0 0 .5174 181.79 197.56)"
+             id="g10143">
+            <rect
+               x="51.611"
+               y="126.56"
+               width="29.385"
+               height="28.919"
+               rx="14.692"
+               ry="14.46"
+               style="color:#000000;fill:#367bf0;stroke-width:0"
+               id="rect10141" />
+          </g>
+        </g>
+      </g>
+    </g>
+    <rect
+       transform="rotate(-90)"
+       x="-9.3622"
+       y="139"
+       width="2"
+       height="8"
+       ry="0"
+       style="fill:#2b303b"
+       id="rect10151" />
+  </g>
+  <g
+     id="checkbox-unchecked-darkest"
+     transform="translate(228,194.64)">
+    <g
+       transform="translate(0,-30)"
+       id="g10158">
+      <rect
+         x="17"
+         y="30.362"
+         width="16"
+         height="16"
+         style="color:#000000;fill:none"
+         id="rect10154" />
+      <rect
+         x="18.5"
+         y="31.862"
+         width="13"
+         height="13"
+         rx="2"
+         ry="2"
+         style="color:#000000;fill:#403333;stroke-linejoin:round;stroke:#654d4d"
+         id="rect10156" />
+    </g>
+  </g>
+  <g
+     id="radio-unchecked-darkest"
+     transform="translate(208 194.64)">
+    <g
+       transform="matrix(.93617 0 0 .93566 -96.783 -244.76)"
+       id="g10167">
+      <rect
+         x="206.99"
+         y="261.98"
+         width="17.091"
+         height="17.1"
+         style="color:#000000;fill:none"
+         id="rect10161" />
+      <g
+         transform="matrix(.50892 0 0 .5174 181.79 197.56)"
+         id="g10165">
+        <rect
+           x="52.66"
+           y="127.6"
+           width="27.304"
+           height="26.836"
+           rx="13.224"
+           ry="13.246"
+           style="color:#000000;fill:#403333;stroke-linejoin:round;stroke-width:2.0822;stroke:#654d4d"
+           id="rect10163" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="checkbox-checked-insensitive-darkest"
+     transform="translate(228,213.64)"
+     style="opacity:.55">
+    <g
+       transform="translate(19)"
+       id="g10176">
+      <g
+         transform="translate(0,-30)"
+         id="g10174">
+        <rect
+           x="17"
+           y="30.362"
+           width="16"
+           height="16"
+           style="color:#000000;fill:none"
+           id="rect10170" />
+        <rect
+           x="18"
+           y="31.362"
+           width="14"
+           height="14"
+           rx="2"
+           ry="2"
+           style="color:#000000;fill:#367bf0;stroke-width:0"
+           id="rect10172" />
+      </g>
+    </g>
+    <g
+       transform="translate(36,-1036)"
+       id="g10190">
+      <g
+         transform="rotate(45,7.5,1026.4)"
+         id="g10188">
+        <g
+           transform="translate(12.374,11.531)"
+           id="g10186">
+          <g
+             transform="translate(-3,-5)"
+             style="fill:#3b3c3e"
+             id="g10182">
+            <rect
+               x="8"
+               y="1033.4"
+               width="5"
+               height="2"
+               rx=".66666"
+               ry=".66666"
+               style="fill:#2b303b"
+               id="rect10178" />
+            <rect
+               x="11"
+               y="1027.4"
+               width="2"
+               height="8"
+               ry="0"
+               style="fill:#2b303b"
+               id="rect10180" />
+          </g>
+          <rect
+             transform="translate(0,1036.4)"
+             x="5"
+             y="-8"
+             width="3"
+             height="1"
+             style="fill-opacity:0"
+             id="rect10184" />
+        </g>
+      </g>
+    </g>
+  </g>
+  <g
+     id="checkbox-mixed-insensitive-darkest"
+     transform="translate(247,213.64)"
+     style="opacity:.55">
+    <g
+       transform="translate(19)"
+       id="g10199">
+      <g
+         transform="translate(0,-30)"
+         id="g10197">
+        <rect
+           x="17"
+           y="30.362"
+           width="16"
+           height="16"
+           style="color:#000000;fill:none"
+           id="rect10193" />
+        <rect
+           x="18"
+           y="31.362"
+           width="14"
+           height="14"
+           rx="2"
+           ry="2"
+           style="color:#000000;fill:#367bf0;stroke-width:0"
+           id="rect10195" />
+      </g>
+    </g>
+    <g
+       transform="translate(36,-1036)"
+       id="g10211">
+      <g
+         transform="rotate(45,7.5,1026.4)"
+         id="g10209">
+        <g
+           transform="translate(12.374,11.531)"
+           id="g10207">
+          <g
+             transform="translate(-3,-5)"
+             style="fill:#3b3c3e"
+             id="g10203">
+            <rect
+               transform="rotate(225)"
+               x="-738.8"
+               y="-725.95"
+               width="2"
+               height="8"
+               ry="0"
+               style="fill:#2b303b"
+               id="rect10201" />
+          </g>
+          <rect
+             transform="translate(0,1036.4)"
+             x="5"
+             y="-8"
+             width="3"
+             height="1"
+             style="fill-opacity:0"
+             id="rect10205" />
+        </g>
+      </g>
+    </g>
+  </g>
+  <g
+     id="radio-checked-insensitive-darkest"
+     transform="translate(209,213.64)"
+     style="opacity:.55">
+    <g
+       transform="translate(19.004,-4.6993e-6)"
+       id="g10222">
+      <g
+         transform="matrix(.93617 0 0 .93566 -96.783 -244.76)"
+         id="g10220">
+        <rect
+           x="206.99"
+           y="261.98"
+           width="17.091"
+           height="17.1"
+           style="color:#000000;fill:none"
+           id="rect10214" />
+        <g
+           transform="matrix(.50892 0 0 .5174 181.79 197.56)"
+           id="g10218">
+          <rect
+             x="51.611"
+             y="126.56"
+             width="29.385"
+             height="28.919"
+             rx="14.692"
+             ry="14.46"
+             style="color:#000000;fill:#367bf0;stroke-width:0"
+             id="rect10216" />
+        </g>
+      </g>
+    </g>
+    <rect
+       x="122"
+       y="6.3622"
+       width="4"
+       height="4"
+       rx="1.9989"
+       ry="2"
+       style="color:#000000;fill:#2b303b"
+       id="rect10224" />
+  </g>
+  <g
+     id="radio-mixed-insensitive-darkest"
+     transform="translate(209,213.64)"
+     style="opacity:.55">
+    <g
+       transform="translate(19,-4.6993e-6)"
+       id="g10237">
+      <g
+         transform="translate(19.004,-4.6993e-6)"
+         id="g10235">
+        <g
+           transform="matrix(.93617 0 0 .93566 -96.783 -244.76)"
+           id="g10233">
+          <rect
+             x="206.99"
+             y="261.98"
+             width="17.091"
+             height="17.1"
+             style="color:#000000;fill:none"
+             id="rect10227" />
+          <g
+             transform="matrix(.50892 0 0 .5174 181.79 197.56)"
+             id="g10231">
+            <rect
+               x="51.611"
+               y="126.56"
+               width="29.385"
+               height="28.919"
+               rx="14.692"
+               ry="14.46"
+               style="color:#000000;fill:#367bf0;stroke-width:0"
+               id="rect10229" />
+          </g>
+        </g>
+      </g>
+    </g>
+    <rect
+       transform="rotate(-90)"
+       x="-9.3622"
+       y="139"
+       width="2"
+       height="8"
+       ry="0"
+       style="fill:#2b303b"
+       id="rect10239" />
+  </g>
+  <g
+     id="checkbox-unchecked-insensitive-darkest"
+     transform="translate(228,213.64)"
+     style="opacity:.6">
+    <g
+       transform="translate(0,-30)"
+       id="g10246">
+      <rect
+         x="17"
+         y="30.362"
+         width="16"
+         height="16"
+         style="color:#000000;fill:none"
+         id="rect10242" />
+      <rect
+         x="18.5"
+         y="31.862"
+         width="13"
+         height="13"
+         rx="2"
+         ry="2"
+         style="color:#000000;fill:#403333;stroke-linejoin:round;stroke:#654d4d"
+         id="rect10244" />
+    </g>
+  </g>
+  <g
+     id="radio-unchecked-insensitive-darkest"
+     transform="translate(208,213.64)"
+     style="opacity:.6">
+    <g
+       transform="matrix(.93617 0 0 .93566 -96.783 -244.76)"
+       id="g10255">
+      <rect
+         x="206.99"
+         y="261.98"
+         width="17.091"
+         height="17.1"
+         style="color:#000000;fill:none"
+         id="rect10249" />
+      <g
+         transform="matrix(.50892 0 0 .5174 181.79 197.56)"
+         id="g10253">
+        <rect
+           x="52.66"
+           y="127.6"
+           width="27.304"
+           height="26.836"
+           rx="13.224"
+           ry="13.246"
+           style="color:#000000;fill:#403333;stroke-linejoin:round;stroke-width:2.0822;stroke:#654d4d"
+           id="rect10251" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="checkbox-checked-selectionmode-darkest"
+     transform="translate(-220,54.64)">
+    <rect
+       x="466"
+       y="183.36"
+       width="32"
+       height="32"
+       rx="2"
+       ry="2"
+       style="fill:#367bf0;stroke-width:0"
+       id="rect10258" />
+    <g
+       transform="translate(-2.2045,1.973)"
+       id="g10262">
+      <path
+         d="m491.36 188.95-9.5312 9.5625-4.7812-4.7812-3.1876 3.1875 4.7813 4.7812 3.1875 3.1875 3.1562-3.1875 9.5626-9.5625z"
+         style="fill:#2b303b"
+         id="path10260" />
+    </g>
+    <rect
+       x="462"
+       y="179.36"
+       width="40"
+       height="40"
+       rx="2"
+       ry="2"
+       style="fill:none;stroke-width:0"
+       id="rect10264" />
+  </g>
+  <g
+     id="checkbox-selectionmode-darkest"
+     transform="translate(-175,54.64)">
+    <rect
+       x="466.5"
+       y="183.86"
+       width="31"
+       height="31"
+       rx="2"
+       ry="2"
+       style="fill:#403333;stroke:#654d4d"
+       id="rect10267" />
+    <g
+       transform="translate(-2.2045,1.973)"
+       id="g10271">
+      <path
+         d="m491.36 188.95-9.5312 9.5625-4.7812-4.7812-3.1876 3.1875 4.7813 4.7812 3.1875 3.1875 3.1562-3.1875 9.5626-9.5625z"
+         style="fill:#5f6578;opacity:.55"
+         id="path10269" />
+    </g>
+    <rect
+       x="462"
+       y="179.36"
+       width="40"
+       height="40"
+       rx="2"
+       ry="2"
+       style="fill:none;stroke-width:0"
+       id="rect10273" />
+  </g>
+  <g
+     id="titlebutton-minimize-darkest"
+     transform="translate(-221,380.64)">
+    <rect
+       x="587"
+       y="-185.64"
+       width="16"
+       height="16"
+       style="fill:none"
+       id="rect10276" />
+    <path
+       d="m595-184.64c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z"
+       style="fill:#fd7d00;stroke-width:.5;stroke:#c05f00"
+       id="path10278" />
+  </g>
+  <g
+     id="titlebutton-close-darkest"
+     transform="translate(-239,380.64)">
+    <g
+       transform="translate(-678,-432.64)"
+       id="g10287">
+      <g
+         transform="translate(-103)"
+         id="g10285">
+        <g
+           transform="translate(58)"
+           id="g10283">
+          <path
+             transform="translate(962,190)"
+             d="m414 58c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z"
+             style="fill:#d31919;stroke-width:.5;stroke:#8b1111"
+             id="path10281" />
+        </g>
+      </g>
+    </g>
+    <rect
+       x="645"
+       y="-185.64"
+       width="16"
+       height="16"
+       style="fill:none"
+       id="rect10289" />
+  </g>
+  <g
+     id="titlebutton-maximize-darkest"
+     transform="translate(-230,380.64)">
+    <rect
+       x="616"
+       y="-185.64"
+       width="16"
+       height="16"
+       style="fill:none"
+       id="rect10292" />
+    <path
+       d="m624-184.63c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z"
+       style="fill:#377cf1;stroke-width:.5;stroke:#0e53ca"
+       id="path10294" />
+  </g>
+  <g
+     id="titlebutton-close-hover-darkest"
+     transform="translate(-136,414.64)">
+    <g
+       transform="translate(-781,-432.64)"
+       id="g10303">
+      <g
+         transform="translate(-103)"
+         id="g10301">
+        <g
+           transform="translate(58)"
+           id="g10299">
+          <path
+             transform="translate(962,156)"
+             d="m414 92c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z"
+             style="fill:#d31919;stroke-width:.5;stroke:#8b1111"
+             id="path10297" />
+        </g>
+      </g>
+    </g>
+    <rect
+       x="542"
+       y="-185.64"
+       width="16"
+       height="16"
+       style="fill:none"
+       id="rect10305" />
+    <path
+       d="m547-180.72h0.75c8e-3 -9e-5 0.0156-3.5e-4 0.0234 0 0.19122 8e-3 0.3824 0.0964 0.51563 0.23437l1.7109 1.7109 1.7344-1.7109c0.19922-0.17287 0.335-0.22912 0.51562-0.23437h0.75v0.75c0 0.21485-0.0257 0.41298-0.1875 0.5625l-1.7109 1.7109 1.6875 1.6875c0.14114 0.14113 0.21093 0.34009 0.21093 0.53907v0.75h-0.75c-0.19897-1e-5 -0.39793-0.0698-0.53906-0.21094l-1.7109-1.7109-1.7109 1.7109c-0.14113 0.14114-0.3401 0.21094-0.53907 0.21094h-0.75v-0.75c0-0.19897 0.0698-0.39794 0.21094-0.53907l1.7109-1.6875-1.7109-1.7109c-0.15805-0.14598-0.22737-0.35194-0.21094-0.5625v-0.75z"
+       style="color:#bebebe;enable-background:new;opacity:.5;text-decoration-line:none;text-indent:0;text-transform:none"
+       id="path10307" />
+  </g>
+  <g
+     id="titlebutton-maximize-hover-darkest"
+     transform="translate(-127,414.64)">
+    <g
+       transform="translate(-781,-432.64)"
+       id="g10312">
+      <path
+         transform="translate(908,156)"
+         d="m394 92c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z"
+         style="fill:#377cf1;stroke-width:.5;stroke:#0e53ca"
+         id="path10310" />
+    </g>
+    <rect
+       x="513"
+       y="-185.64"
+       width="16"
+       height="16"
+       style="fill:none"
+       id="rect10314" />
+    <path
+       d="m519.8-180.64h3.3817c0.4503 0 0.81623 0.36847 0.81876 0.8188v3.3817zm2.4074 6.0069h-3.3951c-0.45035 0-0.81876-0.36842-0.81876-0.81875v-3.3951l4.2138 4.2138"
+       style="fill-rule:evenodd;opacity:.5"
+       id="path10316" />
+  </g>
+  <g
+     id="titlebutton-minimize-hover-darkest"
+     transform="translate(-118,414.64)">
+    <g
+       transform="translate(-781,-432.64)"
+       id="g10321">
+      <path
+         transform="translate(899,156)"
+         d="m374 92c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z"
+         style="fill:#fd7d00;stroke-width:.5;stroke:#c05f00"
+         id="path10319" />
+    </g>
+    <rect
+       x="484"
+       y="-185.64"
+       width="16"
+       height="16"
+       style="fill:none"
+       id="rect10323" />
+    <path
+       d="m489-178.39v1.5h6v-1.5z"
+       style="color:#000000;opacity:.5;stroke-width:.86603;text-decoration-line:none;text-indent:0;text-transform:none"
+       id="path10325" />
+  </g>
+  <g
+     id="titlebutton-close-active-darkest"
+     transform="translate(-35,431.64)">
+    <g
+       transform="translate(-882,-432.64)"
+       id="g10334">
+      <g
+         transform="translate(-103)"
+         id="g10332">
+        <g
+           transform="translate(58)"
+           id="g10330">
+          <path
+             transform="translate(962,139)"
+             d="m414 109c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z"
+             style="fill:#d31919;stroke-width:.5;stroke:#8b1111"
+             id="path10328" />
+        </g>
+      </g>
+    </g>
+    <rect
+       x="441"
+       y="-185.64"
+       width="16"
+       height="16"
+       style="fill:none"
+       id="rect10336" />
+    <path
+       d="m446-180.72h0.75c8e-3 -9e-5 0.0156-3.5e-4 0.0234 0 0.19122 8e-3 0.3824 0.0964 0.51563 0.23437l1.7109 1.7109 1.7344-1.7109c0.19922-0.17287 0.335-0.22912 0.51562-0.23437h0.75v0.75c0 0.21485-0.0257 0.41298-0.1875 0.5625l-1.7109 1.7109 1.6875 1.6875c0.14114 0.14113 0.21093 0.34009 0.21093 0.53907v0.75h-0.75c-0.19897-1e-5 -0.39793-0.0698-0.53906-0.21094l-1.7109-1.7109-1.7109 1.7109c-0.14113 0.14114-0.3401 0.21094-0.53907 0.21094h-0.75v-0.75c0-0.19897 0.0698-0.39794 0.21094-0.53907l1.7109-1.6875-1.7109-1.7109c-0.15805-0.14598-0.22737-0.35194-0.21094-0.5625v-0.75z"
+       style="color:#bebebe;enable-background:new;opacity:.5;text-decoration-line:none;text-indent:0;text-transform:none"
+       id="path10338" />
+  </g>
+  <g
+     id="titlebutton-maximize-active-darkest"
+     transform="translate(-26,431.64)">
+    <g
+       transform="translate(-882,-432.64)"
+       id="g10347">
+      <g
+         transform="translate(-132)"
+         id="g10345">
+        <g
+           transform="translate(58)"
+           id="g10343">
+          <path
+             transform="translate(982,139)"
+             d="m394 109c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z"
+             style="fill:#377cf1;stroke-width:.5;stroke:#0e53ca"
+             id="path10341" />
+        </g>
+      </g>
+    </g>
+    <rect
+       x="412"
+       y="-185.64"
+       width="16"
+       height="16"
+       style="fill:none"
+       id="rect10349" />
+    <path
+       d="m418.8-180.64h3.3817c0.4503 0 0.81623 0.36847 0.81876 0.8188v3.3817zm2.4074 6.0069h-3.3951c-0.45035 0-0.81876-0.36842-0.81876-0.81875v-3.3951l4.2138 4.2138"
+       style="fill-rule:evenodd;opacity:.5"
+       id="path10351" />
+  </g>
+  <g
+     id="titlebutton-minimize-active-darkest"
+     transform="translate(-17,431.64)">
+    <g
+       transform="translate(-882,-432.64)"
+       id="g10360">
+      <g
+         transform="translate(-161)"
+         id="g10358">
+        <g
+           transform="translate(58)"
+           id="g10356">
+          <path
+             transform="translate(1002,139)"
+             d="m374 109c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z"
+             style="fill:#fd7d00;stroke-width:.5;stroke:#c05f00"
+             id="path10354" />
+        </g>
+      </g>
+    </g>
+    <rect
+       x="383"
+       y="-185.64"
+       width="16"
+       height="16"
+       style="fill:none"
+       id="rect10362" />
+    <path
+       d="m388-178.39v1.5h6v-1.5z"
+       style="color:#000000;opacity:.5;stroke-width:.86603;text-decoration-line:none;text-indent:0;text-transform:none"
+       id="path10364" />
+  </g>
+  <g
+     id="titlebutton-maximize-backdrop-darkest"
+     transform="translate(-230,380.64)"
+     style="opacity:.3">
+    <path
+       d="m624-167.88c-4.0011 0-7.25 3.2489-7.25 7.25s3.2489 7.25 7.25 7.25 7.25-3.2489 7.25-7.25-3.2489-7.25-7.25-7.25z"
+       style="color-rendering:auto;color:#000000;dominant-baseline:auto;fill:#efd5cb;font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;image-rendering:auto;isolation:auto;mix-blend-mode:normal;opacity:1;shape-padding:0;shape-rendering:auto;solid-color:#000000;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"
+       id="path10367" />
+    <rect
+       x="616"
+       y="-168.64"
+       width="16"
+       height="16"
+       style="fill:none;opacity:1"
+       id="rect10369" />
+  </g>
+  <g
+     id="titlebutton-minimize-backdrop-darkest"
+     transform="translate(-221,380.64)"
+     style="opacity:.3">
+    <rect
+       x="587"
+       y="-168.64"
+       width="16"
+       height="16"
+       style="fill:none;opacity:1"
+       id="rect10372" />
+    <path
+       d="m595-167.89c-4.0011 0-7.25 3.2489-7.25 7.25s3.2489 7.25 7.25 7.25 7.25-3.2489 7.25-7.25-3.2489-7.25-7.25-7.25z"
+       style="color-rendering:auto;color:#000000;dominant-baseline:auto;fill:#efd5cb;font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;image-rendering:auto;isolation:auto;mix-blend-mode:normal;opacity:1;shape-padding:0;shape-rendering:auto;solid-color:#000000;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"
+       id="path10374" />
+  </g>
+  <g
+     id="titlebutton-close-backdrop-darkest"
+     transform="translate(-239,397.64)"
+     style="opacity:.3">
+    <g
+       transform="translate(-678,-432.64)"
+       style="opacity:1"
+       id="g10383">
+      <g
+         transform="translate(-103)"
+         style="opacity:1"
+         id="g10381">
+        <g
+           transform="translate(58)"
+           id="g10379">
+          <path
+             d="m1376 247.75c-4.0011 0-7.25 3.2489-7.25 7.25s3.2489 7.25 7.25 7.25 7.25-3.2489 7.25-7.25-3.2489-7.25-7.25-7.25z"
+             style="color-rendering:auto;color:#000000;dominant-baseline:auto;fill:#efd5cb;font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;image-rendering:auto;isolation:auto;mix-blend-mode:normal;opacity:1;shape-padding:0;shape-rendering:auto;solid-color:#000000;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"
+             id="path10377" />
+        </g>
+      </g>
+    </g>
+    <rect
+       x="645"
+       y="-185.64"
+       width="16"
+       height="16"
+       style="fill:none;opacity:1"
+       id="rect10385" />
+  </g>
+  <g
+     id="titlebutton-appmenu-darkest"
+     transform="translate(-219,380.64)">
+    <g
+       transform="translate(-678,-432.64)"
+       id="g10394">
+      <g
+         transform="translate(-103)"
+         id="g10392">
+        <g
+           transform="translate(58)"
+           id="g10390">
+          <path
+             transform="translate(1204,190)"
+             d="m172 58c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z"
+             style="fill:#19a187;stroke-width:.5;stroke:#0e5c4d"
+             id="path10388" />
+        </g>
+      </g>
+    </g>
+    <rect
+       x="645"
+       y="-185.64"
+       width="16"
+       height="16"
+       style="fill:none"
+       id="rect10396" />
+  </g>
+  <g
+     id="titlebutton-appmenu-backdrop-darkest"
+     transform="translate(-219,397.64)"
+     style="opacity:.3">
+    <g
+       transform="translate(-678,-432.64)"
+       style="opacity:1"
+       id="g10405">
+      <g
+         transform="translate(-103)"
+         style="opacity:1"
+         id="g10403">
+        <g
+           transform="translate(58)"
+           id="g10401">
+          <path
+             d="m1376 247.75c-4.0011 0-7.25 3.2489-7.25 7.25s3.2489 7.25 7.25 7.25 7.25-3.2489 7.25-7.25-3.2489-7.25-7.25-7.25z"
+             style="color-rendering:auto;color:#000000;dominant-baseline:auto;fill:#efd5cb;font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;image-rendering:auto;isolation:auto;mix-blend-mode:normal;opacity:1;shape-padding:0;shape-rendering:auto;solid-color:#000000;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"
+             id="path10399" />
+        </g>
+      </g>
+    </g>
+    <rect
+       x="645"
+       y="-185.64"
+       width="16"
+       height="16"
+       style="fill:none;opacity:1"
+       id="rect10407" />
+  </g>
+  <g
+     id="titlebutton-appmenu-hover-darkest"
+     transform="translate(-116,414.64)">
+    <g
+       transform="translate(-781,-432.64)"
+       id="g10416">
+      <g
+         transform="translate(-103)"
+         id="g10414">
+        <g
+           transform="translate(58)"
+           id="g10412">
+          <path
+             transform="translate(1184,156)"
+             d="m192 92c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z"
+             style="fill:#19a187;stroke-width:.5;stroke:#0e5c4d"
+             id="path10410" />
+        </g>
+      </g>
+    </g>
+    <rect
+       x="542"
+       y="-185.64"
+       width="16"
+       height="16"
+       style="fill:none"
+       id="rect10418" />
+    <circle
+       cx="550"
+       cy="-177.64"
+       r="1.5"
+       style="opacity:.5;stroke-width:.5"
+       id="circle10420" />
+  </g>
+  <g
+     id="titlebutton-appmenu-active-darkest"
+     transform="translate(-116,431.64)">
+    <g
+       transform="translate(-781,-432.64)"
+       id="g10429">
+      <g
+         transform="translate(-103)"
+         id="g10427">
+        <g
+           transform="translate(58)"
+           id="g10425">
+          <path
+             transform="translate(1184,156)"
+             d="m192 92c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z"
+             style="fill:#19a187;stroke-width:.5;stroke:#0e5c4d"
+             id="path10423" />
+        </g>
+      </g>
+    </g>
+    <rect
+       x="542"
+       y="-185.64"
+       width="16"
+       height="16"
+       style="fill:none"
+       id="rect10431" />
+    <circle
+       cx="550"
+       cy="-177.64"
+       r="1.5"
+       style="opacity:.5;stroke-width:.5"
+       id="circle10433" />
+  </g>
 </svg>
