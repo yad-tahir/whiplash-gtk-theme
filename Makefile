@@ -4,7 +4,7 @@
 PREFIX ?= /usr
 IGNORE ?=
 THEMES ?= $(patsubst %/index.theme,%,$(wildcard ./*/index.theme))
-PKGNAME = flat-remix-gtk
+PKGNAME = -gtk
 MAINTAINER = Daniel Ruiz de Alegría <daniel@drasite.com>
 
 # excludes IGNORE from THEMES list
@@ -38,8 +38,8 @@ _get_tag:
 
 dist: _get_version
 	color_variants="-Blue -Red -Teal -Green -Yellow -Pink"; \
-	theme_variants="- -Darker -Dark -Darkest"; \
-	extra_variants="- -Solid -NoBorder -Solid-NoBorder"; \
+	theme_variants="- -darker -dark -darkest"; \
+	extra_variants="- -solid -noBorder -solid-noBorder"; \
 	for color_variant in $$color_variants; \
 	do \
 		count=1; \
@@ -49,7 +49,7 @@ dist: _get_version
 			for extra_variant in $$extra_variants; \
 			do \
 				[ "$$extra_variant" = '-' ] && extra_variant=''; \
-				file="Flat-Remix-GTK$${color_variant}$${theme_variant}$${extra_variant}"; \
+				file="whiplash-GTK$${color_variant}$${theme_variant}$${extra_variant}"; \
 				if [ -d "$$file" ]; \
 				then \
 					count_pretty=$$(echo "0$${count}" | tail -c 3); \

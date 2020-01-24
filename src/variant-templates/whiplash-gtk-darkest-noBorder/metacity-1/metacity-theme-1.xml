@@ -1,19 +1,20 @@
 <?xml version="1.0"?>
 <metacity_theme>
 <info>
-	<name>Flat Remix</name>
+	<name>Whiplash</name>
 	<author>daniruiz</author>
 	<copyright>daniruiz</copyright>
 	<date>2019</date>
-	<description>Flat Remix Metacity theme</description>
+	<description>Whiplash Metacity theme</description>
 </info>
+
 <!-- meaningfull constants -->
 
 <constant name="C_title_focused" value="white" />
-<constant name="C_title_unfocused" value="#8c8f94" />
+<constant name="C_title_unfocused" value="#717171" />
 
-<constant name="C_wm_bg" value="#272a34" />
-<constant name="C_wm_border" value="#272a34" />
+<constant name="C_wm_bg" value="black" />
+<constant name="C_wm_border" value="black" />
 
 <!-- geometries -->
 
