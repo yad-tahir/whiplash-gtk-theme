@@ -1,6 +1,6 @@
 style "menubar" {
 
-  bg[NORMAL] = "#2f343f"
+bg[NORMAL] = "#2f343f"
   fg[NORMAL] = "#eeeeec"
   fg[PRELIGHT] = "#eeeeec"
   fg[ACTIVE] = "#eeeeec"
@@ -12,12 +12,12 @@ style "menubar" {
 
   engine "pixmap" {
 
-    image {
-      function = BOX
-      file  = "menubar-toolbar/menubar-darkest.png"
-      stretch  = TRUE
-      border = { 1, 1, 1, 1 }
-    }
+	image {
+	  function = BOX
+	  file  = "menubar-toolbar/menubar-darkest.png"
+	  stretch  = TRUE
+	  border = { 1, 1, 1, 1 }
+	}
   }
 }
 
@@ -33,12 +33,12 @@ style "menubar-borderless" {
 
   engine "pixmap" {
 
-    image {
-      function = BOX
-      file  = "assets/null.png"
-      stretch  = TRUE
-      border = { 1, 1, 1, 1 }
-    }
+	image {
+	  function = BOX
+	  file  = "assets/null.png"
+	  stretch  = TRUE
+	  border = { 1, 1, 1, 1 }
+	}
   }
 }
 
@@ -51,13 +51,13 @@ style "menubar_item" {
 
   engine "pixmap" {
 
-    image {
-      function = BOX
-      state = PRELIGHT
-      file = "menubar-toolbar/menubar_button-darkest.png"
-      border = { 0, 0, 0, 5 }
-      stretch = TRUE
-    }
+	image {
+	  function = BOX
+	  state = PRELIGHT
+	  file = "menubar-toolbar/menubar_button-darkest.png"
+	  border = { 0, 0, 0, 5 }
+	  stretch = TRUE
+	}
   }
 }
 
@@ -65,8 +65,8 @@ style "menubar_item" {
 style "menubar-text" {
 
   engine "murrine" {
-    text_shade = 0.0
-    textstyle = 0
+	text_shade = 0.0
+	textstyle = 0
   }
 }
 
@@ -91,37 +91,37 @@ style "toolbar_button" {
 
   engine "pixmap" {
 
-    image {
-      function = BOX
-      state = NORMAL
-      file = "menubar-toolbar/button.png"
-      border = { 4, 4, 4, 4 }
-      stretch = TRUE
-    }
+	image {
+	  function = BOX
+	  state = NORMAL
+	  file = "menubar-toolbar/button.png"
+	  border = { 4, 4, 4, 4 }
+	  stretch = TRUE
+	}
 
-    image {
-      function = BOX
-      state = PRELIGHT
-      file = "menubar-toolbar/button-hover.png"
-      border = { 4, 4, 4, 4 }
-      stretch = TRUE
-    }
+	image {
+	  function = BOX
+	  state = PRELIGHT
+	  file = "menubar-toolbar/button-hover.png"
+	  border = { 4, 4, 4, 4 }
+	  stretch = TRUE
+	}
 
-    image {
-      function = BOX
-      state = ACTIVE
-      file = "menubar-toolbar/button-active.png"
-      border = { 4, 4, 4, 4 }
-      stretch = TRUE
-    }
+	image {
+	  function = BOX
+	  state = ACTIVE
+	  file = "menubar-toolbar/button-active.png"
+	  border = { 4, 4, 4, 4 }
+	  stretch = TRUE
+	}
 
-    image {
-      function = BOX
-      state = INSENSITIVE
-      file = "menubar-toolbar/button-insensitive.png"
-      border = { 4, 4, 4, 4 }
-      stretch = TRUE
-    }
+	image {
+	  function = BOX
+	  state = INSENSITIVE
+	  file = "menubar-toolbar/button-insensitive.png"
+	  border = { 4, 4, 4, 4 }
+	  stretch = TRUE
+	}
   }
 }
 
@@ -135,52 +135,52 @@ style "toolbar_entry" {
 
   engine "pixmap" {
 
-    image {
-      function = SHADOW
-      state = NORMAL
-      detail = "entry"
-      file = "menubar-toolbar/entry-toolbar-darkest.png"
-      border = {6, 6, 6, 6}
-      stretch = TRUE
-    }
+	image {
+	  function = SHADOW
+	  state = NORMAL
+	  detail = "entry"
+	  file = "menubar-toolbar/entry-toolbar-darkest.png"
+	  border = {6, 6, 6, 6}
+	  stretch = TRUE
+	}
 
-    image {
-      function = SHADOW
-      state = ACTIVE
-      detail = "entry"
-      file = "menubar-toolbar/entry-active-toolbar-darkest.png"
-      border = {6, 6, 6, 6}
-      stretch = TRUE
-    }
+	image {
+	  function = SHADOW
+	  state = ACTIVE
+	  detail = "entry"
+	  file = "menubar-toolbar/entry-active-toolbar-darkest.png"
+	  border = {6, 6, 6, 6}
+	  stretch = TRUE
+	}
 
-    image {
-      function = SHADOW
-      state = INSENSITIVE
-      detail = "entry"
-      file = "menubar-toolbar/entry-disabled-toolbar-darkest.png"
-      border = {6, 6, 6, 6}
-      stretch = TRUE
-    }
+	image {
+	  function = SHADOW
+	  state = INSENSITIVE
+	  detail = "entry"
+	  file = "menubar-toolbar/entry-disabled-toolbar-darkest.png"
+	  border = {6, 6, 6, 6}
+	  stretch = TRUE
+	}
 
-    image {
-      function = FLAT_BOX
-      state    = ACTIVE
-      detail   = "entry_bg"
-      file     = "assets/null.png"
-    }
+	image {
+	  function = FLAT_BOX
+	  state    = ACTIVE
+	  detail   = "entry_bg"
+	  file     = "assets/null.png"
+	}
 
-    image {
-      function = FLAT_BOX
-      state    = INSENSITIVE
-      detail   = "entry_bg"
-      file     = "assets/null.png"
-    }
+	image {
+	  function = FLAT_BOX
+	  state    = INSENSITIVE
+	  detail   = "entry_bg"
+	  file     = "assets/null.png"
+	}
 
-    image {
-      function = FLAT_BOX
-      detail   = "entry_bg"
-      file     = "assets/null.png"
-    }
+	image {
+	  function = FLAT_BOX
+	  detail   = "entry_bg"
+	  file     = "assets/null.png"
+	}
   }
 }
 
@@ -219,4 +219,3 @@ widget_class "*ThunarWindow*<GtkToolbar>*<GtkEntry>"                        styl
 widget_class "*ThunarWindow*<GtkToolbar>*<GtkButton>"                       style "toolbar_button"
 widget_class "*ThunarWindow*<GtkToolbar>*<GtkWidget>"                       style "toolbar_text"
 widget_class "*ThunarWindow*<GtkToolbar>*<GtkButton>*<GtkLabel>"            style "menubar-text"
-
