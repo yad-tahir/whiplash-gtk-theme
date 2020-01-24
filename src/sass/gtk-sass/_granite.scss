@@ -36,8 +36,8 @@ GraniteWidgetsStaticNotebook .frame {
 // Help Button
 //
 .help_button {
-    border-radius: 100px;
-    padding: 3px 9px;
+	border-radius: 100px;
+	padding: 3px 9px;
 }
 
 //
@@ -127,19 +127,19 @@ toolbar.bottom-toolbar {
 // Expander
 //
 .source-list.category-expander {
-    color: $fg_color;
-    -gtk-icon-source: -gtk-icontheme("pan-end-symbolic");
-    -GtkTreeView-expander-size: 16;
+	color: $fg_color;
+	-gtk-icon-source: -gtk-icontheme("pan-end-symbolic");
+	-GtkTreeView-expander-size: 16;
 }
 
 .source-list.category-expander,
 .source-list.category-expander:backdrop {
-    color: transparent;
-    border: none;
+	color: transparent;
+	border: none;
 }
 
 .source-list.category-expander:checked {
-    -gtk-icon-source: -gtk-icontheme("pan-down-symbolic");
+	-gtk-icon-source: -gtk-icontheme("pan-down-symbolic");
 }
 
 //
@@ -204,13 +204,13 @@ GraniteWidgetsXsEntry entry { padding: 4px; }
 .h3 { font-size: 11px; }
 .h4,
 .category-label {
-    color: mix($bg_color, $text_color, 30%);
-    font-weight: 600;
+	color: mix($bg_color, $text_color, 30%);
+	font-weight: 600;
 }
 
 .h4 {
-    padding-bottom: 6px;
-    padding-top: 6px;
+	padding-bottom: 6px;
+	padding-top: 6px;
 }
 
 GtkListBox .h4{
