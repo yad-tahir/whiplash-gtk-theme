@@ -43,37 +43,16 @@ function generate_css_files { (
 function copy_css_files {
 	variant_name="$1"
 	cp "$TMP/css/${variant_name}/gtk.css" "$TMP/${variant_name}/gtk-3.0/gtk.css"
-	cp "$TMP/css/${variant_name}/gtk-solid.css" "$TMP/${variant_name}-solid/gtk-3.0/gtk.css"
-
 	cp "$TMP/css/${variant_name}/gtk-dark.css" "$TMP/${variant_name}/gtk-3.0/gtk-dark.css"
 	cp "$TMP/css/${variant_name}/gtk-dark.css" "$TMP/${variant_name}-dark/gtk-3.0/gtk.css"
 	cp "$TMP/css/${variant_name}/gtk-dark.css" "$TMP/${variant_name}-darker/gtk-3.0/gtk-dark.css"
-	cp "$TMP/css/${variant_name}/gtk-dark-solid.css" "$TMP/${variant_name}-solid/gtk-3.0/gtk-dark.css"
-	cp "$TMP/css/${variant_name}/gtk-dark-solid.css" "$TMP/${variant_name}-dark-solid/gtk-3.0/gtk.css"
-	cp "$TMP/css/${variant_name}/gtk-dark-solid.css" "$TMP/${variant_name}-darker-solid/gtk-3.0/gtk-dark.css"
-
 	cp "$TMP/css/${variant_name}/gtk-darker.css" "$TMP/${variant_name}-darker/gtk-3.0/gtk.css"
-	cp "$TMP/css/${variant_name}/gtk-darker-solid.css" "$TMP/${variant_name}-darker-solid/gtk-3.0/gtk.css"
-
 	cp "$TMP/css/${variant_name}/gtk-darkest.css" "$TMP/${variant_name}-darkest/gtk-3.0/gtk.css"
-	cp "$TMP/css/${variant_name}/gtk-darkest-solid.css" "$TMP/${variant_name}-darkest-solid/gtk-3.0/gtk.css"
-	cp "$TMP/css/${variant_name}/gtk-darkest-noBorder.css" "$TMP/${variant_name}-darkest-noBorder/gtk-3.0/gtk.css"
-	cp "$TMP/css/${variant_name}/gtk-darkest-solid-noBorder.css" "$TMP/${variant_name}-darkest-solid-noBorder/gtk-3.0/gtk.css"
-
 
 	cp "$TMP/css/${variant_name}/cinnamon.css" "$TMP/${variant_name}/cinnamon/cinnamon.css"
-	cp "$TMP/css/${variant_name}/cinnamon-solid.css" "$TMP/${variant_name}-solid/cinnamon/cinnamon.css"
-
 	cp "$TMP/css/${variant_name}/cinnamon-darker.css" "$TMP/${variant_name}-darker/cinnamon/cinnamon.css"
-	cp "$TMP/css/${variant_name}/cinnamon-darker-solid.css" "$TMP/${variant_name}-darker-solid/cinnamon/cinnamon.css"
-
 	cp "$TMP/css/${variant_name}/cinnamon-dark.css" "$TMP/${variant_name}-dark/cinnamon/cinnamon.css"
-	cp "$TMP/css/${variant_name}/cinnamon-dark-solid.css" "$TMP/${variant_name}-dark-solid/cinnamon/cinnamon.css"
-
 	cp "$TMP/css/${variant_name}/cinnamon-darkest.css" "$TMP/${variant_name}-darkest/cinnamon/cinnamon.css"
-	cp "$TMP/css/${variant_name}/cinnamon-darkest.css" "$TMP/${variant_name}-darkest-noBorder/cinnamon/cinnamon.css"
-	cp "$TMP/css/${variant_name}/cinnamon-darkest-solid.css" "$TMP/${variant_name}-darkest-solid/cinnamon/cinnamon.css"
-	cp "$TMP/css/${variant_name}/cinnamon-darkest-solid.css" "$TMP/${variant_name}-darkest-solid-noBorder/cinnamon/cinnamon.css"
 }
 
 function generate_assets {
@@ -94,10 +73,6 @@ function generate_assets {
 			*darkest*)
 				cp "$TMP"/assets-renderer/"$variant_name"/gtk2/assets-darkest/* "$theme"/gtk-2.0/assets/
 				cp "$TMP"/assets-renderer/"$variant_name"/metacity/metacity-darkest/* "$theme"/metacity-1/
-				if [[ "$theme" == *noBorder* ]]
-					then cp "$TMP"/assets-renderer/"$variant_name"/xfwm4/assets-darkest-noBorder/* "$theme"/xfwm4/
-					else cp "$TMP"/assets-renderer/"$variant_name"/xfwm4/assets-darkest/* "$theme"/xfwm4/
-				fi
 				;;
 			*dark|*dark-*)
 				cp "$TMP"/assets-renderer/"$variant_name"/gtk2/assets-dark/* "$theme"/gtk-2.0/assets/
@@ -107,7 +82,6 @@ function generate_assets {
 			*darker|*darker-*)
 				cp "$TMP"/assets-renderer/"$variant_name"/gtk2/assets/* "$theme"/gtk-2.0/assets/
 				cp "$TMP"/assets-renderer/"$variant_name"/metacity/metacity-darkest/* "$theme"/metacity-1/
-				cp "$TMP"/assets-renderer/"$variant_name"/xfwm4/assets-darkest-noBorder/* "$theme"/xfwm4/
 				;;
 			*)
 				cp "$TMP"/assets-renderer/"$variant_name"/gtk2/assets/* "$theme"/gtk-2.0/assets/
