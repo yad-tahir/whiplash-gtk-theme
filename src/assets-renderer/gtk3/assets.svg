@@ -3006,7 +3006,7 @@
          height="13"
          rx="2"
          ry="2"
-         style="color:#000000;fill:#403333;stroke-linejoin:round;stroke:#654d4d"
+         style="color:#000000;fill:#654d4d;stroke-linejoin:round;stroke:#403333"
          id="rect10156" />
     </g>
   </g>
@@ -3033,7 +3033,7 @@
            height="26.836"
            rx="13.224"
            ry="13.246"
-           style="color:#000000;fill:#403333;stroke-linejoin:round;stroke-width:2.0822;stroke:#654d4d"
+           style="color:#000000;fill:#654d4d;stroke-linejoin:round;stroke-width:2.0822;stroke:#403333"
            id="rect10163" />
       </g>
     </g>
@@ -3281,7 +3281,7 @@
          height="13"
          rx="2"
          ry="2"
-         style="color:#000000;fill:#403333;stroke-linejoin:round;stroke:#654d4d"
+         style="color:#000000;fill:#654d4d;stroke-linejoin:round;stroke:#403333"
          id="rect10244" />
     </g>
   </g>
@@ -3309,7 +3309,7 @@
            height="26.836"
            rx="13.224"
            ry="13.246"
-           style="color:#000000;fill:#403333;stroke-linejoin:round;stroke-width:2.0822;stroke:#654d4d"
+           style="color:#000000;fill:#654d4d;stroke-linejoin:round;stroke-width:2.0822;stroke:#403333"
            id="rect10251" />
       </g>
     </g>
@@ -3354,14 +3354,14 @@
        height="31"
        rx="2"
        ry="2"
-       style="fill:#403333;stroke:#654d4d"
+       style="fill:#654d4d;stroke:#403333"
        id="rect10267" />
     <g
        transform="translate(-2.2045,1.973)"
        id="g10271">
       <path
          d="m491.36 188.95-9.5312 9.5625-4.7812-4.7812-3.1876 3.1875 4.7813 4.7812 3.1875 3.1875 3.1562-3.1875 9.5626-9.5625z"
-         style="fill:#5f6578;opacity:.55"
+         style="fill:#403333;opacity:.55"
          id="path10269" />
     </g>
     <rect
