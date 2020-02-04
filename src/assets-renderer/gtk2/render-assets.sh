@@ -10,7 +10,7 @@ OPTIPNG=/usr/bin/optipng
 [ ! -d "$DIR/menubar-toolbar" ] && mkdir "$DIR/menubar-toolbar"
 
 # Template variations
-templates=( "" "-dark" "-darkest" )
+templates=( "-darkest" )
 
 index="$DIR/assets.txt"
 # For each variation

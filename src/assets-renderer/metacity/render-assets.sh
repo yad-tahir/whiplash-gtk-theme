@@ -8,7 +8,7 @@ INKSCAPE=/usr/bin/inkscape
 src="$DIR/../gtk3/assets.svg"
 
 # Template variations
-templates=( "" "-dark" "-darkest" )
+templates=( "-darkest" )
 
 # The purpose of this loop is to render some assets and renaming them as necessary
 for t in "${templates[@]}"; do
