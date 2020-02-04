@@ -2,8 +2,8 @@
 <metacity_theme>
 <info>
 	<name>Whiplash</name>
-	<author>daniruiz</author>
-	<copyright>daniruiz</copyright>
+	<author>Yad Tahir</author>
+	<copyright>GPL 3</copyright>
 	<date>2019</date>
 	<description>Whiplash Metacity theme</description>
 </info>
@@ -39,7 +39,7 @@
 	<distance name="bottom_height" value="0" />
 	<distance name="left_titlebar_edge" value="0"/>
 	<distance name="right_titlebar_edge" value="0"/>
-	<distance name="title_vertical_pad" value="2"/> <!-- 
+	<distance name="title_vertical_pad" value="2"/> <!--
 							This needs to be 1 less then the
 							title_vertical_pad on normal state
 							or you'll have bigger buttons		-->
@@ -74,14 +74,14 @@
 
 <draw_ops name="title_focused">
 	<title x="(0 `max` ((width - title_width) / 2)) + 2"
-               y="(0 `max` ((height - title_height) / 2)) + 1"
-               color="C_title_focused" />
+			   y="(0 `max` ((height - title_height) / 2)) + 1"
+			   color="C_title_focused" />
 </draw_ops>
 
 <draw_ops name="title_unfocused">
 	<title x="(0 `max` ((width - title_width) / 2)) + 2"
-               y="(0 `max` ((height - title_height) / 2)) + 1"
-               color="C_title_unfocused"/>
+			   y="(0 `max` ((height - title_height) / 2)) + 1"
+			   color="C_title_unfocused"/>
 </draw_ops>
 
 	<!-- window decorations -->
