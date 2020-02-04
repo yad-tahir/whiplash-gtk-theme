@@ -1,126 +1,144 @@
 #!/bin/bash
 
-TMP='/tmp/whiplash-gtk'
+cd `dirname $0`
+ROOT="$(pwd)"
+DIST="$(cd ../themes && pwd)"
+TMP='/tmp/whiplash-theme'
 VARIANTS=(blue red orange teal green yellow pink)
-VARIANT_COLORS=('#00f5ff' '#ee0000' '#ff4422' '#00ff7f' '#a7e23e' '#ffa500' '#da70d6')
-VARIANT_SELECTED_FONT_COLORS=('black' 'black' 'black' 'black' 'black' 'black' 'black')
-DEFAULT_COLOR='#367bf0'
+VARIANT_COLORS=('#00f5ff' '#ff0000' '#ff4422' '#00ff7f' '#a7e23e' '#ffa500' '#da70d6')
+MAGIC_COLOR='#367bf0'
+SCSS=$(which scss)
 
-function generate_variant_template {
-	variant="$1"
-	variant_name="$2"
-	variant_color="$3"
-	variant_selected_font_color="$4"
-	for theme in variant-templates/*
-	do
-		theme_basename="$(basename "$theme")"
-		variant_dir="$TMP/${variant_name}${theme_basename#whiplash-gtk}"
-		cp -a "$theme" "$variant_dir"
-		find "$variant_dir" -type f -exec sed "s/${DEFAULT_COLOR}/${variant_color}/gi" -i {} \;
-		sed "s/selected_fg_color: #ffffff/selected_fg_color: $variant_selected_font_color/" -i "$variant_dir"/gtk-2.0/gtkrc
-		sed -e "s/whiplash-gtk/${variant_name}/g" \
-			-e "s/IconTheme=whiplash/IconTheme=whiplash-${variant}${icon_variant}/" \
-			-i "$variant_dir/index.theme"
+die() { echo "$*" 1>&2 ; exit 1; }
+
+function generate-gtk-assets {
+	local vname="$1"
+	local vcolor="$2"
+	local vdir="$3"
+
+	local dir="$vdir/assets-render"
+	mkdir -p "$dir" ||
+		die "Cannot create directory $vname/assets-renderer"
+
+	cp -r assets-renderer/* "$dir"
+
+	# Add variant color by replacing the magic color
+	find "$dir" -type f -exec sed "s/${MAGIC_COLOR}/${vcolor}/gi" -i {} \;
+
+	# Execute rendering scripts.
+	$dir/gtk2/render-assets.sh &
+	$dir/gtk3/render-assets.sh &
+	$dir/metacity/render-assets.sh &
+	$dir/xfwm4/render-assets.sh &
+
+	# Copy the output once it is ready. All the outputs are placed in $dir.
+	wait
+	for template in ./variant-templates/* ; do
+		local tname="$(basename "$template")"
+		local tag="${tname##whiplash-gtk}"
+		local tdir="$vdir/whiplash-gtk-${vname}${tag}"
+
+		# @TODO because we are copying everything, some of the asset files are
+		# actually not used by theme. We can fix that by filtering out some files
+		cp "$dir/gtk3/assets"/* "$tdir/gtk-3.0/assets/"
+		cp "$dir/cinnamon"/* "$tdir/cinnamon/assets/"
+		cp "$dir/gtk2/menubar-toolbar"/* "$tdir/gtk-2.0/menubar-toolbar/"
+
+		# For GTK 2, xfwm4, metacity, we need to be more careful as each
+		# template variation has its own assets, which are placed in different
+		# directories
+		cp "$dir/metacity/metacity$tag"/* "$tdir/metacity-1/"
+		cp "$dir/xfwm4/assets$tag"/* "$tdir/xfwm4/"
+		cp "$dir/gtk2/assets$tag"/* "$tdir/gtk-2.0/assets/"
 	done
 }
 
-function generate_css_files { (
-	variant_name="$1"
-	variant_color="$2"
-	variant_selected_font_color="$3"
-	mkdir -p "$TMP/css/$variant_name"
-	cd sass || return
-	for scss in *.scss
-	do
-		echo -e "Generate $variant_name \t $scss"
-		echo "\$selected_bg_color: $variant_color; \$selected_fg_color: ${variant_selected_font_color};" | \
+# Starts generating a template process.
+function generate-gtk-theme {
+	local vname="$1"
+	local vcolor="$2"
+	local vdir="$3"
+
+	# Generate CSS files
+	mkdir -p "$vdir/css" || die "Cannot create directory $vdir/css"
+
+	# Spawn a new process to change PWD.This is required by scss
+	(
+		cd ./sass
+		for scss in *.scss; do
+			local dest="$vdir/css/$(basename "${scss%%.scss}").css"
+			echo -e "Generate $vname \t $scss"
+			echo "\$selected_bg_color: $vcolor; \$selected_fg_color: black;" | \
 				cat - "$scss" | \
-				scss --sourcemap=none -C -q -s "$TMP/css/$variant_name/$(basename "${scss%%.scss}")".css &
-	done
-	wait
-) }
-
-function copy_css_files {
-	variant_name="$1"
-	cp "$TMP/css/${variant_name}/gtk.css" "$TMP/${variant_name}/gtk-3.0/gtk.css"
-	cp "$TMP/css/${variant_name}/gtk-dark.css" "$TMP/${variant_name}/gtk-3.0/gtk-dark.css"
-	cp "$TMP/css/${variant_name}/gtk-dark.css" "$TMP/${variant_name}-dark/gtk-3.0/gtk.css"
-	cp "$TMP/css/${variant_name}/gtk-dark.css" "$TMP/${variant_name}-darker/gtk-3.0/gtk-dark.css"
-	cp "$TMP/css/${variant_name}/gtk-darker.css" "$TMP/${variant_name}-darker/gtk-3.0/gtk.css"
-	cp "$TMP/css/${variant_name}/gtk-darkest.css" "$TMP/${variant_name}-darkest/gtk-3.0/gtk.css"
-
-	cp "$TMP/css/${variant_name}/cinnamon.css" "$TMP/${variant_name}/cinnamon/cinnamon.css"
-	cp "$TMP/css/${variant_name}/cinnamon-darker.css" "$TMP/${variant_name}-darker/cinnamon/cinnamon.css"
-	cp "$TMP/css/${variant_name}/cinnamon-dark.css" "$TMP/${variant_name}-dark/cinnamon/cinnamon.css"
-	cp "$TMP/css/${variant_name}/cinnamon-darkest.css" "$TMP/${variant_name}-darkest/cinnamon/cinnamon.css"
-}
-
-function generate_assets {
-	variant_name="$1"
-	variant_color="$2"
-	mkdir -p "$TMP/assets-renderer"
-	cp -r assets-renderer "$TMP/assets-renderer/$variant_name"
-	find "$TMP/assets-renderer/$variant_name" -type f -exec sed "s/${DEFAULT_COLOR}/${variant_color}/gi" -i {} \;
-	"$TMP"/assets-renderer/"$variant_name"/gtk2/render-assets.sh &
-	"$TMP"/assets-renderer/"$variant_name"/gtk3/render-assets.sh &
-	"$TMP"/assets-renderer/"$variant_name"/metacity/render-assets.sh &
-	"$TMP"/assets-renderer/"$variant_name"/xfwm4/render-assets.sh &
+				scss --sourcemap=none -C -q \
+					 -s "$vdir/css/$(basename "${scss%%.scss}")".css || \
+				die "Problem occurred when generating $dest"
+		done
+	)
 	wait
 
-	for theme in "$TMP/$variant_name"*
-	do
-		case "$theme" in
-			*darkest*)
-				cp "$TMP"/assets-renderer/"$variant_name"/gtk2/assets-darkest/* "$theme"/gtk-2.0/assets/
-				cp "$TMP"/assets-renderer/"$variant_name"/metacity/metacity-darkest/* "$theme"/metacity-1/
-				;;
-			*dark|*dark-*)
-				cp "$TMP"/assets-renderer/"$variant_name"/gtk2/assets-dark/* "$theme"/gtk-2.0/assets/
-				cp "$TMP"/assets-renderer/"$variant_name"/metacity/metacity-dark/* "$theme"/metacity-1/
-				cp "$TMP"/assets-renderer/"$variant_name"/xfwm4/assets-dark/* "$theme"/xfwm4/
-				;;
-			*darker|*darker-*)
-				cp "$TMP"/assets-renderer/"$variant_name"/gtk2/assets/* "$theme"/gtk-2.0/assets/
-				cp "$TMP"/assets-renderer/"$variant_name"/metacity/metacity-darkest/* "$theme"/metacity-1/
-				;;
-			*)
-				cp "$TMP"/assets-renderer/"$variant_name"/gtk2/assets/* "$theme"/gtk-2.0/assets/
-				cp "$TMP"/assets-renderer/"$variant_name"/metacity/metacity/* "$theme"/metacity-1/
-				cp "$TMP"/assets-renderer/"$variant_name"/xfwm4/assets/* "$theme"/xfwm4/
-				;;
-		esac
-		cp "$TMP"/assets-renderer/"$variant_name"/gtk2/menubar-toolbar/* "$theme"/gtk-2.0/menubar-toolbar/
-		cp "$TMP"/assets-renderer/"$variant_name"/gtk3/assets/* "$theme"/gtk-3.0/assets/
-		cp "$TMP"/assets-renderer/"$variant_name"/cinnamon/* "$theme"/cinnamon/assets/
+	# Generate templates
+	for template in ./variant-templates/* ; do
+		local tname="$(basename "$template")" # e.g. whiplash-gtk-dark
+		# Abstract the tag name of the template. For example, if the template is
+		# called whiplash-gtk-darker, then the tag name is -darker
+		local tag="${tname##whiplash-gtk}"
+		# The name of template directory is important as template directories
+		# will become eventually as output directories once they are done. Any
+		# variation of color and or template must be placed in a separate
+		# directory. To avoid 'duplicated directory' problem that can occur in
+		# user's theme directory, output directories must adhere to the
+		# following syntax:
+		# whiplash-gtk-<color-variant>-<template-variant>
+		local tdir="$vdir/whiplash-gtk-${vname}${tag}"
+
+		cp -a "$template" "$tdir"
+
+		# Apply variant color by replacing the magic color
+		find "$tdir" -type f -exec sed "s/$MAGIC_COLOR/$vcolor/gi" -i {} \;
+		# @TODO Remove this junk and make it more generic
+		sed "s/selected_fg_color: #ffffff/selected_fg_color: black/" -i "$tdir"/gtk-2.0/gtkrc
+		# @TODO @IMPORTANT Icon themes are broken. Address this in the future.
+		sed -e "s/whiplash-gtk/${vname}/g" \
+			-e "s/IconTheme=whiplash/IconTheme=whiplash-${vname}${tname}/" \
+			-i "$tdir/index.theme"
+
+		cp "$vdir/css/gtk${tag}.css" "$tdir/gtk-3.0/gtk.css"
+		cp "$vdir/css/cinnamon${tag}.css" "$tdir/cinnamon/gtk.css"
+	done
+
+	# Generate asset files
+	[ "$option" != "--no-assets" ] && generate-gtk-assets "$vname" "$vcolor" "$vdir"
+
+	# Gather final output files
+	cp -a "$TMP/$vname/whiplash-gtk"* "$DIST"
+}
+
+
+function start {
+	local option="$1"
+
+	# Initial Checking
+	[ -d "$TMP" ] && rm -rf "$TMP"; mkdir -p "$TMP"
+	[ ! -d "$DIST" ] && mkdir -p "$DIST"
+	[ -z "$SCSS" ] && die "SCSS cannot be found in $PATH"
+
+	local len=${#VARIANTS[@]}
+	for i in $(seq 0 $(($len-1))); do
+		vname="${VARIANTS[$i]}" # e.g. red
+		vcolor="${VARIANT_COLORS[$i]}" # e.g. #ff0000
+
+		local vdir="$TMP/$vname" # e.g. /tmp/whiplash-theme/red
+		[ -d "$vdir" ] && rm -rm "$vdir"
+		mkdir "$vdir"
+
+		# Generate a variant. Encoding this in a different function
+		# allows us to generate multiple templates at the same time.
+		generate-gtk-theme "$vname" "$vcolor" "$vdir" &
 	done
 }
 
-function generate_variant {
-	variant="$2"
-	variant_name="$3"
-	variant_color="$4"
-	variant_selected_font_color="$5"
-
-	generate_variant_template "$variant" "$variant_name" "$variant_color" "$variant_selected_font_color"
-	generate_css_files "$variant_name" "$variant_color" "$variant_selected_font_color"
-	copy_css_files "$variant_name"
-	[[ $1 != "--no-assets" ]] && generate_assets "$variant_name" "$variant_color"
-	cp -a "$TMP/$variant_name"* ../themes/
-}
-
-
-rm -rf "$TMP"
-mkdir -p "$TMP"
-
-for i in $(seq 0 $((${#VARIANTS[*]}-1)))
-do
-	variant="${VARIANTS[$i]}"
-	variant_name="whiplash-gtk-${variant}"
-	variant_color="${VARIANT_COLORS[$i]}"
-	variant_selected_font_color="${VARIANT_SELECTED_FONT_COLORS[$i]}"
-	generate_variant "$1" "$variant" "$variant_name" "$variant_color" "$variant_selected_font_color" &
-done
+start
 
 wait
-
 echo 'Done!'
