@@ -7,35 +7,18 @@
 
 ```
 
-Whiplash provides a set of GTK themes, all of which are covered in ashes and darkness to save OLED screens around the world; In this land, GTK and terminal-based apps are merged together to provide you ultimate contrast, crisp edges and thought-provoking details. Light variations are also included in case you need work in direct sunlight.
-
+Whiplash provides a set of GTK themes, all of which are covered in ashes and darkness to save OLED screens around the world; In this land, GTK and terminal-based apps are merged together to provide you ultimate contrast, crisp edges and thought-provoking details.
 
 Screenshots
 ===========
 
-![red-1](https://github.com/yad-tahir/whiplash-gtk-theme/raw/master/assets/red-1.png)
-![red-2](https://github.com/yad-tahir/whiplash-gtk-theme/raw/master/assets/red-2.png)
-![red-3](https://github.com/yad-tahir/whiplash-gtk-theme/raw/master/assets/red-3.png)
-
-![orange-1](https://github.com/yad-tahir/whiplash-gtk-theme/raw/master/assets/orange-1.png)
-![orange-2](https://github.com/yad-tahir/whiplash-gtk-theme/raw/master/assets/orange-2.png)
-![orange-3](https://github.com/yad-tahir/whiplash-gtk-theme/raw/master/assets/orange-3.png)
-
-![green-1](https://github.com/yad-tahir/whiplash-gtk-theme/raw/master/assets/green-1.png)
-![green-2](https://github.com/yad-tahir/whiplash-gtk-theme/raw/master/assets/green-2.png)
-![green-3](https://github.com/yad-tahir/whiplash-gtk-theme/raw/master/assets/green-3.png)
-
-![teal-1](https://github.com/yad-tahir/whiplash-gtk-theme/raw/master/assets/teal-1.png)
-![teal-2](https://github.com/yad-tahir/whiplash-gtk-theme/raw/master/assets/teal-2.png)
-![teal-3](https://github.com/yad-tahir/whiplash-gtk-theme/raw/master/assets/teal-3.png)
-
-![blue-1](https://github.com/yad-tahir/whiplash-gtk-theme/raw/master/assets/blue-1.png)
-![blue-2](https://github.com/yad-tahir/whiplash-gtk-theme/raw/master/assets/blue-2.png)
-![blue-3](https://github.com/yad-tahir/whiplash-gtk-theme/raw/master/assets/blue-3.png)
-
 ![yellow-1](https://github.com/yad-tahir/whiplash-gtk-theme/raw/master/assets/yellow-1.png)
-![yellow-2](https://github.com/yad-tahir/whiplash-gtk-theme/raw/master/assets/yellow-2.png)
-![yellow-3](https://github.com/yad-tahir/whiplash-gtk-theme/raw/master/assets/yellow-3.png)
+![red-1](https://github.com/yad-tahir/whiplash-gtk-theme/raw/master/assets/red-1.png)
+![orange-1](https://github.com/yad-tahir/whiplash-gtk-theme/raw/master/assets/orange-1.png)
+![green-1](https://github.com/yad-tahir/whiplash-gtk-theme/raw/master/assets/green-1.png)
+![teal-1](https://github.com/yad-tahir/whiplash-gtk-theme/raw/master/assets/teal-1.png)
+![blue-1](https://github.com/yad-tahir/whiplash-gtk-theme/raw/master/assets/blue-1.png)
+![pink-1](https://github.com/yad-tahir/whiplash-gtk-theme/raw/master/assets/pink-1.png)
 
 Requirements
 ============
@@ -55,7 +38,7 @@ If you are a Gentoo user, all the required packages above can be installed by ru
 make packages
 ```
 
-Compile and Installation
+Installation
 ========================
 
 The compiled themes can be found at `./themes`. You can also compile them yourself by running:
@@ -69,6 +52,19 @@ Copy the content of `./themes` to your local theme directory, usually located at
 ```
 sudo make install
 ```
+
+Contribution
+======================
+
+Whaplish is a community-driven project. Your contribution is always welcome. Please feel free to send a PR and I would be happy to review it. Thank you for your effort and dedication in advance.
+
+This project has the following outstanding tasks:
+* Test Whaplish on Gnome Shell.
+* Test Whaplish on XFCE.
+* Test Whaplish on Cinnamon.
+* Add thumbnail images.
+* Add lighter/chocolate-ish template variants.
+* Add support for Qt apps.
 
 Credits
 =======
