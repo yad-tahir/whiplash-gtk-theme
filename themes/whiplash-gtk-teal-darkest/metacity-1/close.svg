@@ -7,11 +7,11 @@
    xmlns="http://www.w3.org/2000/svg"
    height="16"
    width="16"
-   id="svg1278"
+   id="svg10436"
    viewBox="0 0 16 16"
    version="1.1">
   <metadata
-     id="metadata1284">
+     id="metadata10442">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -22,21 +22,21 @@
     </rdf:RDF>
   </metadata>
   <defs
-     id="defs1282" />
+     id="defs10440" />
   <g
      transform="translate(-645,185.64)"
      id="titlebutton-close-darkest">
     <g
-       id="g1129"
+       id="g10287"
        transform="translate(-678,-432.64)">
       <g
-         id="g1127"
+         id="g10285"
          transform="translate(-103)">
         <g
-           id="g1125"
+           id="g10283"
            transform="translate(58)">
           <path
-             id="path1123"
+             id="path10281"
              style="fill:#d31919;stroke:#8b1111;stroke-width:0.5"
              d="m 414,58 c -3.866,0 -7,3.134 -7,7 0,3.866 3.134,7 7,7 3.866,0 7,-3.134 7,-7 0,-3.866 -3.134,-7 -7,-7 z"
              transform="translate(962,190)" />
@@ -44,7 +44,7 @@
       </g>
     </g>
     <rect
-       id="rect1131"
+       id="rect10289"
        style="fill:none"
        height="16"
        width="16"
