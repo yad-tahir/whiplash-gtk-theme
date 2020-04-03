@@ -1,10 +1,11 @@
 ```
- _       ____  __________  __    ___   _____ __  __
-| |     / / / / /  _/ __ \/ /   /   | / ___// / / /
-| | /| / / /_/ // // /_/ / /   / /| | \__ \/ /_/ /
-| |/ |/ / __  // // ____/ /___/ ___ |___/ / __  /
-|__/|__/_/ /_/___/_/   /_____/_/  |_/____/_/ /_/
-
+|\     /||\     /|\__   __/(  ____ )( \      (  ___  )(  ____ \|\     /|
+| )   ( || )   ( |   ) (   | (    )|| (      | (   ) || (    \/| )   ( |
+| | _ | || (___) |   | |   | (____)|| |      | (___) || (_____ | (___) |
+| |( )| ||  ___  |   | |   |  _____)| |      |  ___  |(_____  )|  ___  |
+| || || || (   ) |   | |   | (      | |      | (   ) |      ) || (   ) |
+| () () || )   ( |___) (___| )      | (____/\| )   ( |/\____) || )   ( |
+(_______)|/     \|\_______/|/       (_______/|/     \|\_______)|/     \|
 ```
 
 Whiplash provides a set of GTK themes, all of which are covered in ashes and darkness to save OLED screens around the world; In this land, GTK and terminal-based apps are merged together to provide you ultimate contrast, crisp edges and thought-provoking details.
